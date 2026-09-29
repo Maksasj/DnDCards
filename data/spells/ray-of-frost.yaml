@@ -1,0 +1,24 @@
+id: ray-of-frost
+name: Луч холода
+name_en: Ray of frost
+source_url: https://dnd.su/spells/149-ray-of-frost/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10620-ray-of-frost
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+  - чародей
+description: |-
+  Холодный сине-белый луч устремляется к существу, находящемуся в пределах дистанции. Совершите по цели дальнобойную атаку заклинанием. При попадании она получает урон холодом 1к8, а скорость до начала вашего следующего хода уменьшается на 10 футов.
+
+  Урон от заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).

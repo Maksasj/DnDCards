@@ -1,0 +1,21 @@
+id: shield-of-faith
+name: Щит веры
+name_en: Shield of faith
+source_url: https://dnd.su/spells/69-shield-of-faith/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10256-shield-of-faith
+level: 1
+school: ограждение
+ritual: false
+casting_time: 1 бонусное действие
+range: 60 футов
+components: В, С, М
+material: небольшой пергамент со святыми письменами
+duration: Концентрация, вплоть до 10 минут
+concentration: true
+classes:
+  - жрец
+  - паладин
+description: Появляется мерцающее поле, окружающее существо, выбранное вами в пределах дистанции, даруя ему на время длительности бонус +2 к КД.

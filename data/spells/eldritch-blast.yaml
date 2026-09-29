@@ -1,0 +1,24 @@
+id: eldritch-blast
+name: Мистический заряд
+name_en: Eldritch blast
+source_url: https://dnd.su/spells/168-eldritch-blast/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10494-eldritch-blast
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 120 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - колдун
+description: |-
+  К существу, находящемуся в пределах дистанции, устремляется луч потрескивающей энергии. Совершите дальнобойную атаку заклинанием по цели. При попадании цель получает урон силовым полем 1к10.
+
+  Заклинание создаёт ещё один луч, когда вы достигаете больших уровней: два луча на 5-м уровне, три луча на 11-м уровне и четыре луча на 17-м уровне.
+
+  Вы можете направить лучи в одну цель или в разные. Для каждого луча совершите свой бросок атаки.

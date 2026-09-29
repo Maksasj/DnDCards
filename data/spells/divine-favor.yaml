@@ -1,0 +1,19 @@
+id: divine-favor
+name: Божественное благоволение
+name_en: Divine favor
+source_url: https://dnd.su/spells/10-divine-favor/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10485-divine-favor
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - паладин
+description: Ваша молитва наполняет вас божественной энергией. Пока заклинание активно, ваши атаки оружием причиняют при попадании дополнительный урон 1к4 излучением.

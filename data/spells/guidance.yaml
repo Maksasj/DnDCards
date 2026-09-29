@@ -1,0 +1,21 @@
+id: guidance
+name: Указание
+name_en: Guidance
+source_url: https://dnd.su/spells/105-guidance/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10235-guidance
+level: 0
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - друид
+  - жрец
+  - изобретатель
+description: Вы касаетесь одного согласного существа. Один раз, пока заклинание активно, цель может бросить 1к4 и добавить выпавшее число к одной проверке характеристики на свой выбор. Эту кость можно бросить до или после совершения проверки. После этого заклинание оканчивается.

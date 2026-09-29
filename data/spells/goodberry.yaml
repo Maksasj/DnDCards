@@ -1,0 +1,24 @@
+id: goodberry
+name: Чудо-ягоды
+name_en: Goodberry
+source_url: https://dnd.su/spells/78-goodberry/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10284-goodberry
+level: 1
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: ветка омелы
+duration: Мгновенная
+concentration: false
+classes:
+  - друид
+  - следопыт
+description: |-
+  В вашей руке появляются до десяти ягод, наполненных магией. Любое существо может действием съесть одну ягоду. Это восстанавливает 1 хит, и ягода настолько питательна, что насыщает существо на весь день.
+
+  Ягоды теряют силу, если их не съесть через 24 часа после создания.

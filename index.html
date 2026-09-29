@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Карточки заклинаний D&amp;D</title>
+    <meta name="description" content="Выберите заклинания D&amp;D 5e и распечатайте их карточками на A4." />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="picker">
+        <header class="picker-head">
+          <h1>Карточки заклинаний</h1>
+          <p>Отметьте нужные заклинания — справа появятся листы A4 для печати.</p>
+        </header>
+
+        <div class="filters">
+          <input type="search" id="q" placeholder="Поиск по названию (рус. или англ.)" autocomplete="off" />
+          <div class="levels" id="levels" role="group" aria-label="Уровень"></div>
+          <div class="selects">
+            <select id="class" aria-label="Класс"></select>
+            <select id="school" aria-label="Школа"></select>
+            <select id="source" aria-label="Источник"></select>
+          </div>
+          <label class="check"><input type="checkbox" id="only-selected" /> Только выбранные</label>
+        </div>
+
+        <div class="list-actions">
+          <span id="found"></span>
+          <button type="button" id="add-found">Выбрать найденные</button>
+          <button type="button" id="clear">Очистить выбор</button>
+          <select id="deck" aria-label="Добавить готовую колоду"></select>
+        </div>
+
+        <ul class="list" id="list"></ul>
+
+        <footer class="credits">
+          Тексты заклинаний и значки школ — <a href="https://dnd.su/spells/" target="_blank" rel="noopener">dnd.su</a>.
+        </footer>
+      </aside>
+
+      <section class="preview">
+        <div class="preview-bar">
+          <strong id="selected-count"></strong>
+          <span id="status"></span>
+          <select id="view" aria-label="Вид">
+            <option value="sheet">Листы A4</option>
+            <option value="cards">Крупно</option>
+          </select>
+          <button type="button" id="print" class="primary">Печать / PDF</button>
+        </div>
+        <p class="print-hint">
+          В окне печати выберите масштаб <b>100%</b> («Фактический размер»), иначе карты получатся не того размера.
+          Для PDF — принтер «Сохранить как PDF».
+        </p>
+        <main id="sheets"></main>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

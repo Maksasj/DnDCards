@@ -1,0 +1,24 @@
+id: true-seeing
+name: Истинное зрение
+name_en: True seeing
+source_url: https://dnd.su/spells/126-true-seeing/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10687-true-seeing
+level: 6
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: мазь для глаз, стоящая 25 зм изготавливается из грибного порошка, шафрана и жира, расходуется заклинанием
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - жрец
+  - колдун
+  - чародей
+description: Заклинание даёт согласному существу, которого вы коснулись, способность видеть вещи такими, какими они являются на самом деле. Пока заклинание активно, это существо обладает истинным зрением, видит потайные двери, сокрытые магией, и его зрение простирается на Эфирный план, и всё это в пределах 120 футов.

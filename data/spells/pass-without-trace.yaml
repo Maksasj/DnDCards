@@ -1,0 +1,21 @@
+id: pass-without-trace
+name: Бесследное передвижение
+name_en: Pass without trace
+source_url: https://dnd.su/spells/8-pass-without-trace/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10297-pass-without-trace
+level: 2
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: пепел от сожжённого листа омелы и еловая ветка
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - друид
+  - следопыт
+description: От вас начинает исходить покров теней и тишины, скрывающий вас и ваших спутников от обнаружения. Пока заклинание активно, все существа, выбранные вами в пределах 30 футов (включая вас) получают бонус +10 к проверкам Ловкости (Скрытность), и их нельзя выследить без помощи магии. Существо, получившее этот бонус, не оставляет за собой следов.

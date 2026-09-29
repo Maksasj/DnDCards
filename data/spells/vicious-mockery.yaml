@@ -1,0 +1,22 @@
+id: vicious-mockery
+name: Злая насмешка
+name_en: Vicious mockery
+source_url: https://dnd.su/spells/112-vicious-mockery/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10692-vicious-mockery
+level: 0
+school: очарование
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+description: |-
+  Вы испускаете на существо, видимое в пределах дистанции, поток оскорблений вперемешку с тонкой магией. Если цель слышит вас (при этом она не обязана вас понимать), она должна преуспеть в спасброске Мудрости, иначе получит урон психической энергией 1к4, и следующий бросок атаки до конца своего следующего хода совершит с помехой.
+
+  Урон этого заклинания увеличивается на 1к4, когда вы достигаете 5-го уровня (2к4), 11-го уровня (3к4) и 17-го уровня (4к4).

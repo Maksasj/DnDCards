@@ -1,0 +1,21 @@
+id: armor-of-agathys
+name: Доспех Агатиса
+name_en: Armor of Agathys
+source_url: https://dnd.su/spells/59-armor-of-agathys/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10431-armor-of-agathys
+level: 1
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: чашка воды
+duration: 1 час
+concentration: false
+classes:
+  - колдун
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, и временные хиты и урон холодом увеличиваются на 5 за каждый уровень ячейки выше первого.
+description: Вас окружает защитное магическое поле, проявляющееся в виде призрачной изморози, покрывшей вас и ваше снаряжение. Вы получаете 5 временных хитов на период действия заклинания. Если существо попадает по вам рукопашной атакой, пока у вас есть эти хиты, оно получает 5 урона холодом.

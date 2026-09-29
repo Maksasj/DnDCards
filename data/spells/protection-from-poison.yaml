@@ -1,0 +1,26 @@
+id: protection-from-poison
+name: Защита от яда
+name_en: Protection from poison
+source_url: https://dnd.su/spells/108-protection-from-poison/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10298-protection-from-poison
+level: 2
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: 1 час
+concentration: false
+classes:
+  - друид
+  - жрец
+  - изобретатель
+  - паладин
+  - следопыт
+description: |-
+  Вы касаетесь существа. Если оно отравлено, вы нейтрализуете яд. Если на цель действуют несколько ядов, вы нейтрализуете тот, о котором знаете, либо же один случайным образом выбранный яд.
+
+  Пока заклинание активно, цель совершает с преимуществом спасброски от отравленного состояния и получает сопротивление урону ядом.

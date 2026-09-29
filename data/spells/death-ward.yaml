@@ -1,0 +1,25 @@
+id: death-ward
+name: Защита от смерти
+name_en: Death ward
+source_url: https://dnd.su/spells/104-death-ward/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10474-death-ward
+level: 4
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: 8 часов
+concentration: false
+classes:
+  - жрец
+  - паладин
+description: |-
+  Вы касаетесь существа и даруете ему некоторую защиту от смерти.
+
+  Когда хиты цели впервые опускаются до 0 из-за получения урона, хиты цели опускаются всего лишь до 1, и заклинание оканчивается.
+
+  Если заклинание ещё действует, а цель попадает под действие эффекта, убивающего её мгновенно, не причиняя урона, то этот эффект игнорируется, и заклинание заканчивается.

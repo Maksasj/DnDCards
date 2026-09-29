@@ -1,0 +1,24 @@
+id: tongues
+name: Языки
+name_en: Tongues
+source_url: https://dnd.su/spells/61-tongues/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10683-tongues
+level: 3
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, М
+material: маленькая глиняная модель зиккурата
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - жрец
+  - колдун
+  - чародей
+description: Это заклинание дарует существу, которого вы касаетесь, способность понимать все языки, которые оно слышит. Более того, когда цель говорит, все существа, знающие хотя бы один язык, и слышащие цель, понимают, что она сказала.

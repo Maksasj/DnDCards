@@ -1,0 +1,24 @@
+id: stoneskin
+name: Каменная кожа
+name_en: Stoneskin
+source_url: https://dnd.su/spells/129-stoneskin/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10231-stoneskin
+level: 4
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: бриллиантовая пыль, стоящая как минимум 100 зм, расходуемая заклинанием
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - волшебник
+  - друид
+  - изобретатель
+  - следопыт
+  - чародей
+description: Это заклинание делает плоть согласного существа, которого вы коснулись, твёрдой как камень. Пока заклинание активно, цель получает сопротивление немагическому дробящему, колющему и рубящему урону.

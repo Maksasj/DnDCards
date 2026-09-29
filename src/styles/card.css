@@ -1,0 +1,169 @@
+:root {
+  --card-w: 63mm;
+  --card-h: 88mm;
+  --spine-w: 7.5mm;
+  --ink: #000;
+  --ink-soft: #4a4a4a;
+  --rule: #c9c9c9;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'PT Serif', serif;
+  --font-data: 'PT Sans Narrow', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  display: flex;
+  background: #fff;
+  color: var(--ink);
+  overflow: hidden;
+  position: relative;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* The spine is what stays visible when cards are fanned in a hand.
+   Pure black on white: the cards are printed on a grayscale printer. */
+.spine {
+  width: var(--spine-w);
+  flex: none;
+  border-right: 0.3mm solid var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.4mm 0 1.8mm;
+  gap: 1.4mm;
+}
+.spine .level {
+  width: 5.6mm;
+  height: 6.4mm;
+  display: grid;
+  place-items: center;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 17pt;
+  line-height: 1;
+  padding-bottom: 0.4mm;
+  font-variant-numeric: lining-nums;
+}
+.spine .glyph { width: 6.2mm; height: 5.1mm; }
+.spine .glyph svg { width: 100%; height: 100%; display: block; }
+.spine .school {
+  flex: 1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: var(--font-data);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.04em;
+  text-align: right;
+}
+.face {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2mm 2.4mm 1.6mm 2.4mm;
+}
+
+header { margin-bottom: 1.4mm; }
+.name {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 13.5pt;
+  line-height: 0.95;
+  margin: 0;
+  text-wrap: balance;
+}
+.name-en {
+  font-family: var(--font-title);
+  font-weight: 600;
+  font-style: italic;
+  font-size: 7.5pt;
+  color: var(--ink-soft);
+  margin-top: 0.5mm;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 1.6mm;
+  border-top: 0.35mm solid var(--ink);
+  border-bottom: 0.35mm solid var(--ink);
+}
+.stats > div {
+  padding: 0.6mm 0.8mm 0.7mm;
+  min-width: 0;
+}
+.stats > div:nth-child(odd) { border-right: 0.2mm solid var(--rule); padding-left: 0; }
+.stats > div:nth-child(-n + 2) { border-bottom: 0.2mm solid var(--rule); }
+.stats dt {
+  font-family: var(--font-data);
+  font-size: 5.6pt;
+  color: var(--ink-soft);
+  line-height: 1;
+}
+.stats .tag {
+  display: block;
+  margin-top: 0.2mm;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 6.2pt;
+}
+.stats dd {
+  margin: 0.3mm 0 0;
+  font-family: var(--font-data);
+  font-weight: 700;
+  font-size: 7.6pt;
+  line-height: 1.05;
+}
+
+.body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  font-family: var(--font-body);
+  font-size: 7.4pt;
+  line-height: 1.22;
+  hyphens: auto;
+}
+.body p { margin: 0 0 0.4em; }
+.body ul { margin: 0 0 0.4em; padding-left: 0.9em; list-style: none; }
+.body li { margin: 0 0 0.15em; position: relative; }
+.body li::before { content: '•'; position: absolute; left: -0.75em; }
+.body table { border-collapse: collapse; width: 100%; margin: 0 0 0.4em; font-size: 0.92em; }
+.body th, .body td { border-bottom: 0.15mm solid var(--rule); padding: 0.1em 0.3em; text-align: left; }
+.body .trigger { font-weight: 700; font-size: 0.92em; }
+.body .material {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9em;
+}
+.body .higher {
+  border-top: 0.2mm solid var(--ink);
+  padding-top: 0.3em;
+  margin-top: 0.5em;
+}
+
+footer {
+  flex: none;
+  margin-top: 1mm;
+  font-family: var(--font-data);
+  font-size: 6pt;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: flex-end;
+  gap: 2mm;
+}
+footer .classes { flex: 1; }
+footer .sources {
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+}

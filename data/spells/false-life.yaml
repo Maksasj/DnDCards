@@ -1,0 +1,23 @@
+id: false-life
+name: Псевдожизнь
+name_en: False life
+source_url: https://dnd.su/spells/287-false-life/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10504-false-life
+level: 1
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: небольшое количество алкоголя или дистиллированного спирта
+duration: 1 час
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, вы получаете 5 дополнительных временных хитов за каждый уровень ячейки выше первого.
+description: Укрепив себя некромантским подобием жизни, вы получаете 1к4 + 4 временных хита на время длительности заклинания.

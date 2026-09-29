@@ -1,0 +1,22 @@
+id: bless
+name: Благословение
+name_en: Bless
+source_url: https://dnd.su/spells/9-bless/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10445-bless
+level: 1
+school: очарование
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: В, С, М
+material: капля святой воды
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - жрец
+  - паладин
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше 1-го.
+description: Вы благословляете до трёх существ на свой выбор в пределах дистанции. Каждый раз, когда до окончания заклинания цель совершает бросок атаки или спасбросок, она может бросить к4 и добавить выпавшее число к результату.

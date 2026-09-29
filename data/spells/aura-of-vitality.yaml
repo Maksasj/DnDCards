@@ -1,0 +1,21 @@
+id: aura-of-vitality
+name: Аура живучести
+name_en: Aura of vitality
+source_url: https://dnd.su/spells/3-aura-of-vitality/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10437-aura-of-vitality
+level: 3
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: На себя (30-футовый радиус)
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - друид
+  - жрец
+  - паладин
+description: От вас исходит аура живительной энергии с радиусом 30 футов. Пока заклинание активно, аура перемещается вместе с вами, оставаясь с центром на вас. Вы можете бонусным действием восстанавливать одному любому существу в ауре (включая себя) 2к6 хитов.

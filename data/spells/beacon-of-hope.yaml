@@ -1,0 +1,19 @@
+id: beacon-of-hope
+name: Маяк надежды
+name_en: Beacon of hope
+source_url: https://dnd.su/spells/158-beacon-of-hope/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10233-beacon-of-hope
+level: 3
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - жрец
+description: Это заклинание дарует надежду и живучесть. Выберите любое количество существ в пределах дистанции. Пока заклинание активно, все цели совершают спасброски Мудрости и спасброски от смерти с преимуществом, а также восстанавливают от любого лечения максимально возможное количество хитов.

@@ -1,0 +1,24 @@
+id: protection-from-energy
+name: Защита от энергии
+name_en: Protection from energy
+source_url: https://dnd.su/spells/106-protection-from-energy/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10227-protection-from-energy
+level: 3
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - волшебник
+  - друид
+  - жрец
+  - изобретатель
+  - следопыт
+  - чародей
+description: "Пока заклинание активно, согласное существо, которого вы коснулись, получает сопротивление урону одного вида по вашему выбору: звук, кислота, огонь, холод или электричество."

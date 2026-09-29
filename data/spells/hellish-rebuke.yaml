@@ -1,0 +1,21 @@
+id: hellish-rebuke
+name: Адское возмездие
+name_en: Hellish rebuke
+source_url: https://dnd.su/spells/1-hellish-rebuke/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10541-hellish-rebuke
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 реакция
+reaction_trigger: когда вы получаете урон от существа, находящегося в пределах 60 футов от вас и видимого вами
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - колдун
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше первого.
+description: Вы указываете пальцем, и существо, причинившее вам урон, мгновенно окружается пламенем. Существо должно совершить спасбросок Ловкости. Оно получает 2к10 урона огнём при провале, или половину этого урона при успехе.

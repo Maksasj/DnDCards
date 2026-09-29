@@ -1,0 +1,27 @@
+id: revivify
+name: Возрождение
+name_en: Revivify
+source_url: https://dnd.su/spells/24-revivify/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10299-revivify
+level: 3
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: бриллианты, стоящие в сумме 300 зм, расходуемые заклинанием
+duration: Мгновенная
+concentration: false
+classes:
+  - друид
+  - жрец
+  - изобретатель
+  - паладин
+  - следопыт
+description: |-
+  Вы касаетесь существа, мёртвого не больше минуты. Это существо возвращается к жизни с 1 хитом. Это заклинание не может оживить существ, умерших от старости, а также не восстанавливает отсутствующие части тел.
+
+  Заклинания, возвращающие к жизни: **возрождение** • оживление • реинкарнация • воскрешение • истинное воскрешение

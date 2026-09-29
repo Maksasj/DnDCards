@@ -1,0 +1,21 @@
+id: barkskin
+name: Дубовая кора
+name_en: Barkskin
+source_url: https://dnd.su/spells/74-barkskin/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10266-barkskin
+level: 2
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: пригоршня дубовой коры
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - друид
+  - следопыт
+description: Вы касаетесь согласного существа. Пока заклинание активно, кожа цели становится грубой и похожей внешне на кору дуба, а КД не может быть ниже 16, вне зависимости от надетых доспехов.

@@ -1,0 +1,21 @@
+id: greater-invisibility
+name: Высшая невидимость
+name_en: Greater invisibility
+source_url: https://dnd.su/spells/38-greater-invisibility/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10533-greater-invisibility
+level: 4
+school: иллюзия
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - бард
+  - волшебник
+  - чародей
+description: Вы или существо, которого вы касаетесь, становитесь невидимым, пока активно заклинание. Все, что цель носит и несёт, становится невидимым, пока находится у этой личности.

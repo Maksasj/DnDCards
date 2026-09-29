@@ -1,0 +1,24 @@
+id: acid-splash
+name: Брызги кислоты
+name_en: Acid splash
+source_url: https://dnd.su/spells/13-acid-splash/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10419-acid-splash
+level: 0
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+  - чародей
+description: |-
+  Вы кидаете кислотный шарик. Выберите одно существо, которое вы видите в пределах дистанции, или два существа, которых вы видите в пределах дистанции, находящихся в пределах 5 футов друг от друга. Цель должна преуспеть в спасброске Ловкости, иначе получит 1к6 урона кислотой.
+
+  Урон этого заклинания увеличивается на 1к6, когда вы достигаете 5-го уровня (2к6), 11-го уровня (3к6) и 17-го уровня (4к6).

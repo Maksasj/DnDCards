@@ -1,0 +1,24 @@
+id: lesser-restoration
+name: Малое восстановление
+name_en: Lesser restoration
+source_url: https://dnd.su/spells/155-lesser-restoration/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10289-lesser-restoration
+level: 2
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - друид
+  - жрец
+  - изобретатель
+  - паладин
+  - следопыт
+description: Вы касаетесь существа и можете окончить одну болезнь или одно состояние, в котором оно находится. Этим состоянием может быть глухота, отравление, паралич или слепота.

@@ -1,0 +1,20 @@
+id: spare-the-dying
+name: Уход за умирающим
+name_en: Spare the dying
+source_url: https://dnd.su/spells/94-spare-the-dying/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10648-spare-the-dying
+level: 0
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - жрец
+  - изобретатель
+description: Вы касаетесь живого существа, у которого 0 хитов. Оно становится стабилизированным. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов.

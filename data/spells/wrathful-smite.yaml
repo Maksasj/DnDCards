@@ -1,0 +1,19 @@
+id: wrathful-smite
+name: Гневная кара
+name_en: Wrathful smite
+source_url: https://dnd.su/spells/46-wrathful-smite/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10707-wrathful-smite
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - паладин
+description: В следующий раз, когда вы попадёте рукопашной атакой оружием, пока активно это заклинание, ваша атака причиняет дополнительный 1к6 урона психической энергией. Кроме того, если цель — существо, оно должно совершить спасбросок Мудрости, иначе оно станет испуганным до окончания действия заклинания. Существо может действием совершить проверку Мудрости против Сл ваших заклинаний, чтобы успокоиться и окончить это заклинание.

@@ -1,0 +1,21 @@
+id: magic-missile
+name: Волшебная стрела
+name_en: Magic missile
+source_url: https://dnd.su/spells/27-magic-missile/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10567-magic-missile
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 120 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, заклинание создает по одному дополнительному дротику за каждый уровень ячейки выше первого.
+description: Вы создаете три светящихся дротика из магической силы. Каждый дротик попадает в существо на ваш выбор, видимое в пределах дистанции. Каждый дротик причиняет 1к4 + 1 урона силовым полем. Все дротики поражают одновременно, и вы можете направить их как в одно существо, так и в разных.

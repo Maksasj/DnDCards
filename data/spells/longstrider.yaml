@@ -1,0 +1,25 @@
+id: longstrider
+name: Скороход
+name_en: Longstrider
+source_url: https://dnd.su/spells/316-longstrider/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10294-longstrider
+level: 1
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: щепотка земли
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - друид
+  - изобретатель
+  - следопыт
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше первого.
+description: Вы касаетесь существа. Пока заклинание активно, скорость существа увеличивается на 10 футов.

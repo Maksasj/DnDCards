@@ -1,0 +1,23 @@
+id: ray-of-enfeeblement
+name: Луч слабости
+name_en: Ray of enfeeblement
+source_url: https://dnd.su/spells/148-ray-of-enfeeblement/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10619-ray-of-enfeeblement
+level: 2
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - волшебник
+  - колдун
+description: |-
+  Чёрный луч вылетает из вашего пальца к существу, находящемуся в пределах дистанции. Совершите по цели дальнобойную атаку заклинанием. При попадании цель до конца действия заклинания причиняет только половину урона атаками оружием, использующими Силу.
+
+  В конце каждого своего хода цель может совершать спасбросок Телосложения от этого заклинания. При успехе заклинание оканчивается.

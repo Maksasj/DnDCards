@@ -1,0 +1,20 @@
+id: aura-of-purity
+name: Аура очищения
+name_en: Aura of purity
+source_url: https://dnd.su/spells/5-aura-of-purity/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10436-aura-of-purity
+level: 4
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: На себя (30-футовый радиус)
+components: В
+duration: Концентрация, вплоть до 10 минут
+concentration: true
+classes:
+  - жрец
+  - паладин
+description: "От вас исходит очищающая аура с радиусом 30 футов. Пока заклинание активно, аура перемещается вместе с вами, оставаясь с центром на вас. Все невраждебные существа в ауре (включая вас) не могут заболеть, имеют сопротивление урону ядом и совершают с преимуществом спасброски от эффектов, вызывающих следующие состояния: глухота, испуг, ослепление, отравление, очарование, ошеломление и паралич."

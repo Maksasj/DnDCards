@@ -1,0 +1,22 @@
+id: chromatic-orb
+name: Цветной шарик
+name_en: Chromatic orb
+source_url: https://dnd.su/spells/86-chromatic-orb/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10458-chromatic-orb
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 90 футов
+components: В, С, М
+material: алмаз, стоящий как минимум 50 зм
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше первого.
+description: Вы бросаете 4-дюймовую сферу энергии в существо, которое видите в пределах дистанции. Выберите звук, кислоту, огонь, холод, электричество или яд при создании сферы, а затем совершите по цели дальнобойную атаку заклинанием. Если атака попадает, существо получает 3к8 урона выбранного вида.

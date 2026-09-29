@@ -1,0 +1,19 @@
+id: crusaders-mantle
+name: Мантия крестоносца
+name_en: Crusader's mantle
+source_url: https://dnd.su/spells/156-crusaders-mantle/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10471-crusaders-mantle
+level: 3
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - паладин
+description: От вас начинает исходить святая сила аурой с радиусом 30 футов, пробуждающая в дружественных существах отвагу. Пока заклинание активно, аура перемещается вместе с вами, оставаясь с центром на вас. Находясь в ауре, все невраждебные существа (включая вас) при попадании атакой оружием причиняют дополнительно 1к4 урона излучением.

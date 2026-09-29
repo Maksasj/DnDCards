@@ -1,0 +1,22 @@
+id: remove-curse
+name: Снятие проклятия
+name_en: Remove curse
+source_url: https://dnd.su/spells/326-remove-curse/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10624-remove-curse
+level: 3
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - жрец
+  - колдун
+  - паладин
+description: После вашего касания все проклятия, действующие на одно существо или предмет, оканчиваются. Если предмет был проклятым магическим предметом, проклятие остаётся, но заклинание разрывает настройку владельца на него, поэтому предмет можно снять или выбросить.

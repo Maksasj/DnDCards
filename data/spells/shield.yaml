@@ -1,0 +1,21 @@
+id: shield
+name: Щит
+name_en: Shield
+source_url: https://dnd.su/spells/70-shield/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10638-shield
+level: 1
+school: ограждение
+ritual: false
+casting_time: 1 реакция
+reaction_trigger: когда по вам попадает атака или вы становитесь целью волшебной стрелы
+range: На себя
+components: В, С
+duration: 1 раунд
+concentration: false
+classes:
+  - волшебник
+  - чародей
+description: Появляется невидимый барьер из магической силы, что вас защищает. До начала своего следующего хода вы получаете бонус +5 к КД, и в том числе против той атаки, что вызвала срабатывание заклинания. Кроме того, вы не получаете урон от заклинания волшебная стрела [magic missile].

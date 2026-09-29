@@ -1,0 +1,23 @@
+id: see-invisibility
+name: Видение невидимого
+name_en: See invisibility
+source_url: https://dnd.su/spells/20-see-invisibility/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10632-see-invisibility
+level: 2
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: щепотка талька и толченого серебра
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - изобретатель
+  - чародей
+description: Пока заклинание активно, вы видите невидимых существ и предметы, как если бы они были видимы, и ваше зрение простирается на Эфирный план. Эфирные существа и предметы выглядят призрачными и полупрозрачными.

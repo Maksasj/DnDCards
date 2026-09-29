@@ -1,0 +1,19 @@
+id: thunderous-smite
+name: Громовая кара
+name_en: Thunderous smite
+source_url: https://dnd.su/spells/52-thunderous-smite/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10679-thunderous-smite
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - паладин
+description: В первый раз, когда вы попадаете рукопашной атакой оружием, пока заклинание активно, ваше оружие издаёт громовой рокот, слышимый с расстояния 300 футов, и атака причиняет цели дополнительный урон звуком 2к6. Кроме того, если цель — существо, она должна преуспеть в спасброске Силы, иначе она будет оттолкнута на 10 футов от вас и сбита с ног.

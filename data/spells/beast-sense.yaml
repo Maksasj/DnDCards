@@ -1,0 +1,20 @@
+id: beast-sense
+name: Животные чувства
+name_en: Beast sense
+source_url: https://dnd.su/spells/76-beast-sense/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10267-beast-sense
+level: 2
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: Касание
+components: С
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - друид
+  - следопыт
+description: Вы касаетесь согласного Зверя. Пока заклинание активно, вы можете действием посмотреть глазами этого Зверя и услышать то, что слышит он. Эффект продолжается, пока вы не переключитесь действием обратно на свои чувства. Воспринимая чувствами Зверя, вы пользуетесь преимуществами всех его особых чувств, хотя для своего окружения вы считаетесь ослеплённым и оглохшим.

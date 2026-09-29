@@ -1,0 +1,24 @@
+id: magic-weapon
+name: Магическое оружие
+name_en: Magic weapon
+source_url: https://dnd.su/spells/153-magic-weapon/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10234-magic-weapon
+level: 2
+school: преобразование
+ritual: false
+casting_time: 1 бонусное действие
+range: Касание
+components: В, С
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - волшебник
+  - изобретатель
+  - паладин
+  - следопыт
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, бонус увеличивается до +2. Если вы используете ячейку заклинания 6-го уровня или выше, бонус увеличивается до +3.
+description: Вы касаетесь немагического оружия. Пока заклинание активно, это оружие становится магическим оружием с бонусом +1 к броскам атаки и урона.

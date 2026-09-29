@@ -1,0 +1,22 @@
+id: healing-word
+name: Лечащее слово
+name_en: Healing word
+source_url: https://dnd.su/spells/144-healing-word/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10539-healing-word
+level: 1
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: 60 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - друид
+  - жрец
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, количество восстанавливаемых хитов увеличивается на 1к4 за каждый уровень ячейки выше первого.
+description: Существо на ваш выбор, видимое в пределах дистанции, восстанавливает количество хитов, равное 1к4 + ваш модификатор базовой характеристики. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов.

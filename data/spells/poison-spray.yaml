@@ -1,0 +1,26 @@
+id: poison-spray
+name: Ядовитые брызги
+name_en: Poison spray
+source_url: https://dnd.su/spells/63-poison-spray/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10603-poison-spray
+level: 0
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: 10 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - друид
+  - изобретатель
+  - колдун
+  - чародей
+description: |-
+  Вы простираете руку к существу, видимому в пределах дистанции, и выпускаете из ладони клубы токсичного газа. Это существо должно преуспеть в спасброске Телосложения, иначе оно получит урон ядом 1к12.
+
+  Урон этого заклинания увеличивается на 1к12, когда вы достигаете 5-го уровня (2к12), 11-го уровня (3к12) и 17-го уровня (4к12).
