@@ -1,0 +1,13 @@
+id: heavy-armor-master
+name: Мастер тяжёлых доспехов
+name_en: Heavy armor master
+source_url: https://dnd.su/feats/124-heavy-armor-master/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/335-heavy-armor-master
+prerequisite: Владение тяжёлыми доспехами
+description: |-
+  Вы можете своим доспехом отклонять удары, которые других убили бы. Вы получаете следующие преимущества:
+
+  Увеличьте значение Силы на 1 при максимуме 20. Если вы носите тяжёлый доспех, дробящий, колющий и рубящий урон, получаемый вами от немагических атак, уменьшается на 3.

@@ -7,16 +7,18 @@ See README.md. There are no decks stored in the repo: a set of spells is a share
 
 ## Status (2026-09-29)
 
-- Done: all 524 spells and 934 magic items from dnd.su (`npm run import:spells|import:items -- --all`).
+- Done: all 524 spells, 934 magic items, 105 feats and the 13 main classes from dnd.su (996 class feature cards:
+  features, official subclasses, choices inside features, invocations / maneuvers / infusions).
 - Cards: black-and-white spine (spells: level box + school symbol; items: type icon + "тип · редкость"),
   stats grid, sources bottom right. Text fitting: shrink font to 6.4pt, grow the card (88 mm min, page height
   max), shrink to 5.8pt, then continue on "(продолжение)" cards.
-- Website: tabs "Заклинания" / "Магические предметы" (all entries on one page, grouped in columns like dnd.su,
-  with filters) and "Листы для печати"; one shared selection in the URL hash (#s=…&i=…) + localStorage.
+- Website: tabs "Заклинания" / "Магические предметы" / "Умения классов" / "Черты" (all entries on one page, grouped
+  in columns like dnd.su, with filters; class features filter by subclass and "up to level N") and "Листы для печати";
+  one shared selection in the URL hash (#s=…&i=…&c=…&f=…) + localStorage.
   GitHub Pages deploy via Actions on push to master.
 - Decided: grayscale printer, A4, 63 mm card width, Russian text from dnd.su, fonts Cormorant Garamond /
   PT Serif / PT Sans Narrow. 2024-edition links stored as url_2024, not printed. No decks in the repo.
-- Open: card backs, class abilities, test print to check size and readability.
+- Open: card backs, test print to check size and readability, load data per tab (the bundle is ~1 MB gzipped).
 
 Goal: turn spells, abilities and items from our wiki into printable cards (PDF) that we can cut out and use at the table.
 

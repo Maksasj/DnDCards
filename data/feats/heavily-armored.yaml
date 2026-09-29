@@ -1,0 +1,13 @@
+id: heavily-armored
+name: Знаток тяжёлых доспехов
+name_en: Heavily armored
+source_url: https://dnd.su/feats/115-heavily-armored/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/334-heavily-armored
+prerequisite: Владение средними доспехами
+description: |-
+  Вы обучились ношению тяжёлых доспехов и получаете следующие преимущества:
+
+  Увеличьте значение Силы на 1 при максимуме 20. Вы получаете владение тяжёлыми доспехами.

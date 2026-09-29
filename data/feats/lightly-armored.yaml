@@ -1,0 +1,13 @@
+id: lightly-armored
+name: Знаток лёгких доспехов
+name_en: Lightly armored
+source_url: https://dnd.su/feats/113-lightly-armored/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/338-lightly-armored
+description: |-
+  Вы обучились ношению лёгких доспехов и получаете следующие преимущества:
+
+  - Увеличьте значение Силы или Ловкости на 1 при максимуме 20.
+  - Вы получаете владение лёгкими доспехами.

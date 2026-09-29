@@ -1,0 +1,13 @@
+id: medium-armor-master
+name: Мастер средних доспехов
+name_en: Medium armor master
+source_url: https://dnd.su/feats/123-medium-armor-master/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/341-medium-armor-master
+prerequisite: Владение средними доспехами
+description: |-
+  Вы привыкли к перемещению в средних доспехах и получаете следующие преимущества:
+
+  Ношение среднего доспеха не накладывает помеху к проверкам Ловкости (Скрытность). Когда вы носите средний доспех, вы можете добавлять к КД 3, а не 2, если ваша Ловкость 16 или выше.

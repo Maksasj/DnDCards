@@ -1,0 +1,9 @@
+id: savage-attacker
+name: Дикий атакующий
+name_en: Savage attacker
+source_url: https://dnd.su/feats/111-savage-attacker/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/316-savage-attacker
+description: Один раз в ход, когда вы совершаете бросок урона для рукопашной атаки оружием, вы можете перебросить все кости урона этого оружия и использовать любой из вариантов.

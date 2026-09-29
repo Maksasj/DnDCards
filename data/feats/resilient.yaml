@@ -1,0 +1,13 @@
+id: resilient
+name: Устойчивый
+name_en: Resilient
+source_url: https://dnd.su/feats/140-resilient/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/348-resilient
+description: |-
+  Выберите одну характеристику. Вы получаете следующие преимущества:
+
+  - Увеличьте значение выбранной характеристики на 1 при максимуме 20.
+  - Вы получаете владение спасбросками этой характеристики.

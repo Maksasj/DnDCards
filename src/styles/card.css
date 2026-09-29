@@ -83,6 +83,18 @@ header { margin-bottom: 1.4mm; }
   margin: 0;
   text-wrap: balance;
 }
+.subtitle {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 6.4pt;
+  line-height: 1.2;
+  margin-top: 0.8mm;
+  padding-bottom: 1mm;
+  border-bottom: 0.35mm solid var(--ink);
+}
+/* Cards without a stats grid (class features, feats): a rule under the header instead. */
+.card.feature header, .card.feat header { border-bottom: 0.35mm solid var(--ink); padding-bottom: 1.2mm; }
+.card.feature header .subtitle, .card.feat header .subtitle { border-bottom: 0; padding-bottom: 0; }
 .name .cont { font-size: 0.6em; font-weight: 600; font-style: italic; }
 .name-en {
   font-family: var(--font-title);

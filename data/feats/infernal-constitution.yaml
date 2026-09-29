@@ -1,0 +1,12 @@
+id: infernal-constitution
+name: Инфернальное телосложение
+name_en: Infernal constitution
+source_url: https://dnd.su/feats/150-infernal-constitution/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+prerequisite: Тифлинг
+description: |-
+  Кровь исчадий сильна в вас и даёт вам сопротивления, которыми обладают некоторые исчадия. Вы получаете следующие преимущества:
+
+  Увеличьте значение вашего Телосложения на 1 при максимуме 20. Вы получаете сопротивление урону холодом и ядом. Вы получаете преимущество на спасброски против эффектов, делающих вас отравленным.

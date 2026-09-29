@@ -15,6 +15,7 @@ import { spellCard } from './cards/spell.js';
 import { itemCard, RARITY_ORDER } from './cards/item.js';
 import { SCHOOL_ICONS } from './cards/school-icons.js';
 import { ITEM_ICONS } from './cards/item-icons.js';
+import { featureCard, featCard, flattenClasses, FEAT_ICON } from './cards/feature.js';
 
 // YAML files arrive as parsed objects (see the yaml plugin in vite.config.js).
 const load = (files) => Object.values(files);
@@ -23,6 +24,16 @@ const spells = load(import.meta.glob('/data/spells/*.yaml', { import: 'default',
   .sort((a, b) => a.level - b.level || byName(a, b));
 const items = load(import.meta.glob('/data/items/*.yaml', { import: 'default', eager: true }))
   .sort((a, b) => RARITY_ORDER[a.rarity_key] - RARITY_ORDER[b.rarity_key] || byName(a, b));
+
+// Class order as in the Player's Handbook (Artificer last); features keep their page order.
+const CLASS_ORDER = ['barbarian', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'paladin', 'ranger', 'rogue', 'sorcerer', 'warlock', 'wizard', 'artificer'];
+const classes = load(import.meta.glob('/data/classes/*.yaml', { import: 'default', eager: true }))
+  .sort((a, b) => CLASS_ORDER.indexOf(a.id) - CLASS_ORDER.indexOf(b.id));
+const features = flattenClasses(classes);
+// Feats are grouped by book, Player's Handbook first.
+const featBook = (f) => (f.sources?.[0]?.code === 'PH14' ? '' : f.sources?.[0]?.code ?? '~');
+const feats = load(import.meta.glob('/data/feats/*.yaml', { import: 'default', eager: true }))
+  .sort((a, b) => featBook(a).localeCompare(featBook(b)) || byName(a, b));
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -97,13 +108,62 @@ const collections = {
     icon: (it) => ITEM_ICONS[it.type_key],
     iconTitle: (it) => it.type,
   },
+  classes: {
+    hashKey: 'c',
+    data: features,
+    card: featureCard,
+    searchPlaceholder: 'Поиск умений (например «ярость»)',
+    chips: {
+      label: 'Класс',
+      values: classes.map((c) => c.id),
+      get: (e) => e.classId,
+      text: (id) => classes.find((c) => c.id === id).name,
+      title: (id) => classes.find((c) => c.id === id).name,
+    },
+    selects: [
+      {
+        // Picking a subclass shows the class's own features plus only that subclass.
+        all: 'Все подклассы',
+        options: classes.flatMap((c) => c.subclasses.map((sc) => [sc.id, `${c.name}: ${sc.name}`])),
+        test: (e, v) => e.classId === v.split('.')[0] && (!e.subclassId || e.subclassId === v),
+      },
+      {
+        all: 'Любой уровень',
+        options: Array.from({ length: 20 }, (_, i) => [String(i + 1), `до ${i + 1}-го уровня`]),
+        test: (e, v) => (e.level ?? 0) <= Number(v),
+      },
+    ],
+    group: (e) => e.group,
+    groupTitle: (g) => features.find((e) => e.group === g).groupName,
+    icon: (e) => (e.level ? `<b class="lvl-num">${e.level}</b>` : ''),
+    iconTitle: (e) => (e.level ? `${e.level}-й уровень` : ''),
+    hint: (e) => e.optionOf ?? (e.prerequisite ? `требование: ${e.prerequisite}` : ''),
+  },
+  feats: {
+    hashKey: 'f',
+    data: feats,
+    card: featCard,
+    searchPlaceholder: 'Поиск черт (рус. или англ.)',
+    selects: [
+      {
+        all: 'Требования: любые',
+        options: [['none', 'Без требований'], ['some', 'С требованием']],
+        test: (f, v) => Boolean(f.prerequisite) === (v === 'some'),
+      },
+      { all: 'Все источники', options: sourceOptions(feats), test: hasSource },
+    ],
+    group: (f) => f.sources?.[0]?.code ?? '',
+    groupTitle: (code) => feats.find((f) => f.sources?.[0]?.code === code)?.sources[0].book ?? code,
+    icon: () => FEAT_ICON,
+    iconTitle: (f) => (f.prerequisite ? `Требование: ${f.prerequisite}` : ''),
+  },
 };
 for (const c of Object.values(collections)) {
   c.byId = new Map(c.data.map((e) => [e.id, e]));
   c.selected = new Set();
 }
 
-// ---- Selection: shared via the URL hash (#s=id,id&i=id,id) and remembered in localStorage ----
+// ---- Selection: shared via the URL hash (#s=…&i=…&c=…&f=…) and remembered in localStorage ----
 
 const STORAGE_KEY = 'dnd-cards.selected';
 
@@ -159,6 +219,8 @@ const count = (n) => (n ? ` (${n})` : '');
 function updateCounts() {
   $('count-spells').textContent = count(collections.spells.selected.size);
   $('count-items').textContent = count(collections.items.selected.size);
+  $('count-classes').textContent = count(collections.classes.selected.size);
+  $('count-feats').textContent = count(collections.feats.selected.size);
   $('count-sheets').textContent = count(totalSelected());
   $('print').disabled = totalSelected() === 0;
   $('share').disabled = totalSelected() === 0;
@@ -166,11 +228,11 @@ function updateCounts() {
 
 async function renderPreview() {
   const token = ++renderToken;
-  // Print order: spells first, then items, each in list order.
+  // Print order: spells, items, class features, feats — each in list order.
   const html = Object.values(collections).flatMap((c) => c.data.filter((e) => c.selected.has(e.id)).map(c.card));
   const sheets = $('sheets');
   if (!html.length) {
-    sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания или предметы — здесь появятся листы для печати.</p>`;
+    sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания, предметы, умения или черты — здесь появятся листы для печати.</p>`;
     $('status').textContent = '';
     window.__cards = { ready: true, count: 0, overflow: [], tall: [] };
     return;

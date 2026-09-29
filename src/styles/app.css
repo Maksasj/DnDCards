@@ -26,6 +26,8 @@ body[data-tab='sheets'] { background: var(--ui-desk); }
    while hidden, because cards are measured to fit their text. */
 body:not([data-tab='spells']) [data-for='spells'],
 body:not([data-tab='items']) [data-for='items'],
+body:not([data-tab='classes']) [data-for='classes'],
+body:not([data-tab='feats']) [data-for='feats'],
 body:not([data-tab='sheets']) [data-for='sheets'],
 body[data-tab='sheets'] .credits { display: none; }
 body:not([data-tab='sheets']) .sheets-tab {
@@ -131,6 +133,7 @@ input[type='search'] {
 .level-group input { align-self: center; margin: 0; width: 15px; height: 15px; accent-color: var(--ui-ink); flex: none; }
 .level-group .icon { align-self: center; width: 20px; height: 16px; flex: none; }
 .level-group .icon svg { width: 100%; height: 100%; display: block; }
+.level-group .lvl-num { display: block; text-align: center; font-family: var(--font-title); font-size: 17px; line-height: 16px; font-variant-numeric: lining-nums; }
 .level-group .ru { font-family: var(--font-body); font-size: 15px; }
 .level-group label:has(input:checked) .ru { font-weight: 700; }
 .level-group .en {

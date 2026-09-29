@@ -55,23 +55,33 @@ export function toMarkdown(node) {
     return inner;
   };
   const blocks = [];
-  for (const n of node.childNodes) {
-    const tag = n.rawTagName?.toLowerCase();
-    if (tag === 'ul' || tag === 'ol') {
-      blocks.push(n.querySelectorAll('li').map((li) => `- ${inline(li).trim()}`).join('\n'));
-    } else if (tag === 'table') {
-      const rows = n.querySelectorAll('tr').map((tr) =>
-        '| ' + tr.querySelectorAll('th,td').map((c) => inline(c).trim().replace(/\|/g, '/')).join(' | ') + ' |');
-      blocks.push(rows.join('\n'));
-    } else {
-      const text = inline(n).trim();
-      if (text) blocks.push(text);
+  const walk = (parent) => {
+    for (const n of parent.childNodes) {
+      const tag = n.rawTagName?.toLowerCase();
+      if (tag === 'div' || tag === 'section' || tag === 'blockquote') {
+        walk(n); // layout wrappers: their paragraphs are blocks of their own
+      } else if (tag === 'h4' || tag === 'h5') {
+        const text = inline(n).trim();
+        if (text) blocks.push(`**${text.replace(/^\*+|\*+$/g, '')}**`); // table captions and the like
+      } else if (tag === 'ul' || tag === 'ol') {
+        blocks.push(n.querySelectorAll('li').map((li) => `- ${inline(li).trim()}`).join('\n'));
+      } else if (tag === 'table') {
+        const rows = n.querySelectorAll('tr').map((tr) =>
+          '| ' + tr.querySelectorAll('th,td').map((c) => inline(c).trim().replace(/\|/g, '/')).join(' | ') + ' |');
+        blocks.push(rows.join('\n'));
+      } else {
+        const text = inline(n).trim();
+        if (text) blocks.push(text);
+      }
     }
-  }
+  };
+  walk(node);
   return blocks
     .join('\n\n')
-    // dnd.su often wraps "<em><strong>Name</strong>.</em>"; normalize to "***Name.***"
+    // dnd.su nests bold/italic around headings in several ways ("<em><strong>Name</strong>.</em>",
+    // "<strong><em>Name</em>.</strong>"); normalize to "***Name.***"
     .replace(/\*\*\*([^*]+?)\*\*([.:])\*/g, '***$1$2***')
+    .replace(/\*\*\*([^*]+?)\*([.:])\*\*/g, '***$1$2***')
     .replace(/\*\*\*([^*]+?)\*\*\*([.:])/g, '***$1$2***')
     .replace(/\*\*\*([^*]+?[.:])\*\*\*(?=\S)/g, '***$1*** ');
 }

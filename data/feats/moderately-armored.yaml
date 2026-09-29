@@ -1,0 +1,14 @@
+id: moderately-armored
+name: Знаток средних доспехов
+name_en: Moderately armored
+source_url: https://dnd.su/feats/114-moderately-armored/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/342-moderately-armored
+prerequisite: Владение лёгкими доспехами
+description: |-
+  Вы обучились ношению средних доспехов и щитов, и получаете следующие преимущества:
+
+  - Увеличьте значение Силы или Ловкости на 1 при максимуме 20.
+  - Вы получаете владение средними доспехами и щитами.

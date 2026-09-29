@@ -1,4 +1,4 @@
-// Checks data/spells/*.yaml and data/items/*.yaml for fields the cards rely on.   npm run check
+// Checks data/{spells,items,feats,classes} for fields the cards rely on.   npm run check
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import YAML from 'yaml';
@@ -34,3 +34,22 @@ await check('items', ['name', 'name_en', 'type', 'description'], (it, bad) => {
   if (!RARITY_KEYS.includes(it.rarity_key)) bad(`unknown rarity_key "${it.rarity_key}"`);
   if (!it.rarity && it.rarity_key !== 'none') bad('empty rarity');
 });
+
+await check('feats', ['name', 'name_en', 'description'], () => {});
+
+// Classes are one file each with nested features; check every card-producing entry.
+const { flattenClasses } = await import('../src/cards/feature.js');
+const classFiles = (await fs.readdir(path.resolve('data/classes')).catch(() => [])).filter((f) => f.endsWith('.yaml'));
+const classes = await Promise.all(classFiles.map(async (f) => YAML.parse(await fs.readFile(path.resolve('data/classes', f), 'utf8'))));
+const entries = flattenClasses(classes);
+const ids = new Set();
+const problems = [];
+for (const e of entries) {
+  if (ids.has(e.id)) problems.push(`${e.id}: duplicate id`);
+  ids.add(e.id);
+  if (!e.name) problems.push(`${e.id}: no name`);
+  if (!e.description) problems.push(`${e.id}: no description`);
+  if (!e.level && !e.sectionName) problems.push(`${e.id}: class feature without level`);
+}
+console.log(`classes: ${classes.length} classes, ${entries.length} cards, ${problems.length} problems`);
+for (const p of problems) console.log('  ' + p);

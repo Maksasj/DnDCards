@@ -1,0 +1,10 @@
+id: defensive-duelist
+name: Оборонительный дуэлянт
+name_en: Defensive duelist
+source_url: https://dnd.su/feats/129-defensive-duelist/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/327-defensive-duelist
+prerequisite: Ловкость 13 или выше
+description: Если вы используете оружие со свойством «фехтовальное», которым владеете, и другое существо попадает по вам рукопашной атакой, вы можете для этой атаки реакцией добавить бонус мастерства к КД, что потенциально может привести к промаху атаки.

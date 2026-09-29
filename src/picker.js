@@ -1,4 +1,4 @@
-// A one-page picker for one collection (spells or items): search, filter chips and selects,
+// A one-page picker for one collection (spells, items, class features, feats): search, filter chips and selects,
 // and all matching entries grouped into columns with checkboxes.
 
 const $ = (id) => document.getElementById(id);
@@ -14,14 +14,15 @@ const option = (value, label) => {
 
 /**
  * config: {
- *   key,            'spells' | 'items' — element ids use it: filters-<key>, list-<key>, …
+ *   key,            'spells' | 'items' | … — element ids use it: filters-<key>, list-<key>, …
  *   data,           entries in display order
  *   selected,       Set of selected ids (shared with the rest of the app)
  *   searchPlaceholder,
- *   chips: { label, values, get(entry), text(value), title(value) },   quick toggle filter
+ *   chips: { label, values, get(entry), text(value), title(value) },   quick toggle filter (optional)
  *   selects: [{ all, options: [[value, label]], test(entry, value) }],
  *   group(entry), groupTitle(groupKey),
  *   icon(entry), iconTitle(entry),
+ *   hint(entry),    muted text after the name (default: the English name)
  *   onChange(),     called after the selection changed
  * }
  */
@@ -31,13 +32,15 @@ export function createPicker(config) {
   const list = $(`list-${key}`);
   let visible = [];
 
+  const hint = (e) => (config.hint ? config.hint(e) : e.name_en) ?? '';
+
   const matches = (e) => {
     if (state.onlySelected && !selected.has(e.id)) return false;
-    if (state.chips.size && !state.chips.has(config.chips.get(e))) return false;
+    if (state.chips.size && !state.chips.has(config.chips?.get(e))) return false;
     if (config.selects.some((s, i) => state.selects[i] && !s.test(e, state.selects[i]))) return false;
     if (state.q) {
       const q = normRu(state.q.trim());
-      if (!normRu(e.name).includes(q) && !e.name_en.toLowerCase().includes(q)) return false;
+      if (!normRu(e.name).includes(q) && !normRu(hint(e)).includes(q)) return false;
     }
     return true;
   };
@@ -57,7 +60,7 @@ export function createPicker(config) {
             <input type="checkbox" value="${e.id}" ${selected.has(e.id) ? 'checked' : ''} />
             <span class="icon">${config.icon(e) ?? ''}</span>
             <span class="ru">${escapeHtml(e.name)}</span>
-            <span class="en">${escapeHtml(e.name_en)}</span>
+            <span class="en">${escapeHtml(hint(e))}</span>
             <span class="src">${(e.sources ?? []).map((x) => x.code).join(' ')}</span>
           </label></li>`).join('')}
         </ul>
@@ -73,21 +76,23 @@ export function createPicker(config) {
   search.oninput = () => { state.q = search.value; render(); };
 
   const chips = document.createElement('div');
-  chips.className = 'levels';
-  chips.setAttribute('role', 'group');
-  chips.setAttribute('aria-label', config.chips.label);
-  for (const value of config.chips.values) {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.textContent = config.chips.text(value);
-    b.title = config.chips.title(value);
-    b.setAttribute('aria-pressed', 'false');
-    b.onclick = () => {
-      state.chips.has(value) ? state.chips.delete(value) : state.chips.add(value);
-      b.setAttribute('aria-pressed', String(state.chips.has(value)));
-      render();
-    };
-    chips.append(b);
+  if (config.chips) {
+    chips.className = 'levels';
+    chips.setAttribute('role', 'group');
+    chips.setAttribute('aria-label', config.chips.label);
+    for (const value of config.chips.values) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = config.chips.text(value);
+      b.title = config.chips.title(value);
+      b.setAttribute('aria-pressed', 'false');
+      b.onclick = () => {
+        state.chips.has(value) ? state.chips.delete(value) : state.chips.add(value);
+        b.setAttribute('aria-pressed', String(state.chips.has(value)));
+        render();
+      };
+      chips.append(b);
+    }
   }
 
   const selects = config.selects.map((s, i) => {
@@ -97,7 +102,7 @@ export function createPicker(config) {
     el.onchange = () => { state.selects[i] = el.value; render(); };
     return el;
   });
-  filters.append(search, chips, ...selects);
+  filters.append(search, ...(config.chips ? [chips] : []), ...selects);
 
   // ---- Actions ----
   $(`only-selected-${key}`).onchange = (e) => { state.onlySelected = e.target.checked; render(); };

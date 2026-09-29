@@ -18,7 +18,7 @@ if (!['pdf', 'png'].includes(mode) || !link) {
   process.exit(1);
 }
 // "…/#s=a,b&i=c" → "s=a,b&i=c"; a bare "a,b" means spell ids.
-const hash = link.includes('#') ? link.slice(link.indexOf('#') + 1) : /(^|&)[si]=/.test(link) ? link : `s=${link}`;
+const hash = link.includes('#') ? link.slice(link.indexOf('#') + 1) : /(^|&)[sicf]=/.test(link) ? link : `s=${link}`;
 
 const server = await createServer({ logLevel: 'error', server: { port: 0 } });
 await server.listen();

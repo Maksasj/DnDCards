@@ -1,0 +1,9 @@
+id: tough
+name: Крепкий
+name_en: Tough
+source_url: https://dnd.su/feats/118-tough/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/319-tough
+description: Максимум ваших хитов увеличивается на количество, равное удвоенному уровню, на котором берётся эта черта. Каждый раз, когда вы впоследствии будете получать уровень, максимум ваших хитов будет дополнительно увеличиваться на 2.

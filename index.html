@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Карточки D&amp;D</title>
-    <meta name="description" content="Выберите заклинания и магические предметы D&amp;D 5e и распечатайте их карточками на A4." />
+    <meta name="description" content="Выберите заклинания, магические предметы, умения классов и черты D&amp;D 5e и распечатайте их карточками на A4." />
   </head>
   <body data-tab="spells">
     <header class="topbar">
@@ -13,6 +13,8 @@
         <nav class="tabs" role="tablist">
           <button type="button" role="tab" data-tab="spells" aria-selected="true">Заклинания<span id="count-spells"></span></button>
           <button type="button" role="tab" data-tab="items" aria-selected="false">Магические предметы<span id="count-items"></span></button>
+          <button type="button" role="tab" data-tab="classes" aria-selected="false">Умения классов<span id="count-classes"></span></button>
+          <button type="button" role="tab" data-tab="feats" aria-selected="false">Черты<span id="count-feats"></span></button>
           <button type="button" role="tab" data-tab="sheets" aria-selected="false">Листы для печати<span id="count-sheets"></span></button>
         </nav>
         <button type="button" id="share" title="Ссылка открывает этот же набор карточек">Скопировать ссылку</button>
@@ -35,6 +37,22 @@
         <button type="button" id="clear-items">Снять все предметы</button>
       </div>
 
+      <div class="topbar-row filters" id="filters-classes" data-for="classes"></div>
+      <div class="topbar-row actions" data-for="classes">
+        <span id="found-classes" class="found"></span>
+        <label class="check"><input type="checkbox" id="only-selected-classes" /> только выбранные</label>
+        <button type="button" id="add-found-classes">Выбрать найденные</button>
+        <button type="button" id="clear-classes">Снять все умения</button>
+      </div>
+
+      <div class="topbar-row filters" id="filters-feats" data-for="feats"></div>
+      <div class="topbar-row actions" data-for="feats">
+        <span id="found-feats" class="found"></span>
+        <label class="check"><input type="checkbox" id="only-selected-feats" /> только выбранные</label>
+        <button type="button" id="add-found-feats">Выбрать найденные</button>
+        <button type="button" id="clear-feats">Снять все черты</button>
+      </div>
+
       <div class="topbar-row actions" data-for="sheets">
         <span id="status" class="found"></span>
         <select id="view" aria-label="Вид">
@@ -46,6 +64,8 @@
 
     <main class="spells" id="list-spells" data-for="spells"></main>
     <main class="spells" id="list-items" data-for="items"></main>
+    <main class="spells" id="list-classes" data-for="classes"></main>
+    <main class="spells" id="list-feats" data-for="feats"></main>
 
     <section class="sheets-tab">
       <p class="print-hint">

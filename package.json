@@ -11,7 +11,9 @@
     "preview": "vite preview",
     "check": "node scripts/check-data.js",
     "import:spells": "node scripts/import-spells.js",
-    "import:items": "node scripts/import-items.js"
+    "import:items": "node scripts/import-items.js",
+    "import:classes": "node scripts/import-classes.js",
+    "import:feats": "node scripts/import-feats.js"
   },
   "keywords": [],
   "author": "",

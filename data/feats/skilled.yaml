@@ -1,0 +1,9 @@
+id: skilled
+name: Одарённый
+name_en: Skilled
+source_url: https://dnd.su/feats/130-skilled/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/feats/317-skilled
+description: Вы получаете владение любой комбинацией из трёх навыков или инструментов на ваш выбор.
