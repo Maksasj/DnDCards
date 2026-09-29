@@ -1,0 +1,18 @@
+id: revelers-concertina
+name: Концертина гуляки
+name_en: Reveler’s concertina
+source_url: https://dnd.su/items/2207-revelers-concertina/
+sources:
+  - code: TCE
+    book: Tasha's Cauldron of Everything
+type_key: magic
+attunement: true
+attunement_by: бардом
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Держа эту концертину, вы получаете бонус +2 к Сл спасбросков против ваших заклинаний барда.
+
+  Действием вы можете использовать концертину, чтобы наложить заклинание неудержимая пляска Отто [Otto’s irresistible dance] с помощью этого предмета. Это свойство концертины не может быть использовано вновь до следующего рассвета.

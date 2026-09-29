@@ -1,0 +1,14 @@
+id: dragongleam
+name: Драконий луч
+name_en: Dragongleam
+source_url: https://dnd.su/items/2327-dragongleam/
+sources:
+  - code: HDQ
+    book: Hoard of the Dragon Queen
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: копье
+rarity: ""
+rarity_key: none
+description: Это копье имеет 10 зарядов заклинания дневной свет [daylight] для использования в сумерках или темных лесных зарослях. Командная фраза - «глаза Тиамат сияют», написанная драконьими рунами на древке копья.

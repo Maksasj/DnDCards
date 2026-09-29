@@ -1,0 +1,16 @@
+id: sword-of-life-stealing
+name: Меч кражи жизни
+name_en: Sword of life stealing
+source_url: https://dnd.su/items/143-sword-of-life-stealing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16128-sword-of-life-stealing
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: любой меч
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Если вы атакуете этим магическим оружием существо, и при броске атаки выпадает «20», эта цель получает дополнительные 10 урона некротической энергией, если не является ни конструктом ни нежитью. Вы также получаете 10 временных хитов.

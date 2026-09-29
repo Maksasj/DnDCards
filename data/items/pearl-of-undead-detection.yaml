@@ -1,0 +1,13 @@
+id: pearl-of-undead-detection
+name: Жемчужина обнаружения нежити
+name_en: Pearl of Undead Detection
+source_url: https://dnd.su/items/2471-pearl-of-undead-detection/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Эта чёрная жемчужина стоимостью 500 зм слабо светится, когда в пределах 120 футов от неё находится нежить.

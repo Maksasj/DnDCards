@@ -1,0 +1,14 @@
+id: horned-ring
+name: Рогатое кольцо
+name_en: Horned Ring
+source_url: https://dnd.su/items/2463-horned-ring/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Позволяет настроенному на него владельцу игнорировать ограничения в магии Подгорья.

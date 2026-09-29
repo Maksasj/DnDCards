@@ -1,0 +1,18 @@
+id: brazier-of-commanding-fire-elementals
+name: Жаровня командования огненными элементалями
+name_en: Brazier of commanding fire elementals
+source_url: https://dnd.su/items/39-brazier-of-commanding-fire-elementals/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15868-brazier-of-commanding-fire-elementals
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Если в этой латунной жаровне горит огонь, вы можете действием произнести командное слово и призвать огненного элементаля [fire elemental], как если бы наложили заклинание призыв элементаля [conjure elemental]. Жаровню нельзя использовать повторно, пока не наступит следующий рассвет.
+
+  Весит жаровня 5 фунтов.

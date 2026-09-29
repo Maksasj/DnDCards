@@ -1,0 +1,15 @@
+id: bowl-of-commanding-water-elementals
+name: Чаша командования водяными элементалями
+name_en: Bowl of commanding water elementals
+source_url: https://dnd.su/items/246-bowl-of-commanding-water-elementals/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15865-bowl-of-commanding-water-elementals
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Если эта чаша наполнена водой, вы можете действием произнести командное слово и призвать водяного элементаля [water elemental], как если бы наложили заклинание призыв элементаля [conjure elemental]. Чашу нельзя использовать повторно, пока не наступит следующий рассвет. Чаша диаметром примерно 1 фут, а в высоту она в два раза меньше. Она весит 3 фунта и вмещает 3 галлона.

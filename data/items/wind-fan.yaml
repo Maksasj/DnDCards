@@ -1,0 +1,15 @@
+id: wind-fan
+name: Веер ветра
+name_en: Wind fan
+source_url: https://dnd.su/items/12-wind-fan/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16171-wind-fan
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Если вы держите этот веер, вы можете действием наложить им заклинание порыв ветра [gust of wind] (Сл спасброска 13). До следующего рассвета веером лучше не пользоваться. За каждое повторное использование до рассвета существует накопительный 20-процентный шанс, что веер не сработает и превратится в бесполезные немагические обрывки.

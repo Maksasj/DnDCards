@@ -1,0 +1,15 @@
+id: serpent-scale-armor
+name: Доспех из змеиной чешуи
+name_en: Serpent Scale Armor
+source_url: https://dnd.su/items/2119-serpent-scale-armor/
+sources:
+  - code: CM
+    book: Candlekeep Mysteries
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: чешуйчатый
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Этот магический доспех сделан из переливающейся чешуи. Пока вы в него облачены, вы можете использовать свой обычный модификатор Ловкости (вместо максимального значения +2) при определении КД. Кроме того, этот доспех не накладывает помеху на ваши проверки Ловкости (Скрытность).

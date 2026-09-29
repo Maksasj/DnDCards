@@ -1,0 +1,14 @@
+id: stone-of-good-luck
+name: Камень удачи
+name_en: Stone of good luck
+source_url: https://dnd.su/items/82-stone-of-good-luck/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока этот полированный агат находится у вас, вы получаете бонус +1 к проверкам характеристик и спасброскам.

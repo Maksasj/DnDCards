@@ -1,0 +1,16 @@
+id: elven-chain
+name: Эльфийская кольчуга
+name_en: Elven chain
+source_url: https://dnd.su/items/259-elven-chain/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15922-elven-chain
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: кольчужная рубаха
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы получаете бонус +1 к КД, когда носите этот доспех. Считается, что вы владеете навыком ношения этого доспеха, даже если не владеете навыком ношения средних доспехов.

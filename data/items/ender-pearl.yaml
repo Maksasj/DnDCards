@@ -1,0 +1,13 @@
+id: ender-pearl
+name: Жемчуг Края
+name_en: Ender Pearl
+source_url: https://dnd.su/items/6329-ender-pearl/
+sources:
+  - code: MC3
+    book: "Monstrous Compendium Vol 3: Minecraft Creatures"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Жемчуг Края стоит 500 зм. Существо может бросить жемчужину на расстояние до 60 футов; если жемчужина приземляется в незанятом пространстве, достаточно большом, чтобы вместить существо, существо телепортируется в это пространство вместе со всем снаряжением, которое оно носит или несёт, и жемчужина исчезает.

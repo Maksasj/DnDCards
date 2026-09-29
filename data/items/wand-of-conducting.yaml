@@ -1,0 +1,18 @@
+id: wand-of-conducting
+name: Дирижёрская палочка
+name_en: Wand of conducting
+source_url: https://dnd.su/items/396-wand-of-conducting/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16151-wand-of-conducting
+type_key: wand
+attunement: false
+type: Волшебная палочка
+rarity: обычная
+rarity_key: common
+price: 50-100 зм
+description: |-
+  У этой волшебной палочки 3 заряда. Если вы её держите, вы можете действием потратить 1 заряд, чтобы создать оркестровую музыку, размахивая ею. Музыку слышно на расстоянии 60 футов, и она заканчивается, когда вы перестанете размахивать палочкой.
+
+  Палочка ежедневно восстанавливает все заряды на рассвете. Если вы потратили последний заряд, бросьте к20. Если выпадет 1, играет грустный тромбон, а палочка рассыпается в пыль и уничтожается.

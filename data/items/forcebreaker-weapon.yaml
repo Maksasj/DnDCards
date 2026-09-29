@@ -1,0 +1,18 @@
+id: forcebreaker-weapon
+name: Оружие разрушения силы
+name_en: Forcebreaker Weapon
+source_url: https://dnd.su/items/7154-forcebreaker-weapon/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любое оружие, наносящее дробящий урон
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Вы получаете бонус +2 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Это оружие было создано для разрушения структур, созданных силой, например, созданных узилище [forcecage] или силовая стена [wall of force]. Удар этим оружием по структуре магической силы Большого размера или меньше, автоматически разрушает эту структуру. Если целью является Огромного размера силовая структура или больше, это оружие разрушает ее часть размером 20 футов в кубе.

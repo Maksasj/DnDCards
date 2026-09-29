@@ -9,151 +9,135 @@ import '@fontsource/pt-sans-narrow/700.css';
 import './styles/card.css';
 import './styles/sheet.css';
 import './styles/app.css';
-import { renderCards, sortSpells } from './sheets.js';
+import { renderCards } from './sheets.js';
+import { createPicker } from './picker.js';
+import { spellCard } from './cards/spell.js';
+import { itemCard, RARITY_ORDER } from './cards/item.js';
 import { SCHOOL_ICONS } from './cards/school-icons.js';
+import { ITEM_ICONS } from './cards/item-icons.js';
 
 // YAML files arrive as parsed objects (see the yaml plugin in vite.config.js).
-const spells = Object.values(import.meta.glob('/data/spells/*.yaml', { import: 'default', eager: true }))
-  .sort(sortSpells);
-const byId = new Map(spells.map((s) => [s.id, s]));
+const load = (files) => Object.values(files);
+const byName = (a, b) => a.name.localeCompare(b.name, 'ru');
+const spells = load(import.meta.glob('/data/spells/*.yaml', { import: 'default', eager: true }))
+  .sort((a, b) => a.level - b.level || byName(a, b));
+const items = load(import.meta.glob('/data/items/*.yaml', { import: 'default', eager: true }))
+  .sort((a, b) => RARITY_ORDER[a.rarity_key] - RARITY_ORDER[b.rarity_key] || byName(a, b));
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
 const printMode = params.has('print'); // used by scripts/render.js: no UI, just sheets
 document.body.classList.toggle('print', printMode);
 
-// ---- Selection: shared via the URL hash (#s=id,id,…) and remembered in localStorage ----
+const uniq = (xs) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, 'ru'));
+const sourceOptions = (list) =>
+  [...new Map(list.flatMap((e) => e.sources ?? []).map((x) => [x.code, x.book]))]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([code, book]) => [code, `${code} — ${book}`]);
+const hasSource = (e, code) => (e.sources ?? []).some((x) => x.code === code);
+
+// ---- Collections: each has its own picker tab, URL key and card template ----
+
+// Class list; spells only available to subclasses count for the parent class ("магия хронургии (волшебник)").
+const classesOf = (s) =>
+  s.classes?.length ? s.classes : (s.subclasses ?? []).map((x) => x.match(/\(([^)]+)\)$/)?.[1]).filter(Boolean);
+const levelTitle = (level) => (level === 0 ? 'Заговоры' : `${level} уровень`);
+
+const RARITY_GROUP = {
+  common: 'Обычные', uncommon: 'Необычные', rare: 'Редкие', very_rare: 'Очень редкие',
+  legendary: 'Легендарные', artifact: 'Артефакты', varies: 'Разная редкость', none: 'Без редкости',
+};
+
+const collections = {
+  spells: {
+    hashKey: 's',
+    data: spells,
+    card: spellCard,
+    searchPlaceholder: 'Поиск заклинаний (рус. или англ.)',
+    chips: {
+      label: 'Уровень',
+      values: uniq(spells.map((s) => String(s.level))).map(Number).sort((a, b) => a - b),
+      get: (s) => s.level,
+      text: (v) => (v === 0 ? 'Заговоры' : v),
+      title: levelTitle,
+    },
+    selects: [
+      { all: 'Все классы', options: uniq(spells.flatMap(classesOf)).map((c) => [c, c]), test: (s, v) => classesOf(s).includes(v) },
+      { all: 'Все школы', options: uniq(spells.map((s) => s.school)).map((c) => [c, c]), test: (s, v) => s.school === v },
+      { all: 'Все источники', options: sourceOptions(spells), test: hasSource },
+    ],
+    group: (s) => s.level,
+    groupTitle: levelTitle,
+    icon: (s) => SCHOOL_ICONS[s.school],
+    iconTitle: (s) => s.school,
+  },
+  items: {
+    hashKey: 'i',
+    data: items,
+    card: itemCard,
+    searchPlaceholder: 'Поиск предметов (рус. или англ.)',
+    chips: {
+      label: 'Редкость',
+      values: Object.keys(RARITY_ORDER).filter((k) => items.some((it) => it.rarity_key === k)),
+      get: (it) => it.rarity_key,
+      text: (k) => RARITY_GROUP[k],
+      title: (k) => RARITY_GROUP[k],
+    },
+    selects: [
+      { all: 'Все типы', options: uniq(items.map((it) => it.type)).map((t) => [t, t]), test: (it, v) => it.type === v },
+      {
+        all: 'Настройка: любая',
+        options: [['yes', 'Требует настройки'], ['no', 'Без настройки']],
+        test: (it, v) => it.attunement === (v === 'yes'),
+      },
+      { all: 'Все источники', options: sourceOptions(items), test: hasSource },
+    ],
+    group: (it) => it.rarity_key,
+    groupTitle: (k) => RARITY_GROUP[k],
+    icon: (it) => ITEM_ICONS[it.type_key],
+    iconTitle: (it) => it.type,
+  },
+};
+for (const c of Object.values(collections)) {
+  c.byId = new Map(c.data.map((e) => [e.id, e]));
+  c.selected = new Set();
+}
+
+// ---- Selection: shared via the URL hash (#s=id,id&i=id,id) and remembered in localStorage ----
 
 const STORAGE_KEY = 'dnd-cards.selected';
 
-function initialSelection() {
-  const hash = new URLSearchParams(location.hash.slice(1)).get('s');
-  if (hash !== null) return hash.split(',');
+function readHash() {
+  const hash = new URLSearchParams(location.hash.slice(1));
+  if (![...Object.values(collections)].some((c) => hash.has(c.hashKey))) return null;
+  return Object.fromEntries(Object.values(collections).map((c) => [c.hashKey, hash.get(c.hashKey)?.split(',') ?? []]));
+}
+
+function readStorage() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}');
+    return Array.isArray(saved) ? { s: saved } : saved; // older versions stored only spell ids
   } catch {
-    return [];
+    return {};
   }
 }
 
-const selected = new Set(initialSelection().filter((id) => byId.has(id)));
+function applySelection(ids) {
+  for (const c of Object.values(collections)) {
+    c.selected.clear();
+    for (const id of ids[c.hashKey] ?? []) if (c.byId.has(id)) c.selected.add(id);
+  }
+}
 
 function saveSelection() {
-  const ids = [...selected];
+  const ids = Object.fromEntries(Object.values(collections).map((c) => [c.hashKey, [...c.selected]]));
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
   } catch {
     // Storage can be unavailable (private mode); the URL still carries the selection.
   }
-  if (!printMode) history.replaceState(null, '', ids.length ? `#s=${ids.join(',')}` : location.pathname + location.search);
-}
-
-// ---- Filters ----
-
-// Class list plus the parent classes of subclass-only spells ("магия хронургии (волшебник)").
-const classesOf = (s) => [...(s.classes ?? []), ...(s.subclasses ?? []).map((x) => x.match(/\(([^)]+)\)$/)?.[1]).filter(Boolean)];
-
-const filters = { q: '', levels: new Set(), cls: '', school: '', source: '', onlySelected: false };
-const normRu = (s) => s.toLowerCase().replace(/ё/g, 'е');
-
-function matches(s) {
-  if (filters.onlySelected && !selected.has(s.id)) return false;
-  if (filters.levels.size && !filters.levels.has(s.level)) return false;
-  if (filters.cls && !classesOf(s).includes(filters.cls)) return false;
-  if (filters.school && s.school !== filters.school) return false;
-  if (filters.source && !(s.sources ?? []).some((x) => x.code === filters.source)) return false;
-  if (filters.q) {
-    const q = normRu(filters.q.trim());
-    if (!normRu(s.name).includes(q) && !s.name_en.toLowerCase().includes(q)) return false;
-  }
-  return true;
-}
-
-const option = (value, label) => {
-  const o = document.createElement('option');
-  o.value = value;
-  o.textContent = label;
-  return o;
-};
-
-function setupFilters() {
-  const uniq = (xs) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, 'ru'));
-
-  $('class').append(option('', 'Все классы'), ...uniq(spells.flatMap((s) => s.classes ?? [])).map((c) => option(c, c)));
-  $('school').append(option('', 'Все школы'), ...uniq(spells.map((s) => s.school)).map((c) => option(c, c)));
-  const books = new Map(spells.flatMap((s) => s.sources ?? []).map((x) => [x.code, x.book]));
-  $('source').append(option('', 'Все источники'),
-    ...[...books].sort(([a], [b]) => a.localeCompare(b)).map(([code, book]) => option(code, `${code} — ${book}`)));
-
-  const levels = [...new Set(spells.map((s) => s.level))].sort((a, b) => a - b);
-  for (const level of levels) {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.textContent = level === 0 ? 'Заговоры' : level;
-    b.title = levelTitle(level);
-    b.setAttribute('aria-pressed', 'false');
-    b.onclick = () => {
-      filters.levels.has(level) ? filters.levels.delete(level) : filters.levels.add(level);
-      b.setAttribute('aria-pressed', String(filters.levels.has(level)));
-      renderList();
-    };
-    $('levels').append(b);
-  }
-
-  $('q').oninput = (e) => { filters.q = e.target.value; renderList(); };
-  $('class').onchange = (e) => { filters.cls = e.target.value; renderList(); };
-  $('school').onchange = (e) => { filters.school = e.target.value; renderList(); };
-  $('source').onchange = (e) => { filters.source = e.target.value; renderList(); };
-  $('only-selected').onchange = (e) => { filters.onlySelected = e.target.checked; renderList(); };
-}
-
-// ---- Spell list ----
-
-const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-let visible = [];
-
-const levelTitle = (level) => (level === 0 ? 'Заговоры' : `${level} уровень`);
-
-// All matching spells on one page, grouped by level, each group flowing into columns.
-function renderList() {
-  visible = spells.filter(matches);
-  $('found').textContent = `Найдено: ${visible.length}`;
-  if (!visible.length) {
-    $('spells').innerHTML = `<p class="empty">Ничего не найдено. Измените поиск или фильтры.</p>`;
-    return;
-  }
-  const groups = Map.groupBy(visible, (s) => s.level);
-  $('spells').innerHTML = [...groups].map(([level, list]) => `
-    <section class="level-group">
-      <h2>${levelTitle(level)} <span>${list.length}</span></h2>
-      <ul>${list.map((s) => `
-        <li><label title="${s.school}">
-          <input type="checkbox" value="${s.id}" ${selected.has(s.id) ? 'checked' : ''} />
-          <span class="icon">${SCHOOL_ICONS[s.school] ?? ''}</span>
-          <span class="ru">${escapeHtml(s.name)}</span>
-          <span class="en">${escapeHtml(s.name_en)}</span>
-          <span class="src">${(s.sources ?? []).map((x) => x.code).join(' ')}</span>
-        </label></li>`).join('')}
-      </ul>
-    </section>`).join('');
-}
-
-function setupList() {
-  $('spells').onchange = (e) => {
-    if (e.target.type !== 'checkbox') return;
-    e.target.checked ? selected.add(e.target.value) : selected.delete(e.target.value);
-    selectionChanged();
-  };
-  $('add-found').onclick = () => {
-    for (const s of visible) selected.add(s.id);
-    selectionChanged();
-    renderList();
-  };
-  $('clear').onclick = () => {
-    selected.clear();
-    selectionChanged();
-    renderList();
-  };
+  const hash = Object.entries(ids).filter(([, v]) => v.length).map(([k, v]) => `${k}=${v.join(',')}`).join('&');
+  if (!printMode) history.replaceState(null, '', hash ? `#${hash}` : location.pathname + location.search);
 }
 
 // ---- Preview ----
@@ -164,29 +148,34 @@ let renderTimer;
 
 function selectionChanged() {
   saveSelection();
-  updateCount();
+  updateCounts();
   clearTimeout(renderTimer);
   renderTimer = setTimeout(renderPreview, 150);
 }
 
-function updateCount() {
-  const n = selected.size;
-  $('selected-count').textContent = n ? `(${n})` : '';
-  $('print').disabled = n === 0;
-  $('share').disabled = n === 0;
+const totalSelected = () => Object.values(collections).reduce((n, c) => n + c.selected.size, 0);
+const count = (n) => (n ? ` (${n})` : '');
+
+function updateCounts() {
+  $('count-spells').textContent = count(collections.spells.selected.size);
+  $('count-items').textContent = count(collections.items.selected.size);
+  $('count-sheets').textContent = count(totalSelected());
+  $('print').disabled = totalSelected() === 0;
+  $('share').disabled = totalSelected() === 0;
 }
 
 async function renderPreview() {
   const token = ++renderToken;
-  const chosen = [...selected].map((id) => byId.get(id));
+  // Print order: spells first, then items, each in list order.
+  const html = Object.values(collections).flatMap((c) => c.data.filter((e) => c.selected.has(e.id)).map(c.card));
   const sheets = $('sheets');
-  if (!chosen.length) {
-    sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания в списке — здесь появятся листы для печати.</p>`;
+  if (!html.length) {
+    sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания или предметы — здесь появятся листы для печати.</p>`;
     $('status').textContent = '';
     window.__cards = { ready: true, count: 0, overflow: [], tall: [] };
     return;
   }
-  const result = await renderCards(sheets, chosen, view);
+  const result = await renderCards(sheets, html, view);
   if (token !== renderToken) return; // a newer render started meanwhile
 
   const pages = sheets.querySelectorAll('.page').length;
@@ -194,7 +183,7 @@ async function renderPreview() {
   if (view === 'sheet') status.push(`${pages} ${plural(pages, 'лист', 'листа', 'листов')} A4`);
   if (result.overflow.length) status.push(`не влезает текст: ${result.overflow.join(', ')}`);
   $('status').textContent = status.join(' · ');
-  window.__cards = { ready: true, count: chosen.length, ...result };
+  window.__cards = { ready: true, count: html.length, ...result };
 }
 
 const plural = (n, one, few, many) => {
@@ -204,6 +193,11 @@ const plural = (n, one, few, many) => {
   if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
   return many;
 };
+
+// ---- Wiring ----
+
+const pickers = Object.entries(collections).map(([key, c]) => createPicker({ key, ...c, onChange: selectionChanged }));
+const renderLists = () => pickers.forEach((p) => p.render());
 
 // The selection lives in the URL hash, so the page address is a shareable link to this selection.
 function setupSharing() {
@@ -218,11 +212,9 @@ function setupSharing() {
   };
   // A different link pasted into an open tab only changes the hash; load that selection.
   window.addEventListener('hashchange', () => {
-    const ids = new URLSearchParams(location.hash.slice(1)).get('s')?.split(',') ?? [];
-    selected.clear();
-    for (const id of ids) if (byId.has(id)) selected.add(id);
+    applySelection(readHash() ?? {});
     selectionChanged();
-    renderList();
+    renderLists();
   });
 }
 
@@ -251,11 +243,10 @@ function setupPreview() {
   };
 }
 
-setupFilters();
-setupList();
+applySelection(readHash() ?? readStorage());
 setupPreview();
 setupTabs();
 setupSharing();
-renderList();
-updateCount();
+renderLists();
+updateCounts();
 renderPreview();

@@ -1,0 +1,15 @@
+id: clockwork-amulet
+name: Механистический амулет
+name_en: Clockwork Amulet
+source_url: https://dnd.su/items/406-clockwork-amulet/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15891-clockwork-amulet
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот медный амулет содержит очень маленькие шестерёнки, находящиеся в постоянном движении и заряженные магией Механуса — плана механической предопределённости. Существо, которое прикладывает амулет к уху, может услышать тихое тиканье и шуршание шестерёнок. Когда вы носите этот амулет и совершаете бросок атаки, вы можете не бросать к20 и просто выбрать значение «10» на кости. Это свойство нельзя использовать повторно до следующего рассвета.

@@ -1,0 +1,13 @@
+id: green-copper-ewer
+name: Кувшин зелёной меди
+name_en: Green copper ewer
+source_url: https://dnd.su/items/2237-green-copper-ewer/
+sources:
+  - code: COS
+    book: Curse of Strahd
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Любая отравленная жидкость, вылитая в этот кувшин, немедленно превращается в то же количество сладкого вина. Более того, существо, держащее кувшин за ручку, может приказать кувшину наполниться, создав 1 галлон вина, после чего кувшин больше не может производить вино до следующего рассвета.

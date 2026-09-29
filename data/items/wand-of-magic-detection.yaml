@@ -1,0 +1,15 @@
+id: wand-of-magic-detection
+name: Волшебная палочка обнаружения магии
+name_en: Wand of magic detection
+source_url: https://dnd.su/items/19-wand-of-magic-detection/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16156-wand-of-magic-detection
+type_key: wand
+attunement: false
+type: Волшебная палочка
+rarity: необычная
+rarity_key: uncommon
+price: 101-500 зм
+description: У этой волшебной палочки 3 заряда. Если вы её держите, вы можете действием потратить 1 заряд, чтобы наложить ей заклинание обнаружение магии [detect magic]. Палочка ежедневно восстанавливает 1к3 заряда на рассвете.

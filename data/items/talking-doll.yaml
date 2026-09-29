@@ -1,0 +1,17 @@
+id: talking-doll
+name: Говорящая кукла
+name_en: Talking Doll
+source_url: https://dnd.su/items/394-talking-doll/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+url_2024: https://next.dnd.su/items/16136-talking-doll
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: "Пока кукла находится в пределах 5 футов от вас, вы можете во время короткого отдыха сказать ей до шести фраз, ни одна из которых не может быть длиннее шести слов, и установить условия, при которых кукла будет говорить каждую фразу. Каким бы ни было условие, оно должно совершиться в пределах 5 футов от куклы, чтобы она заговорила. Например, когда кто-то поднимет куклу, она может сказать: «Я хочу конфетку». Фразы куклы теряются, когда ваша настройка на неё заканчивается."

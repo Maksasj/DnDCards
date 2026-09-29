@@ -1,0 +1,13 @@
+id: clockwork-dog
+name: Заводная собака
+name_en: Clockwork Dog
+source_url: https://dnd.su/items/2414-clockwork-dog/
+sources:
+  - code: SKT
+    book: Storm King's Thunder
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Данная крошечная заводная собака, сделана из меди и олова, с медным же заводным ключом. Персонаж может использовать ключ и действием завести собаку, после чего она последует за персонажами в течение 12 часов. По истечению этого срока, заводной механизм останавливается пока не будет заведён снова. У собаки КД 5, 1 хит, скорость ходьбы 30 футов.

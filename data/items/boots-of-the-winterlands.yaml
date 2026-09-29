@@ -1,0 +1,20 @@
+id: boots-of-the-winterlands
+name: Заполярные сапоги
+name_en: Boots of the winterlands
+source_url: https://dnd.su/items/53-boots-of-the-winterlands/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15864-boots-of-the-winterlands
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Эти меховые сапоги очень плотные и тёплые. Пока вы их носите, вы получаете следующие преимущества:
+
+  - Вы получаете сопротивление урону холодом.
+  - Вы игнорируете труднопроходимую местность, созданную льдом или снегом.
+  - Вы нормально переносите температуру до -50 °F (-45 °C) без тёплой одежды. Если вы одеты в теплую одежду, то можете переносить температуру до -100 °F (-73 °C).

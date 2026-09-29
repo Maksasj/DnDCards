@@ -1,0 +1,15 @@
+id: lantern-of-revealing
+name: Фонарь обнаружения
+name_en: Lantern of revealing
+source_url: https://dnd.su/items/244-lantern-of-revealing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15976-lantern-of-revealing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Этот закрытый фонарь способен гореть в течение шести часов на одной пинте масла, распространяя яркий свет в радиусе 30 футов и тусклый свет в радиусе ещё 30 футов. Все невидимые предметы и существа становятся видимыми, если они находятся в ярком свете этого фонаря. Вы можете действием опустить козырёк, уменьшив освещение до тусклого света в пределах 5 футов.

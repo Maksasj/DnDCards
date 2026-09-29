@@ -1,0 +1,14 @@
+id: emerald-pen
+name: Изумрудное перо
+name_en: Emerald Pen
+source_url: https://dnd.su/items/2967-emerald-pen/
+sources:
+  - code: FTD
+    book: Fizban's Treasury of Dragons
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Это перо с изумрудным наконечником, не требующее чернил для письма. Держа это перо, вы можете неограниченно накладывать невидимое письмо [illusory script], без использования материальных компонентов.

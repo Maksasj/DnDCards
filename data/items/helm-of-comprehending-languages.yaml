@@ -1,0 +1,15 @@
+id: helm-of-comprehending-languages
+name: Шлем понимания языков
+name_en: Helm of comprehending languages
+source_url: https://dnd.su/items/251-helm-of-comprehending-languages/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15956-helm-of-comprehending-languages
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот шлем, вы можете неограниченно действием накладывать заклинание понимание языков [comprehend languages].

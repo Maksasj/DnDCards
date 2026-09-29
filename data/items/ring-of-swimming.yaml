@@ -1,0 +1,15 @@
+id: ring-of-swimming
+name: Кольцо плавания
+name_en: Ring of swimming
+source_url: https://dnd.su/items/101-ring-of-swimming/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16064-ring-of-swimming
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Вы получаете скорость плавания 40 футов, пока носите это кольцо.

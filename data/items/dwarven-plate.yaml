@@ -1,0 +1,16 @@
+id: dwarven-plate
+name: Латы дварфов
+name_en: Dwarven plate
+source_url: https://dnd.su/items/122-dwarven-plate/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15915-dwarven-plate
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: латы
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Пока вы носите этот доспех, вы получаете бонус +2 к КД. Кроме того, если некий эффект перемещает вас по земле против вашей воли, вы можете реакцией уменьшить расстояние, на которое вас переместят, на расстояние до 10 футов.

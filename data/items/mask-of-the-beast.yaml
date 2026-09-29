@@ -1,0 +1,14 @@
+id: mask-of-the-beast
+name: Маска зверя
+name_en: Mask of the Beast
+source_url: https://dnd.su/items/2342-mask-of-the-beast/
+sources:
+  - code: TOA
+    book: Tomb of Annihilation
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эта деревянная маска изображает голову животного и имеет 3 заряда. При ношении маски вы можете потратить 1 заряд и использовать маску, чтобы действием наложить заклинание дружба с животными [animal friendship]. Маска восстанавливает все потраченные заряды на рассвете.

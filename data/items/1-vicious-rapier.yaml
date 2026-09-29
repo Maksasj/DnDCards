@@ -1,0 +1,15 @@
+id: 1-vicious-rapier
+name: Жестокая рапира +1
+name_en: +1 Vicious Rapier
+source_url: https://dnd.su/items/2164-1-vicious-rapier/
+sources:
+  - code: AI
+    book: Acquisition Incorporated
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: рапира
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Если у вас при броске атаки этим магическим оружием выпадает «20», цель получает 7 дополнительного урона того же вида, который причиняет это оружие.

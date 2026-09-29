@@ -1,0 +1,16 @@
+id: smoldering-armor
+name: Дымящий доспех
+name_en: Smoldering Armor
+source_url: https://dnd.su/items/398-smoldering-armor/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16101-smoldering-armor
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: легкий, средний, тяжелый
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Когда этот доспех надет, он источает клубы не имеющего запаха безвредного дыма.

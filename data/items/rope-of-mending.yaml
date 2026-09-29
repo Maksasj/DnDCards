@@ -1,0 +1,15 @@
+id: rope-of-mending
+name: Срастающаяся верёвка
+name_en: Rope of Mending
+source_url: https://dnd.su/items/429-rope-of-mending/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16086-rope-of-mending
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Вы можете разрезать этот 50-футовый моток верёвки на любое количество частей, а затем действием сказать командное слово и заставить их соединиться обратно. Части должны соприкасаться друг с другом и не должны использоваться в данный момент. Срастающаяся верёвка навсегда укорачивается если её часть потеряна или уничтожена.

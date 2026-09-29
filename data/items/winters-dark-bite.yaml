@@ -1,0 +1,18 @@
+id: winters-dark-bite
+name: Тёмный укус зимы
+name_en: Winter’s Dark Bite
+source_url: https://dnd.su/items/2326-winters-dark-bite/
+sources:
+  - code: HT
+    book: Hunt for the Thessalhydra
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: двуручный меч
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  У вас есть бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Этот двуручный меч сделан из неизвестного чёрного металла. В большинстве случаев он считается двуручным мечом +1. Но когда он используется против фессалгидры [thessalhydra], он считается двуручным мечом +3. Находясь в перевернутом мире, он считается двуручным мечом +4.

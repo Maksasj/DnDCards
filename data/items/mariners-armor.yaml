@@ -1,0 +1,16 @@
+id: mariners-armor
+name: Доспех моряка
+name_en: Mariner’s armor
+source_url: https://dnd.su/items/35-mariners-armor/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15988-mariners-armor
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: легкий, средний, тяжелый
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот доспех, вы обладаете скоростью плавания, равной скорости вашей ходьбы. Кроме того, каждый раз, когда вы начинаете ход, находясь под водой и с 0 хитов, вы поднимаетесь к поверхности на 60 футов. Данный доспех искусно декорирован различными мотивами с изображениями рыб и морских раковин.

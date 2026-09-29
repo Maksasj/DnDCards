@@ -1,0 +1,15 @@
+id: potion-of-climbing
+name: Зелье лазания
+name_en: Potion of climbing
+source_url: https://dnd.su/items/60-potion-of-climbing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16024-potion-of-climbing
+type_key: potion
+attunement: false
+type: Зелье
+rarity: обычное
+rarity_key: common
+price: 25-50 зм
+description: Когда вы выпиваете это зелье, вы получаете на 1 час скорость лазания, равную вашей скорости ходьбы. В течение этого времени вы совершаете с преимуществом проверки Силы (Атлетика), совершённые, чтобы лезть. Зелье представляет собой трёхцветную жидкость. Коричневый, серебряный и серый слои структурой напоминают рисунок на камне и не смешиваются между собой, как бы вы ни трясли пузырёк.

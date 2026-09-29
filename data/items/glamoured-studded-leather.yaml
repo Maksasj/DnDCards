@@ -1,0 +1,16 @@
+id: glamoured-studded-leather
+name: Красивый проклёпанный кожаный доспех
+name_en: Glamoured studded leather
+source_url: https://dnd.su/items/116-glamoured-studded-leather/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15943-glamoured-studded-leather
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: проклёпанный кожаный
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Пока вы носите этот доспех, вы получаете бонус +1 к КД. Вы также можете бонусным действием произнести его командное слово и заставить доспех принять облик обычной одежды или любого другого доспеха. Вы сами решаете, как он будет выглядеть, включая цвет, стиль и аксессуары, но доспех при этом сохраняет свой объём и вес. Иллюзорный облик длится до тех пор, пока вы не используете это свойство повторно или не снимете доспех.

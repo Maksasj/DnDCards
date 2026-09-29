@@ -1,0 +1,15 @@
+id: slippers-of-spider-climbing
+name: Туфли паука
+name_en: Slippers of spider climbing
+source_url: https://dnd.su/items/239-slippers-of-spider-climbing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16100-slippers-of-spider-climbing
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эту лёгкую обувь, вы можете перемещаться по вертикальным поверхностям, а также вверх ногами по потолку, оставляя руки свободными. Вы получаете скорость лазания, равную скорости ходьбы. Однако туфли не позволяют перемещаться так по скользкой поверхности, например, покрытой маслом или льдом.

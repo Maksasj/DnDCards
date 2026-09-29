@@ -1,0 +1,18 @@
+id: winged-boots
+name: Крылатые сапоги
+name_en: Winged boots
+source_url: https://dnd.su/items/117-winged-boots/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16172-winged-boots
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Пока вы носите эти сапоги, вы обладаете скоростью полёта, равной вашей скорости ходьбы. С помощью сапогов вы можете лететь до 4 часов, за раз или по частям, но каждое использование считается как минимум за 1 минуту. Если вы летите, когда 4 часа заканчиваются, вы спускаетесь со скоростью 30 футов в раунд, пока не приземлитесь.
+
+  Сапоги восстанавливают 2 часа полёта за каждые 12 часов, пока не используются.

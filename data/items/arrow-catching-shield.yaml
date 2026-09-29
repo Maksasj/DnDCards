@@ -1,0 +1,16 @@
+id: arrow-catching-shield
+name: Ловящий стрелы щит
+name_en: Arrow-catching shield
+source_url: https://dnd.su/items/123-arrow-catching-shield/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15844-arrow-catching-shield
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: щит
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы получаете бонус +2 к КД от дальнобойных атак, пока носите этот щит. Этот бонус идёт в дополнение к обычному бонусу щита к КД. Кроме того, каждый раз, когда кто-нибудь совершает дальнобойную атаку по цели, находящейся в пределах 5 футов от вас, вы можете реакцией вместо этого сделать целью атаки себя.

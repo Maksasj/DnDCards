@@ -1,0 +1,16 @@
+id: plate-armor-of-etherealness
+name: Латный доспех эфирности
+name_en: Plate armor of etherealness
+source_url: https://dnd.su/items/121-plate-armor-of-etherealness/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16017-plate-armor-of-etherealness
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: латы
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: Если вы носите этот доспех, вы можете действием произнести его командное слово, чтобы получить эффект заклинания эфирность [etherealness], который длится 10 минут, либо пока вы не снимете доспех, либо пока вы не произнесёте командное слово ещё раз. Вы не можете использовать это свойство повторно до следующего рассвета.

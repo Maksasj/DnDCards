@@ -1,0 +1,15 @@
+id: gauntlets-of-ogre-power
+name: Рукавицы силы огра
+name_en: Gauntlets of ogre power
+source_url: https://dnd.su/items/203-gauntlets-of-ogre-power/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15939-gauntlets-of-ogre-power
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Ваша Сила равна 19, когда вы носите эти латные рукавицы. Они не оказывают на вас эффект, если ваша Сила без них уже 19 или выше.

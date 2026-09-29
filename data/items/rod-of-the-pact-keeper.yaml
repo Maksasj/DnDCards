@@ -1,0 +1,17 @@
+id: rod-of-the-pact-keeper
+name: Жезл хранителя договора
+name_en: Rod of the pact keeper
+source_url: https://dnd.su/items/46-rod-of-the-pact-keeper/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16083-rod-of-the-pact-keeper
+type_key: rod
+attunement: false
+type: Жезл
+rarity: редкость варьируется (+1 необычный, +2 редкий, +3 очень редкий, требуется настройка колдуном)
+rarity_key: varies
+description: |-
+  Держа этот жезл, вы получаете бонус к броскам атаки заклинаниями колдуна и Сл спасбросков от ваших заклинаний колдуна. Размер бонуса определяется редкостью жезла.
+
+  Кроме того, вы можете действием восстановить одну ячейку заклинания колдуна, если держите этот жезл. Вы не можете использовать это свойство повторно, пока не окончите продолжительный отдых.

@@ -1,0 +1,19 @@
+id: natures-mantle
+name: Мантия природы
+name_en: Nature’s mantle
+source_url: https://dnd.su/items/2214-natures-mantle/
+sources:
+  - code: TCE
+    book: Tasha's Cauldron of Everything
+url_2024: https://next.dnd.su/items/15995-natures-mantle
+type_key: magic
+attunement: true
+attunement_by: друидом или следопытом
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Этот плащ меняет цвет и текстуру для смешения с окружающей вас местностью. Пока вы носите плащ, вы можете использовать его в качестве заклинательной фокусировки для ваших заклинаний друида и следопыта.
+
+  Пока вы находитесь в слабо заслонённой области, вы можете использовать действие Засада бонусным действием, даже если за вами непосредственно наблюдают.

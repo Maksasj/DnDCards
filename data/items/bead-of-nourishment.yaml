@@ -1,0 +1,15 @@
+id: bead-of-nourishment
+name: Бусина насыщения
+name_en: Bead of Nourishment
+source_url: https://dnd.su/items/393-bead-of-nourishment/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15851-bead-of-nourishment
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 25-50 зм
+description: Эта пористая безвкусная студенистая бусина растворяется у вас на языке и насыщает вас на 1 день.

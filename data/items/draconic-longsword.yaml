@@ -1,0 +1,14 @@
+id: draconic-longsword
+name: Драконий длинный меч
+name_en: Draconic Longsword
+source_url: https://dnd.su/items/2347-draconic-longsword/
+sources:
+  - code: TOA
+    book: Tomb of Annihilation
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: длинный меч
+rarity: ""
+rarity_key: none
+description: Рукоять данного длинного меча выполнена в форме дракона. Пока вы им владеете, вы способны говорить и понимать Драконий.

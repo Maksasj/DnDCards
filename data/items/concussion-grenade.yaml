@@ -1,0 +1,13 @@
+id: concussion-grenade
+name: Оглушающая граната
+name_en: Concussion Grenade
+source_url: https://dnd.su/items/10779-concussion-grenade/
+sources:
+  - code: QIS
+    book: Quest from the Infinite Staircase
+type_key: weapon
+attunement: false
+type: Оружие
+rarity: ""
+rarity_key: none
+description: Эта граната взрывается сотрясающей вспышкой и заполняет сферу радиусом 20 футов. Каждое существо в этой области должно совершить спасбросок Ловкости Сл 15, при провале получая 6к6 урона силовым полем и половину урона при успехе.

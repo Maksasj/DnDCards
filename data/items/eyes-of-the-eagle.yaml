@@ -1,0 +1,15 @@
+id: eyes-of-the-eagle
+name: Очки орлиного зрения
+name_en: Eyes of the eagle
+source_url: https://dnd.su/items/163-eyes-of-the-eagle/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15934-eyes-of-the-eagle
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эти кристаллические линзы размещаются напротив глаз. Пока вы их носите, вы совершаете с преимуществом проверки Мудрости (Восприятие), полагающиеся на зрение. В условиях хорошей видимости вы можете разглядеть подробности даже у экстремально далёких существ и предметов, с размером не меньше 2 футов в поперечнике.

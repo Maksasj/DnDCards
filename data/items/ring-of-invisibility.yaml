@@ -1,0 +1,15 @@
+id: ring-of-invisibility
+name: Кольцо невидимости
+name_en: Ring of invisibility
+source_url: https://dnd.su/items/97-ring-of-invisibility/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16055-ring-of-invisibility
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: легендарное
+rarity_key: legendary
+price: от 50 001 зм
+description: Нося это кольцо, вы можете действием становиться невидимым. Всё, что вы несёте и носите, становится невидимым вместе с вами. Вы остаётесь невидимым, пока не снимете кольцо, пока не атакуете или не наложите заклинание, или пока не станете снова видимым бонусным действием.

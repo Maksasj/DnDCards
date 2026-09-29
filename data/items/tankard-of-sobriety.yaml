@@ -1,0 +1,15 @@
+id: tankard-of-sobriety
+name: Кружка трезвости
+name_en: Tankard of Sobriety
+source_url: https://dnd.su/items/405-tankard-of-sobriety/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16137-tankard-of-sobriety
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: На одной стороне этой кружки изображено суровое лицо. Вы можете пить из этой кружки эль, вино или любой другой немагический алкоголь и не пьянеть. Кружка не оказывает никакого эффекта на магический алкоголь и вредные вещества, такие как яд.

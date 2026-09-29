@@ -1,0 +1,16 @@
+id: fane-eater
+name: Храмовый пожиратель
+name_en: Fane-Eater
+source_url: https://dnd.su/items/2251-fane-eater/
+sources:
+  - code: BGDA
+    book: "Baldur's Gate: Descent Into Avernus"
+type_key: weapon
+attunement: true
+attunement_by: жрецом со злым мировоззрением или паладином со злым мировоззрением
+type: Оружие
+type_detail: боевой топор
+rarity: легендарное
+rarity_key: legendary
+price: от 50 001 зм
+description: Вы получаете бонус +3 к броскам атаки и урона, совершаемым с этим топором. Если вы атакуете существо этим оружием и при броске атаки у вас выпадает «20», существо получает 2к8 дополнительного урона некротической энергией, и вы восстанавливаете количество хитов, равное нанесённому урону некротической энергией.

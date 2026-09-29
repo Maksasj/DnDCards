@@ -1,0 +1,15 @@
+id: cloak-of-billowing
+name: Развевающийся плащ
+name_en: Cloak of Billowing
+source_url: https://dnd.su/items/420-cloak-of-billowing/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15883-cloak-of-billowing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Когда вы носите этот плащ, вы можете бонусным действием заставить его драматично развеваться.

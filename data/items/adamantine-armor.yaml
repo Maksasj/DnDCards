@@ -1,0 +1,16 @@
+id: adamantine-armor
+name: Адамантиновый доспех
+name_en: Adamantine armor
+source_url: https://dnd.su/items/1-adamantine-armor/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15829-adamantine-armor
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: средний или тяжёлый, кроме шкурного
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эти доспехи усилены адамантином, одним из самых прочных из существующих веществ. Пока вы носите эти доспехи, все критические попадания по вам считаются обычными попаданиями.

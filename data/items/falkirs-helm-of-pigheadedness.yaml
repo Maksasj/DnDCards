@@ -1,0 +1,13 @@
+id: falkirs-helm-of-pigheadedness
+name: Шлем твердолобости Фалкира
+name_en: Falkir’s Helm of Pigheadedness
+source_url: https://dnd.su/items/2475-falkirs-helm-of-pigheadedness/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: "Данный стальной шлем выполнен в виде кабаньей головы. Шлем проклят и если его надеть, он не может быть снят, пока носящий шлем не умрет или пока на шлем не будет наложено заклинание cнятие проклятия [remove curse] или подобная магия. Любой носящий шлем гуманоид, получает следующий изъян (см. Персонализации в *Книге Игрока*) пока шлем не будет снят: «Я чрезвычайно упрям и всегда считаю что прав.» (Данная слабость заменяет любую конфликтующую с ней слабость.)"

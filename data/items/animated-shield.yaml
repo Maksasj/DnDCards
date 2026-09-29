@@ -1,0 +1,16 @@
+id: animated-shield
+name: Живой щит
+name_en: Animated shield
+source_url: https://dnd.su/items/52-animated-shield/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15837-animated-shield
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: щит
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Если вы держите этот щит, вы можете бонусным действием произнести командное слово, чтобы он ожил. Щит поднимается в воздух и парит в вашем пространстве, защищая так, как если бы вы его использовали, но ваши руки при этом свободны. Щит остаётся живым 1 минуту, пока вы не окончите эффект бонусным действием или пока вы не станете недееспособным или не умрёте, после чего щит падает на землю или в вашу руку, если она свободна.

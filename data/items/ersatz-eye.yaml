@@ -1,0 +1,15 @@
+id: ersatz-eye
+name: Запасной глаз
+name_en: Ersatz Eye
+source_url: https://dnd.su/items/399-ersatz-eye/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15928-ersatz-eye
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот искусственный глаз заменяет настоящий, который был потерян или удалён. Когда запасной глаз вставлен в глазницу, его не может удалить никто, кроме вас, и вы можете видеть через этот крошечный шарик, как будто это обычный глаз.

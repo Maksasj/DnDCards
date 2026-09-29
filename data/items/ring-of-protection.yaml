@@ -1,0 +1,15 @@
+id: ring-of-protection
+name: Кольцо защиты
+name_en: Ring of protection
+source_url: https://dnd.su/items/94-ring-of-protection/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16058-ring-of-protection
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы получаете бонус +1 к КД и спасброскам, пока носите это кольцо.

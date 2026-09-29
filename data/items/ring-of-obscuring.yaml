@@ -1,0 +1,14 @@
+id: ring-of-obscuring
+name: Кольцо затуманивания
+name_en: Ring of Obscuring
+source_url: https://dnd.su/items/2286-ring-of-obscuring/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: "Эта железная лента холодная на ощупь и напоминает череп. Она имеет 3 заряда и восстанавливает 1к3 израсходованных зарядов ежедневно на рассвете. Действием, пока вы носите кольцо вы можете потратить 1 заряд, чтобы наложить заклинание туманное облако [fog cloud] с помощью кольца, со следующими изменениями: когда облако появляется, оно центрируется на вас, и заклинание длится 1 минуту (концентрация не требуется)."

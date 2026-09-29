@@ -1,0 +1,17 @@
+id: candle-mace
+name: Светящаяся булава
+name_en: Candle Mace
+source_url: https://dnd.su/items/2253-candle-mace/
+sources:
+  - code: BGDA
+    book: "Baldur's Gate: Descent Into Avernus"
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: булава
+rarity: ""
+rarity_key: none
+description: |-
+  Вы получаете +1 бонус к броскам атаки и урона этим оружием.
+
+  Навершие этой булавы излучает яркий свет в радиусе 5 футов и тусклый свет в радиусе 5 футов. Пока вы держите это оружие, действием вы можете зажечь или погасить её свет.

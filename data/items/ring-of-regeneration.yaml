@@ -1,0 +1,15 @@
+id: ring-of-regeneration
+name: Кольцо регенерации
+name_en: Ring of regeneration
+source_url: https://dnd.su/items/105-ring-of-regeneration/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16059-ring-of-regeneration
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Нося это кольцо, вы восстанавливаете 1к6 хитов каждые 10 минут, при условии, что у вас есть хотя бы 1 хит. Если вы теряете часть тела, кольцо отращивает её и возвращает функциональность через 1к6 + 1 день, если всё это время у вас есть хотя бы 1 хит.

@@ -1,0 +1,19 @@
+id: breathing-bubble
+name: Дыхательный пузырь
+name_en: Breathing Bubble
+source_url: https://dnd.su/items/2280-breathing-bubble/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: |-
+  Эта полупрозрачная, похожая на пузырь сфера имеет слегка липкую внешнюю поверхность, и вы получаете преимущества предмета только тогда, когда носите его на голове, как шлем.
+
+  Пузырь содержит количество пригодного для дыхания воздуха, которым вы можете дышать в течении 1 часа. Пузырь ежедневно на рассвете восстанавливает весь израсходованный воздух.

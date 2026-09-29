@@ -1,0 +1,15 @@
+id: boots-of-elvenkind
+name: Эльфийские сапоги
+name_en: Boots of Elvenkind
+source_url: https://dnd.su/items/260-boots-of-elvenkind/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15859-boots-of-elvenkind
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти сапоги, ваши шаги не издают звука, вне зависимости от поверхности, по которой вы идёте. Вы также совершаете с преимуществом проверки Ловкости (Скрытность), которые полагаются на бесшумное передвижение.

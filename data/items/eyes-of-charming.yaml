@@ -1,0 +1,15 @@
+id: eyes-of-charming
+name: Очки очарования
+name_en: Eyes of charming
+source_url: https://dnd.su/items/164-eyes-of-charming/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15932-eyes-of-charming
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эти кристаллические линзы размещаются напротив глаз. У них есть 3 заряда. Если вы их носите, вы можете действием потратить 1 заряд, чтобы наложить заклинание очарование личности [сharm person] (Сл спасброска 13) на Гуманоида в пределах 30 футов от себя при условии, что вы с ним видите друг друга. Линзы ежедневно на рассвете восстанавливают все потраченные заряды.

@@ -1,0 +1,15 @@
+id: bloodseeker-ammunition
+name: Боеприпасы кровавого искателя
+name_en: Bloodseeker Ammunition
+source_url: https://dnd.su/items/7147-bloodseeker-ammunition/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любые боеприпасы
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Броски дальнобойной атаки, совершённые с помощью этого боеприпаса, совершаются с преимуществом против любого существа, у которого хиты были не полные.

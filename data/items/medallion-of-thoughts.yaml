@@ -1,0 +1,15 @@
+id: medallion-of-thoughts
+name: Медальон мыслей
+name_en: Medallion of thoughts
+source_url: https://dnd.su/items/140-medallion-of-thoughts/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15989-medallion-of-thoughts
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: У этого медальона есть 3 заряда. Пока вы его носите, вы можете действием потратить 1 заряд, чтобы наложить им заклинание обнаружение мыслей [detect thoughts] (Сл спасброска 13). Медальон ежедневно восстанавливает 1к3 заряда на рассвете.

@@ -3,7 +3,8 @@
 //   npm run pdf -- <link> [name]   → out/<name>.pdf         (print-ready A4 sheets)
 //   npm run png -- <link> [name]   → out/png/<name>/*.png   (one image per card + sheet images, for review)
 //
-// <link> is a share link copied from the site ("…#s=fireball,shield"), or just "fireball,shield".
+// <link> is a share link copied from the site ("…#s=fireball,shield&i=bag-of-holding"),
+// or just spell ids ("fireball,shield").
 // [name] defaults to "cards".
 
 import fs from 'node:fs/promises';
@@ -16,7 +17,8 @@ if (!['pdf', 'png'].includes(mode) || !link) {
   console.error('Usage: npm run pdf -- "<share link or id,id,…>" [name]');
   process.exit(1);
 }
-const ids = link.includes('s=') ? link.slice(link.indexOf('s=') + 2).split(/[&#]/)[0] : link;
+// "…/#s=a,b&i=c" → "s=a,b&i=c"; a bare "a,b" means spell ids.
+const hash = link.includes('#') ? link.slice(link.indexOf('#') + 1) : /(^|&)[si]=/.test(link) ? link : `s=${link}`;
 
 const server = await createServer({ logLevel: 'error', server: { port: 0 } });
 await server.listen();
@@ -26,7 +28,7 @@ const browser = await chromium.launch();
 try {
   const page = await browser.newPage({ deviceScaleFactor: mode === 'png' ? 4 : 1 });
   const open = async (view) => {
-    await page.goto(`${base}?view=${view}&print#s=${ids}`);
+    await page.goto(`${base}?view=${view}&print#${hash}`);
     await page.waitForFunction(() => window.__cards?.ready, null, { timeout: 30000 });
     return page.evaluate(() => window.__cards);
   };

@@ -1,0 +1,15 @@
+id: bracers-of-defense
+name: Наручи защиты
+name_en: Bracers of defense
+source_url: https://dnd.su/items/151-bracers-of-defense/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15867-bracers-of-defense
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Пока вы носите эти наручи, вы получаете бонус +2 к КД, если не носите доспех и не используете щит.

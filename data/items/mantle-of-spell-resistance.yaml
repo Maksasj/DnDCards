@@ -1,0 +1,15 @@
+id: mantle-of-spell-resistance
+name: Мантия сопротивления заклинаниям
+name_en: Mantle of spell resistance
+source_url: https://dnd.su/items/132-mantle-of-spell-resistance/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15983-mantle-of-spell-resistance
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы совершаете с преимуществом спасброски от заклинаний, пока носите этот плащ.

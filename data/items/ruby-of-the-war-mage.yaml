@@ -1,0 +1,16 @@
+id: ruby-of-the-war-mage
+name: Рубин боевого мага
+name_en: Ruby of the war mage
+source_url: https://dnd.su/items/422-ruby-of-the-war-mage/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16087-ruby-of-the-war-mage
+type_key: magic
+attunement: true
+attunement_by: заклинателем
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Испещрённый магическими рунами, этот рубин диаметром 1 дюйм (2,5 см) позволяет использовать простое или воинское оружие в качестве заклинательной фокусировки. Чтобы это сделать, вы должны прикрепить рубин к оружию, прижимая его к оружию не менее 10 минут. После этого удалить рубин можно будет только действием или уничтожив оружие. Даже преграда магии [antimagic field] не заставит его отсоединиться. Рубин падает с оружия, если ваша настройка на него оканчивается.

@@ -1,0 +1,15 @@
+id: dagger-of-blindsight
+name: Кинжал слепого зрения
+name_en: Dagger of Blindsight
+source_url: https://dnd.su/items/2458-dagger-of-blindsight/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: кинжал
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Этот редкий магический предмет требует настройки. Настроившееся на него существо получает слепое зрение на расстоянии 30 футов. В рукоять кинжала с пилообразным лезвием вставлена чёрная жемчужина.

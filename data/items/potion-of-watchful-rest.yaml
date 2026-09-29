@@ -1,0 +1,14 @@
+id: potion-of-watchful-rest
+name: Зелье бдительного отдыха
+name_en: Potion of Watchful Rest
+source_url: https://dnd.su/items/2448-potion-of-watchful-rest/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: potion
+attunement: false
+type: Зелье
+rarity: обычное
+rarity_key: common
+price: 25-50 зм
+description: "Если вы выпиваете это зелье, то на 8 часов вы получаете следующее преимущество: вас невозможно магически усыпить и вы можете бодрствовать во время продолжительного отдыха получая при этом все его выгоды. Этот сладкий напиток янтарного цвета не оказывает никакого эффекта на существ которые не нуждаются во сне, например эльфов."

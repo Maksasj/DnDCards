@@ -1,0 +1,22 @@
+id: instrument-of-scribing
+name: Инструмент надписей
+name_en: Instrument of Scribing
+source_url: https://dnd.su/items/402-instrument-of-scribing/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+url_2024: https://next.dnd.su/items/15969-instrument-of-scribing
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: |-
+  У этого инструмента 3 заряда. Играя на нём, вы можете действием потратить один заряд инструмента, чтобы написать магическое послание на немагическом предмете или поверхности, которые вы можете видеть в пределах 30 футов от вас.
+
+  Послание не может превышать 6 слов и должно быть написано на известном вам языке. Если вы бард, то можете увеличить длину сообщения ещё на 7 слов, и по вашему выбору слова могут слабо светиться, что позволит прочесть их в немагической темноте. Применение заклинания рассеивание магии [dispel magic] на слова стирает их. В противном случае сообщение пропадает через 24 часа.
+
+  Инструмент восстанавливает все потраченные заряды ежедневно на рассвете.

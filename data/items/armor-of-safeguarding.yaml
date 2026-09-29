@@ -1,0 +1,20 @@
+id: armor-of-safeguarding
+name: Доспех защиты
+name_en: Armor of Safeguarding
+source_url: https://dnd.su/items/6443-armor-of-safeguarding/
+sources:
+  - code: BPGG
+    book: "Bigby Presents: Glory of the Giants"
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: любой тяжёлый
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  В центре нагрудника этого доспеха находится цитрин, на котором выгравирована руна «Щит».
+
+  Когда вы носите эти доспехи, максимальное количество ваших хитов увеличивается на величину, равную 10 + ваш уровень.
+
+  ***Пробуждение руны.*** Действием вы можете пробудить руну доспеха, чтобы наложить с её помощью заклинание маяк надежды [beacon of hope]; заклинание действует 1 минуту и не требует концентрации. После того как руна была вызвана, она не может быть вызвана снова до следующего рассвета.

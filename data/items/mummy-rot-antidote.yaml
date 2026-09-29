@@ -1,0 +1,14 @@
+id: mummy-rot-antidote
+name: Противоядие пыли мумии
+name_en: Mummy Rot Antidote
+source_url: https://dnd.su/items/3793-mummy-rot-antidote/
+sources:
+  - code: IMR
+    book: Infernal Machine Rebuild
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Белая пыль постоянно кружится внутри этого бледно-серого зелья. Когда вы выпиваете зелье, оно излечит вас от гнили мумии.

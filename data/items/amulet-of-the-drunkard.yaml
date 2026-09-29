@@ -1,0 +1,14 @@
+id: amulet-of-the-drunkard
+name: Амулет пьяницы
+name_en: Amulet of the Drunkard
+source_url: https://dnd.su/items/2283-amulet-of-the-drunkard/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Этот амулет пахнет старым, пропитанным элем деревом. Пока вы его носите, вы можете восстановить себе 4к4 + 4 хита, после того как выпьете пинту пива, эля, медовухи или вина. Как только амулет восстановит хиты, он не может сделать это снова до следующего рассвета.

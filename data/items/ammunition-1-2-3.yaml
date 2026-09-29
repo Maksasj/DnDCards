@@ -1,0 +1,14 @@
+id: ammunition-1-2-3
+name: Боеприпас +1, +2, +3
+name_en: Ammunition +1, +2, +3
+source_url: https://dnd.su/items/278-ammunition-1-2-3/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любые боеприпасы
+rarity: редкость варьируется (+1 необычный, +2 редкий, +3 очень редкий)
+rarity_key: varies
+description: Вы получаете бонус к броскам атаки и урона, совершённым при использовании этого магического боеприпаса. Размер бонуса определяется показателем редкости боеприпаса. Попав в цель, боеприпас перестаёт быть магическим.

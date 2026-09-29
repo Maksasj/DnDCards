@@ -1,0 +1,16 @@
+id: walloping-ammunition
+name: Опрокидывающий боеприпас
+name_en: Walloping Ammunition
+source_url: https://dnd.su/items/408-walloping-ammunition/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16149-walloping-ammunition
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любые боеприпасы
+rarity: обычное
+rarity_key: common
+price: 50-100 зм
+description: Этот боеприпас содержит в себе скрытый сильный удар. Существо, в которое попал такой боеприпас, должно преуспеть в спасброске Силы Сл 10, иначе будет сбито с ног.

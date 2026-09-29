@@ -1,0 +1,15 @@
+id: ring-of-jumping
+name: Кольцо прыжков
+name_en: Ring of jumping
+source_url: https://dnd.su/items/104-ring-of-jumping/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16056-ring-of-jumping
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Нося это кольцо, вы можете бонусным действием накладывать заклинание прыжок [jump], но нацеливаясь при этом только на себя.

@@ -1,0 +1,17 @@
+id: amulet-of-protection-from-turning
+name: Амулет защиты от изгнания
+name_en: Amulet of Protection from Turning
+source_url: https://dnd.su/items/2422-amulet-of-protection-from-turning/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Пока вы носите этот амулет из серебра и бирюзы, вы получаете преимущество на спасброски против эффектов изгоняющих нежить.
+
+  Если вы провалили спасбросок от этого эффекта, то вы можете мгновенно потратить один заряд и получить успех. Вы можете сделать так три раза, все израсходованные заряды восстанавливаются на рассвете.

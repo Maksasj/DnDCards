@@ -1,0 +1,15 @@
+id: propeller-helm
+name: Шлем-пропеллер
+name_en: Propeller Helm
+source_url: https://dnd.su/items/2455-propeller-helm/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: true
+attunement_by: гуманоидом Маленького размера
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот шлем, вы можете действием наложить заклинание левитация [levitate], без затрат материальных компонентов. Пока заклинание активно, пропеллер крутится и громко жужжит. Каждый раз, когда действие заклинания заканчивается, есть 50% вероятность того, что шлем потеряет свою магию и станет немагическим предметом.

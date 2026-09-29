@@ -1,0 +1,15 @@
+id: necklace-of-adaptation
+name: Ожерелье адаптации
+name_en: Necklace of adaptation
+source_url: https://dnd.su/items/156-necklace-of-adaptation/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15996-necklace-of-adaptation
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Нося это ожерелье, вы можете нормально дышать в любой окружающей среде и совершаете с преимуществом спасброски от вредоносных газов и испарений (таких как эффекты облака смерти [cloudkill] и зловонного облака [stinking cloud], вдыхаемые яды и оружие дыхания некоторых драконов).

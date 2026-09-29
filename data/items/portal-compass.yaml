@@ -1,0 +1,14 @@
+id: portal-compass
+name: Портальный компас
+name_en: Portal Compass
+source_url: https://dnd.su/items/6915-portal-compass/
+sources:
+  - code: PAM
+    book: "Planescape: Adventures in the Multiverse"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Этот портативный магический инструмент указывает в направлении последнего портала, через который он прошёл, пока он и портал находятся на одном плане существования. Если этого портала больше не существует, стрелка становится неподвижной, пока компас не пройдёт через новый портал.

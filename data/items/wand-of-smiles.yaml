@@ -1,0 +1,16 @@
+id: wand-of-smiles
+name: Палочка улыбок
+name_en: Wand of Smiles
+source_url: https://dnd.su/items/412-wand-of-smiles/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+type_key: wand
+attunement: false
+type: Волшебная палочка
+rarity: обычная
+rarity_key: common
+price: 50-100 зм
+description: У этой волшебной палочки 3 заряда. Если вы её держите, вы можете действием потратить 1 заряд и выбрать в качестве цели гуманоида, которого видите в пределах 30 футов. Цель должна преуспеть в спасброске Харизмы Сл 10, иначе она будет улыбаться 1 минуту. Палочка восстанавливает все заряды на рассвете. Если вы потратили последний заряд, бросьте к20. Если выпадет 1, палочка превращается в палочку хмурых взглядов [Wand of Scowls].

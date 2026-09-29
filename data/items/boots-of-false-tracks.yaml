@@ -1,0 +1,15 @@
+id: boots-of-false-tracks
+name: Сапоги ложных следов
+name_en: Boots of False Tracks
+source_url: https://dnd.su/items/424-boots-of-false-tracks/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15860-boots-of-false-tracks
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Только Гуманоиды могут носить эти сапоги. Когда вы их носите, то можете их заставить оставлять следы других Гуманоидов вашего размера.

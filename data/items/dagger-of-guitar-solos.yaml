@@ -1,0 +1,14 @@
+id: dagger-of-guitar-solos
+name: Кинжал гитарного соло
+name_en: Dagger of Guitar Solos
+source_url: https://dnd.su/items/2472-dagger-of-guitar-solos/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: кинжал
+rarity: ""
+rarity_key: none
+description: Сделанный дроу кинжал стоимостью 750 зм с серебряной филигранью в виде паутины. Кинжал магическим образом проигрывает фрагменты гитарного соло, когда вы попадаете атакой.

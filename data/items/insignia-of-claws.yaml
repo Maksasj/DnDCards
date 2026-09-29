@@ -1,0 +1,17 @@
+id: insignia-of-claws
+name: Эмблема когтей
+name_en: Insignia of Claws
+source_url: https://dnd.su/items/299-insignia-of-claws/
+sources:
+  - code: HDQ
+    book: Hoard of the Dragon Queen
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Самоцветы на эмблеме Культа Дракона загораются пурпурным, когда вы вступаете в схватку, усиливая ваши кулаки или природное оружие.
+
+  Пока вы носите эмблему, вы получаете +1 к броскам атаки и урона которые вы совершаете безоружными ударами или естественным оружием. Также такие атаки считаются магическими.

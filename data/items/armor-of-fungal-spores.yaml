@@ -1,0 +1,15 @@
+id: armor-of-fungal-spores
+name: Доспех грибковых спор
+name_en: Armor of Fungal Spores
+source_url: https://dnd.su/items/7140-armor-of-fungal-spores/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: любой средний
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти доспехи, вы можете бонусным действием заставить броню испускать ядовитые споры, которые заполняют сферу радиусом 10 футов с центром на вас. Каждое существо в этой области должно преуспеть в спасброске Телосложения Сл 15, иначе оно будет отравлено до конца вашего следующего хода. После того, как это свойство будет использовано, его нельзя будет использовать снова до следующего рассвета.

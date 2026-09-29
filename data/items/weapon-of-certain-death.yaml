@@ -1,0 +1,15 @@
+id: weapon-of-certain-death
+name: Оружие неминуемой гибели
+name_en: Weapon of Certain Death
+source_url: https://dnd.su/items/2293-weapon-of-certain-death/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любое
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Когда вы попадаете атакой по существу и наносите ему урон с помощью этого магического оружия, его хиты не могут быть восстановлены до начала вашего следующего хода.

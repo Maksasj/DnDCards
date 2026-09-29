@@ -1,0 +1,14 @@
+id: earring-of-message
+name: Серьга сообщения
+name_en: Earring of Message
+source_url: https://dnd.su/items/3605-earring-of-message/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Голубой кристалл этой серьги обмотан тонкой медной проволокой. Серьга имеет 5 зарядов. Пока она надета на вас, вы можете действием израсходовать 1 заряд и наложить заклинание сообщение [message]. Серьга восстанавливает 1к4 + 1 израсходованных зарядов ежедневно на рассвете.

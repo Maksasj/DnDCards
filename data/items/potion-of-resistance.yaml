@@ -1,0 +1,28 @@
+id: potion-of-resistance
+name: Зелье сопротивления
+name_en: Potion of resistance
+source_url: https://dnd.su/items/69-potion-of-resistance/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16040-potion-of-resistance
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: |-
+  Когда вы выпиваете это зелье, вы на 1 час получаете сопротивление урону одного вида. Мастер сам выбирает вид урона или определяет его случайным образом из приведённых ниже вариантов.
+
+  | к10 | Вид урона |
+  | 1 | Звук |
+  | 2 | Излучение |
+  | 3 | Кислота |
+  | 4 | Некротическая энергия |
+  | 5 | Огонь |
+  | 6 | Психическая энергия |
+  | 7 | Силовое поле |
+  | 8 | Холод |
+  | 9 | Электричество |
+  | 10 | Яд |

@@ -1,0 +1,14 @@
+id: dispelling-stone
+name: Камень рассеивания
+name_en: Dispelling Stone
+source_url: https://dnd.su/items/2300-dispelling-stone/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Этот гладкий, радужного цвета, яйцевидный камень можно метнуть на расстояние до 30 футов. При столкновении он взрывается сферой магической энергии радиусом в 10 футов, разрушая камень. Любое активное заклинание 5-го уровня или ниже, оказавшееся в сфере, заканчивается.

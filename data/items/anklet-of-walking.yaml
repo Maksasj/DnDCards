@@ -1,0 +1,14 @@
+id: anklet-of-walking
+name: Ножной браслет хождения
+name_en: Anklet of walking
+source_url: https://dnd.su/items/4642-anklet-of-walking/
+sources:
+  - code: DDHC-SE
+    book: Saltmarsh Encounters
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот браслет, вы можете стоять на любой жидкости и ходить по ней, как будто это твёрдая поверхность.

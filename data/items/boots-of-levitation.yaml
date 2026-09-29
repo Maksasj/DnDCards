@@ -1,0 +1,15 @@
+id: boots-of-levitation
+name: Сапоги левитации
+name_en: Boots of levitation
+source_url: https://dnd.su/items/204-boots-of-levitation/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15861-boots-of-levitation
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Если вы носите эти сапоги, вы можете неограниченно действием накладывать на себя заклинание левитация [levitate].

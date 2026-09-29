@@ -1,0 +1,15 @@
+id: ring-of-telekinesis
+name: Кольцо телекинеза
+name_en: Ring of telekinesis
+source_url: https://dnd.su/items/109-ring-of-telekinesis/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16065-ring-of-telekinesis
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Нося это кольцо, вы можете неограниченно накладывать заклинание телекинез [telekinesis], но нацеливаясь только на предметы, которые никто не несёт и не носит.

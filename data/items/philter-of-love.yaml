@@ -1,0 +1,15 @@
+id: philter-of-love
+name: Любовное зелье
+name_en: Philter of love
+source_url: https://dnd.su/items/125-philter-of-love/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16013-philter-of-love
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: Вы становитесь на 1 час очарованы первым же существом, которое вы увидите в течение 10 минут после того, как выпили это зелье. Если существо принадлежит к биологическому виду и полу, которые привлекают вас в обычных условиях, то вы воспринимаете его как свою истинную любовь, пока очарованы им. Жидкость представляет собой розовую, шипучую жидкость, с пузырьками в виде сердец.

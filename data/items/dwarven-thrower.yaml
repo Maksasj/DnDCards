@@ -1,0 +1,17 @@
+id: dwarven-thrower
+name: Дварфийский метатель
+name_en: Dwarven thrower
+source_url: https://dnd.su/items/31-dwarven-thrower/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15916-dwarven-thrower
+type_key: weapon
+attunement: true
+attunement_by: дварфом
+type: Оружие
+type_detail: боевой молот
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Вы получаете бонус +3 к броскам атаки и урона, совершённым этим магическим оружием. Оно обладает свойством «метательное» с нормальной дистанцией 20 футов и максимальной дистанцией 60 футов. Если вы попадёте дальнобойной атакой этим оружием, оно причиняет дополнительный урон 1к8 или, если цель — Великан, то 2к8. Сразу же после атаки оружие возвращается в вашу руку.

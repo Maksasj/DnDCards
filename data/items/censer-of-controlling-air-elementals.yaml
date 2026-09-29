@@ -1,0 +1,18 @@
+id: censer-of-controlling-air-elementals
+name: Кадило контролирования воздушных элементалей
+name_en: Censer of controlling air elementals
+source_url: https://dnd.su/items/77-censer-of-controlling-air-elementals/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15878-censer-of-controlling-air-elementals
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Если в этом кадиле горит благовоние, вы можете действием произнести командное слово и призвать воздушного элементаля [air elemental], как если бы наложили заклинание призыв элементаля [conjure elemental]. Кадило нельзя использовать повторно, пока не наступит следующий рассвет.
+
+  Этот сосуд 6 дюймов шириной и 1 фут высотой напоминает чашу с декорированной крышкой. Весит кадило 1 фунт.

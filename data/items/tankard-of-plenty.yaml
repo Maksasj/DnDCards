@@ -1,0 +1,13 @@
+id: tankard-of-plenty
+name: Кружка изобилия
+name_en: Tankard of Plenty
+source_url: https://dnd.su/items/2328-tankard-of-plenty/
+sources:
+  - code: HDQ
+    book: Hoard of the Dragon Queen
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Эта золотая кружка украшена танцующими дварфами и узорами из зёрен. Если взять кружку за ручку и произнести командное слово «Иллефарн», то она наполняется тремя пинтами великолепного дварфийского эля. Это свойство можно использовать до трёх раз в день.

@@ -1,0 +1,14 @@
+id: macuahuitl
+name: Макуауитль
+name_en: Macuahuitl
+source_url: https://dnd.su/items/2432-macuahuitl/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: длинный меч
+rarity: ""
+rarity_key: none
+description: У вас есть бонус +1 к броскам атаки и урона, совершённым этим магическим длинным мечом, который сделан из ламинированного дерева и в который вставлены заостренные зубья из обсидиана. Он дополнительно наносит 2к6 урона любому растению.

@@ -1,0 +1,14 @@
+id: bracer-of-flying-daggers
+name: Наручи летающих кинжалов
+name_en: Bracer of Flying Daggers
+source_url: https://dnd.su/items/2441-bracer-of-flying-daggers/
+sources:
+  - code: WDH
+    book: "Waterdeep: Dragon Heist"
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: К этим наручам привязаны тонкие кинжалы. Действием вы можете снять с наручей до двух магических кинжалов и тотчас же метнуть их, совершая дальнобойную атаку каждым кинжалом. Кинжалы исчезают, если вы сразу не метаете их, либо после того как вы промахнётесь или попадёте по цели. Кинжалы на этих наручах никогда не кончаются.

@@ -1,0 +1,15 @@
+id: amulet-of-proof-against-detection-and-location
+name: Амулет защиты от обнаружения и поиска
+name_en: Amulet of proof against detection and location
+source_url: https://dnd.su/items/3-amulet-of-proof-against-detection-and-location/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15835-amulet-of-proof-against-detection-and-location
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот амулет, вы скрыты от магии школы Прорицания. Вы не можете быть целью подобной магии, и вас не воспринимают магические сенсоры слежения.

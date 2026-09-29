@@ -1,0 +1,15 @@
+id: hat-of-disguise
+name: Шапка маскировки
+name_en: Hat of disguise
+source_url: https://dnd.su/items/248-hat-of-disguise/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15950-hat-of-disguise
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эту шапку, вы можете неограниченно действием накладывать ей заклинание маскировка [disguise self]. Это заклинание оканчивается, если снять шапку.

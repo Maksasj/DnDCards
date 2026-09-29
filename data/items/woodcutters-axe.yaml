@@ -1,0 +1,18 @@
+id: woodcutters-axe
+name: Топор дровосека
+name_en: Woodcutter’s Axe
+source_url: https://dnd.su/items/2845-woodcutters-axe/
+sources:
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: Секира
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона этим магическим оружием.
+
+  Когда вы используете этот топор для атаки по растению (обычное растение или существо с типом растение) или деревянному предмету, который никто не носит и не несёт, атака дополнительно наносит 2к6 рубящего урона при попадании.

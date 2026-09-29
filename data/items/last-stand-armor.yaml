@@ -1,0 +1,18 @@
+id: last-stand-armor
+name: Доспех последней битвы
+name_en: Last Stand Armor
+source_url: https://dnd.su/items/2298-last-stand-armor/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: лёгкий, средний, тяжёлый
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Пока вы носите этот мягко мерцающий доспех, вы получаете бонус +1 к КД.
+
+  Если вы умираете, будучи облаченным в этот доспех, он уничтожается, и каждый небожитель, фея и исчадие в радиусе 30 футов от вас должен преуспеть в спасброске Харизмы Сл 15 или будет изгнан на свой родной план существования, если только он уже не находится там.

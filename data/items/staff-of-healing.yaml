@@ -1,0 +1,19 @@
+id: staff-of-healing
+name: Посох лечения
+name_en: Staff of healing
+source_url: https://dnd.su/items/189-staff-of-healing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16113-staff-of-healing
+type_key: staff
+attunement: true
+attunement_by: бардом, друидом или жрецом
+type: Посох
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  У этого посоха есть 10 зарядов. Держа его, вы можете действием потратить часть зарядов и наложить им одно из следующих заклинаний, используя свою Сл спасброска от заклинания и базовую характеристику: лечение ран [cure wounds] (1 заряд за каждый уровень заклинания, максимум 4-й уровень), малое восстановление [lesser restoration] (2 заряда) или множественное лечение ран [mass cure wounds] (5 зарядов).
+
+  Посох ежедневно восстанавливает 1к6 + 4 заряда на рассвете. Если вы истратили последний заряд, бросьте к20. Если выпадет «1», посох исчезает во вспышке света, теряясь навсегда.

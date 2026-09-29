@@ -1,0 +1,18 @@
+id: vanraks-mithral-shirt
+name: Мифрильная кольчужная рубаха Ванрака
+name_en: Vanrak’s Mithral Shirt
+source_url: https://dnd.su/items/2454-vanraks-mithral-shirt/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: кольчужная рубаха
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Мифрил это лёгкий и гибкий металл. Сделанная из него кольчужная рубаха может носиться под обычной одеждой. Если в обычном исполнении доспех накладывает помеху на проверки Ловкости (Скрытность) или имеет требования к Силе, то в версии из мифрила он не обладает этими недостатками.
+
+  Пока вы носите этот доспех, вы обладаете тёмным зрением на 60 футов.

@@ -1,0 +1,15 @@
+id: potion-of-clairvoyance
+name: Зелье ясновидения
+name_en: Potion of clairvoyance
+source_url: https://dnd.su/items/74-potion-of-clairvoyance/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16023-potion-of-clairvoyance
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: Выпив это зелье, вы получаете эффект заклинания подсматривание [clairvoyance]. В желтоватой жидкости зелья плавают глазные яблоки, но они исчезают, когда пузырёк открывают.

@@ -1,0 +1,14 @@
+id: elder-cartographers-glossography
+name: Справочник старшего картографа
+name_en: Elder Cartographers Glossography
+source_url: https://dnd.su/items/2146-elder-cartographers-glossography/
+sources:
+  - code: AI
+    book: Acquisition Incorporated
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: При достижении 4-го ранга, вы получите небольшой том, который является необычным магическим предметом. Справочник старшего картографа даёт преимущество на проверки Интеллекта или Мудрости, связанных с географическими объектами или местоположениями.

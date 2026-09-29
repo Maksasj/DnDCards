@@ -1,0 +1,15 @@
+id: lightbringer
+name: Светоносная
+name_en: Lightbringer
+source_url: https://dnd.su/items/273-lightbringer/
+sources:
+  - code: LMOP
+    book: Lost Mine of Phandelver
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: булава
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Эта булава +1 была сделана для жреца Латандера, бога рассвета. Навершие булавы имеет форму солнечных лучей и сделано из латуни. Названная Светоносной, эта булава светится как факел, когда этого захочет владелец. Когда булава светится, она наносит Нежити дополнительно 1к6 урона излучением.

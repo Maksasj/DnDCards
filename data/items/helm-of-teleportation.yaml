@@ -1,0 +1,15 @@
+id: helm-of-teleportation
+name: Шлем телепортации
+name_en: Helm of teleportation
+source_url: https://dnd.su/items/253-helm-of-teleportation/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15958-helm-of-teleportation
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: У этого шлема есть 3 заряда. Если вы его носите, вы можете действием потратить 1 заряд, чтобы наложить им заклинание телепортация [teleport]. Шлем ежедневно восстанавливает 1к3 заряда на рассвете.

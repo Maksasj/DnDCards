@@ -1,0 +1,15 @@
+id: potion-of-longevity
+name: Зелье долголетия
+name_en: Potion of longevity
+source_url: https://dnd.su/items/57-potion-of-longevity/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16036-potion-of-longevity
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: После того как вы выпьете это зелье, ваш физический возраст уменьшается на 1к6 + 6 лет, при минимуме в 13 лет. Каждый раз, когда вы в дальнейшем будете пить зелья долголетия, существует накопительный штраф 10 процентов, что вместо этого вы постареете на 1к6 + 6 лет. В янтарной жидкости плавают хвост скорпиона, клык гадюки, мёртвый паук и крохотное сердце, которое вопреки всему всё ещё бьётся. Эти ингредиенты исчезают, когда зелье откупоривают.

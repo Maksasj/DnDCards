@@ -1,0 +1,15 @@
+id: ring-of-warmth
+name: Кольцо тепла
+name_en: Ring of warmth
+source_url: https://dnd.su/items/110-ring-of-warmth/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16068-ring-of-warmth
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Нося это кольцо, вы обладаете сопротивлением урону холодом. Кроме того, вы и всё, что вы несёте и носите, не получают вреда от температур не ниже -50 °F.

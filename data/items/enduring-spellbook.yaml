@@ -1,0 +1,15 @@
+id: enduring-spellbook
+name: Износостойкая книга заклинаний
+name_en: Enduring Spellbook
+source_url: https://dnd.su/items/400-enduring-spellbook/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15923-enduring-spellbook
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Эта книга заклинаний, включая все в ней записанное, не может быть повреждена огнём или погружением в воду. Кроме того, она не портится со временем.

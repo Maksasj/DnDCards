@@ -1,0 +1,15 @@
+id: charlatans-die
+name: Кость шарлатана
+name_en: Charlatan’s Die
+source_url: https://dnd.su/items/404-charlatans-die/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15879-charlatans-die
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Когда вы бросаете эту 6-гранную кость, вы можете выбрать, какой гранью она выпадет.

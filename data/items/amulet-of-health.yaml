@@ -1,0 +1,15 @@
+id: amulet-of-health
+name: Амулет здоровья
+name_en: Amulet of health
+source_url: https://dnd.su/items/4-amulet-of-health/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15834-amulet-of-health
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Пока вы носите этот амулет, ваше значение Телосложения равно 19. Если ваше Телосложение без него уже 19 или выше, то амулет не оказывает на вас никакого действия.

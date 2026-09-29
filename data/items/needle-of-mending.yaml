@@ -1,0 +1,18 @@
+id: needle-of-mending
+name: Игла починки
+name_en: Needle of Mending
+source_url: https://dnd.su/items/2290-needle-of-mending/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: кинжал
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Это оружие является магическим кинжалом, замаскированным под швейную иглу. Пока вы его держите, вы можете бонусным действием произнести командное слово, превращая его в кинжал или обратно в иглу.
+
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим кинжалом. Держа его, вы можете с его помощью действием наложить заговор починка [mending].

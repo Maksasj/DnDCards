@@ -1,0 +1,14 @@
+id: pathfinders-greataxe
+name: Секира землепроходца
+name_en: Pathfinder’s Greataxe
+source_url: https://dnd.su/items/2394-pathfinders-greataxe/
+sources:
+  - code: POA
+    book: Princes of the Apocalypse
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: секира
+rarity: ""
+rarity_key: none
+description: Вы получаете +1 к броскам атаки и урона этим оружием. Владелец секиры всегда знает путь к ближайшему выходу из подземелья на поверхность, а также примерную глубину, на которой он находится.

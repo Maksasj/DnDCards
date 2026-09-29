@@ -1,0 +1,15 @@
+id: sling-of-giant-felling
+name: Праща ниспровержения великанов
+name_en: Sling of Giant Felling
+source_url: https://dnd.su/items/7160-sling-of-giant-felling/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: праща
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Когда вы попадаете по существу с видом Великан броском дальнобойной атаки с помощью этой магической пращи, существо должно преуспеть в спасброске Телосложения Сл 18, иначе оно упадёт ничком.

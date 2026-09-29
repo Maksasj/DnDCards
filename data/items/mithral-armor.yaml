@@ -1,0 +1,16 @@
+id: mithral-armor
+name: Мифрильный доспех
+name_en: Mithral armor
+source_url: https://dnd.su/items/148-mithral-armor/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15991-mithral-armor
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: средний или тяжелый, кроме шкурного
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Мифрил это лёгкий и гибкий металл. Сделанная из мифрила кольчужная рубаха или кираса может носиться под обычной одеждой. Если в обычном исполнении доспех накладывает помеху на проверки Ловкости (Скрытность) или имеет требования к Силе, то в версии из мифрила он не обладает этими недостатками.

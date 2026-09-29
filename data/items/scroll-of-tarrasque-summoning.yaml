@@ -1,0 +1,14 @@
+id: scroll-of-tarrasque-summoning
+name: Свиток призыва тараска
+name_en: Scroll of Tarrasque Summoning
+source_url: https://dnd.su/items/2340-scroll-of-tarrasque-summoning/
+sources:
+  - code: IDRF
+    book: "Icewind Dale: Rime of the Frostmaiden"
+type_key: scroll
+attunement: false
+type: Свиток
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: Действием вы можете прочесть свиток, после чего тараск [tarrasque] появляется в свободном пространстве, которое вы можете видеть в пределах 1 мили от вас. Тараск исчезает, когда его хиты опускаются до 0, он так же враждебен ко всем существам, кроме себя.

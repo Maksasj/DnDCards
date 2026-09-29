@@ -1,0 +1,15 @@
+id: potion-of-gaseous-form
+name: Зелье газообразной формы
+name_en: Potion of gaseous form
+source_url: https://dnd.su/items/55-potion-of-gaseous-form/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16029-potion-of-gaseous-form
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: Когда вы выпиваете это зелье, вы получаете эффект заклинания газообразная форма [gaseous form] (концентрация не требуется) на 1 час, или пока вы бонусным действием не прервёте его. Пузырёк с этим зельем как будто содержит туман, перетекающий, словно вода.

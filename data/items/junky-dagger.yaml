@@ -1,0 +1,14 @@
+id: junky-dagger
+name: Ни для чего не пригодный кинжал
+name_en: Junky Dagger
+source_url: https://dnd.su/items/2434-junky-dagger/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: кинжал
+rarity: ""
+rarity_key: none
+description: Вы получаете +1 бонус к броскам атаки и урона, совершённым этим магическим кинжалом, выглядящим как хлам. Во время пользования его рукоятка изнашивается, лезвие крошится, и он покрывается ржавчиной. Если персонаж, экипированный этим кинжалом, выбрасывает «1» на кости атаки, оно разрушается и становится немагическим.

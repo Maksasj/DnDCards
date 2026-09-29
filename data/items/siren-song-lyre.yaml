@@ -1,0 +1,18 @@
+id: siren-song-lyre
+name: Лира песни сирен
+name_en: Siren Song Lyre
+source_url: https://dnd.su/items/2100-siren-song-lyre/
+sources:
+  - code: MOT
+    book: Mythic Odysseys of Theros
+type_key: magic
+attunement: true
+type: Чудесный предмет
+type_detail: инструмент
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Действием вы можете начать играть на этой лире и с её помощью наложить одно из следующих заклинаний: *внушение [suggestion], дружба с животными [animal friendship], очарование личности [charm person], речь златоуста [enthrall]*. Сл спасброска для заклинаний 13.
+
+  После того, как вы наложите с помощью инструмента одно из этих заклинаний, вы не можете наложить его повторно с помощью инструмента до следующего рассвета.

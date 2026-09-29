@@ -1,0 +1,16 @@
+id: armor-of-resistance
+name: Доспех сопротивления
+name_en: Armor of resistance
+source_url: https://dnd.su/items/37-armor-of-resistance/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15842-armor-of-resistance
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: легкий, средний, тяжелый
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы получаете сопротивление одному из видов урона, пока носите этот доспех. Мастер выбирает вид урона сам или случайным образом.

@@ -1,0 +1,18 @@
+id: keoghtoms-ointment
+name: Мазь Кеогтома
+name_en: Keoghtom’s ointment
+source_url: https://dnd.su/items/126-keoghtoms-ointment/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15975-keoghtoms-ointment
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 51-250 зм
+description: |-
+  Это стеклянная банка, три дюйма в диаметре, содержит 1к4 + 1 доз густой мази, которая слабо пахнет алоэ. Банка и её содержимое весят 0,5 фунта.
+
+  Действием можно проглотить или нанести на кожу одну дозу мази. Существо, которое делает так, восстанавливает 2к8 + 2 хита, перестаёт быть отравленным и излечивается от всех болезней.

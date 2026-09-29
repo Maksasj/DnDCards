@@ -1,0 +1,16 @@
+id: efreeti-chain
+name: Кольчуга ифритов
+name_en: Efreeti Chain
+source_url: https://dnd.su/items/115-efreeti-chain/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15919-efreeti-chain
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: кольчуга
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: Пока вы носите этот доспех, вы получаете бонус +3 к КД и иммунитет к урону огнём, а также можете говорить на Первичном и понимаете его. Кроме того, вы можете стоять на расплавленном камне и ходить по нему, как если бы он был твёрдой поверхностью.

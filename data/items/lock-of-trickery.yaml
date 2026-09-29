@@ -1,0 +1,15 @@
+id: lock-of-trickery
+name: Плутовской замок
+name_en: Lock of Trickery
+source_url: https://dnd.su/items/416-lock-of-trickery/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15977-lock-of-trickery
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот замок выглядит как обычный замок, и к нему прилагается один ключ. Внутренний механизм замка магическим образом двигается, чтобы предотвратить попытки взлома. Проверки Ловкости с целью вскрыть этот замок совершаются с помехой.

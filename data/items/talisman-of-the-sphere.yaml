@@ -1,0 +1,15 @@
+id: talisman-of-the-sphere
+name: Талисман сферы
+name_en: Talisman of the sphere
+source_url: https://dnd.su/items/230-talisman-of-the-sphere/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16134-talisman-of-the-sphere
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: Когда вы совершаете проверку Интеллекта (Магия) для контроля сферы аннигиляции, держа этот талисман, вы удваиваете бонус мастерства для этой проверки. Кроме того, если вы начинаете ход, удерживая контроль над сферой аннигиляции [sphere of annihilation], вы можете действием сделать так, что она переместится на 10 футов плюс количество футов, равное 10 × ваш модификатор Интеллекта.

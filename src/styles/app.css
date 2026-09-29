@@ -1,5 +1,5 @@
-/* Site chrome: a sticky top bar with filters, all spells on one page in columns
-   (like dnd.su/spells), and a second tab with the print preview.
+/* Site chrome: a sticky top bar with filters, all spells / items on one page in columns
+   (like dnd.su), and a tab with the print preview.
    Same visual language as the cards: black ink, white paper, PT Sans Narrow / Cormorant. */
 
 :root {
@@ -24,9 +24,11 @@ body[data-tab='sheets'] { background: var(--ui-desk); }
 
 /* Only the active tab's parts are shown. The sheets tab stays laid out (just off-screen)
    while hidden, because cards are measured to fit their text. */
-body[data-tab='sheets'] [data-for='spells'],
-body[data-tab='spells'] .topbar [data-for='sheets'] { display: none; }
-body[data-tab='spells'] .sheets-tab {
+body:not([data-tab='spells']) [data-for='spells'],
+body:not([data-tab='items']) [data-for='items'],
+body:not([data-tab='sheets']) [data-for='sheets'],
+body[data-tab='sheets'] .credits { display: none; }
+body:not([data-tab='sheets']) .sheets-tab {
   position: absolute;
   left: -10000px;
   top: 0;
@@ -77,6 +79,7 @@ select {
 .tabs { display: flex; flex: 1; gap: 0; }
 .tabs button { border-width: 0 0 2px; border-color: transparent; padding: 4px 12px; }
 .tabs button[aria-selected='true'] { border-color: var(--ui-ink); font-weight: 700; }
+.tabs button span { font-weight: 400; }
 
 input[type='search'] {
   flex: 1 1 260px;
@@ -90,7 +93,7 @@ input[type='search'] {
 .levels button[aria-pressed='true'] { background: var(--ui-ink); color: var(--ui-paper); }
 
 .actions { color: var(--ui-muted); }
-#found, #status { margin-right: auto; }
+.found { margin-right: auto; }
 .check { display: flex; align-items: center; gap: 6px; cursor: pointer; }
 .actions button, .actions select { color: var(--ui-ink); }
 
@@ -166,12 +169,12 @@ input[type='search'] {
 
 @media print {
   body { background: none; }
-  .topbar, [data-for='spells'], .print-hint { display: none !important; }
+  .topbar, [data-for], .credits, .print-hint { display: none !important; }
   .sheets-tab { position: static !important; visibility: visible !important; }
   #sheets { padding: 0; overflow: visible; }
   #sheets .page { zoom: 1; }
 }
 body.print { background: none; }
-body.print .topbar, body.print [data-for='spells'], body.print .print-hint { display: none !important; }
+body.print .topbar, body.print [data-for], body.print .credits, body.print .print-hint { display: none !important; }
 body.print .sheets-tab { position: static; visibility: visible; }
 body.print #sheets { padding: 0; }

@@ -1,0 +1,15 @@
+id: ring-of-feather-falling
+name: Кольцо падения пёрышком
+name_en: Ring of feather falling
+source_url: https://dnd.su/items/100-ring-of-feather-falling/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16053-ring-of-feather-falling
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Если вы падаете, нося это кольцо, вы опускаетесь на 60 футов в раунд и не получаете урон от падения.

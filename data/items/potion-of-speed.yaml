@@ -1,0 +1,15 @@
+id: potion-of-speed
+name: Зелье скорости
+name_en: Potion of speed
+source_url: https://dnd.su/items/68-potion-of-speed/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16041-potion-of-speed
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: Когда вы выпьете это зелье, вы получите на 1 минуту эффект заклинания ускорение [haste] (концентрация не требуется). В жёлтой жидкости этого зелья видны чёрные полоски, и она перемешивается сама собой.

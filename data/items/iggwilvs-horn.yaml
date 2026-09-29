@@ -1,0 +1,17 @@
+id: iggwilvs-horn
+name: Рог Иггвилв
+name_en: Iggwilv’s Horn
+source_url: https://dnd.su/items/8727-iggwilvs-horn/
+sources:
+  - code: DLCT
+    book: Descent into the Lost Caverns of Tsojcanth
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Действием вы можете подуть в рог и наложить одно из следующих заклинаний: руки Хадара [arms of Hadar], туманное облако [fog cloud], порыв ветра [gust of wind], паутина [web] (Сл спасброска 13).
+
+  После того, как рог был использован для наложения заклинания, его нельзя использовать для наложения этого же заклинания до следующего рассвета.

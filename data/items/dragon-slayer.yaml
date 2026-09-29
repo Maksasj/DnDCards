@@ -1,0 +1,19 @@
+id: dragon-slayer
+name: Убийца драконов
+name_en: Dragon slayer
+source_url: https://dnd.su/items/241-dragon-slayer/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15909-dragon-slayer
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любой меч
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Если вы попадаете этим оружием по дракону, он получит дополнительный урон 3к6, соответствующий виду оружия. Для этого оружия «дракон» означает любое существо с видом «дракон», включая виверн и дракочерепах.

@@ -1,0 +1,16 @@
+id: spellguard-shield
+name: Щит от заклинаний
+name_en: Spellguard shield
+source_url: https://dnd.su/items/255-spellguard-shield/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16104-spellguard-shield
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: щит
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Пока вы держите этот щит, вы совершаете с преимуществом спасброски от заклинаний и других магических эффектов, и броски атаки заклинаниями совершаются по вам с помехой.

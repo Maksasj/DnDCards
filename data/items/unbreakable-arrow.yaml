@@ -1,0 +1,15 @@
+id: unbreakable-arrow
+name: Несломимая стрела
+name_en: Unbreakable Arrow
+source_url: https://dnd.su/items/407-unbreakable-arrow/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: стрела
+rarity: обычное
+rarity_key: common
+price: 50-100 зм
+description: Эта стрела не может быть сломана, кроме как в области действия преграды магии [antimagic field].

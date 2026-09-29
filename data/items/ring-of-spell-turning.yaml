@@ -1,0 +1,15 @@
+id: ring-of-spell-turning
+name: Кольцо отражения заклинаний
+name_en: Ring of spell turning
+source_url: https://dnd.su/items/98-ring-of-spell-turning/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16063-ring-of-spell-turning
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: легендарное
+rarity_key: legendary
+price: от 50 001 зм
+description: Нося это кольцо, вы совершаете с преимуществом спасброски от заклинаний, нацеленных только на вас (не обладающих зонами воздействия). Кроме того, если у вас выпадет «20» при спасброске от заклинания с уровнем не больше 7, заклинание не оказывает на вас никакого эффекта, и вместо этого нацеливается на заклинателя, используя уровень ячейки, Сл спасброска, бонус атаки и базовую характеристику самого заклинателя.

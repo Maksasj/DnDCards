@@ -1,0 +1,14 @@
+id: bottle-of-moonlight
+name: Бутыль лунного света
+name_en: Bottle of moonlight
+source_url: https://dnd.su/items/4681-bottle-of-moonlight/
+sources:
+  - code: DDHC-SE
+    book: Saltmarsh Encounters
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Бутыль выполнена из белёсого камня в виде полумесяца. Внутри — густая серебристая жидкость. Если действием налить жидкость на ликантропа, он немедленно обращается в свою звериную форму на 1 час.

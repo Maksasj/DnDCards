@@ -1,0 +1,15 @@
+id: potion-of-flying
+name: Зелье полёта
+name_en: Potion of flying
+source_url: https://dnd.su/items/66-potion-of-flying/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16028-potion-of-flying
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: Выпив это зелье, вы на 1 час получаете скорость полёта, равную вашей скорости ходьбы, и можете парить. Если вы находитесь в воздухе, когда зелье теряет силу, вы падаете, если не обладаете другими средствами, позволяющими оставаться в полёте. Прозрачная жидкость этого зелья парит у горлышка пузырька, и в ней плавают молочно-белые примеси.

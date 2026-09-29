@@ -1,0 +1,19 @@
+id: rod-of-resurrection
+name: Жезл воскрешения
+name_en: Rod of resurrection
+source_url: https://dnd.su/items/43-rod-of-resurrection/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16080-rod-of-resurrection
+type_key: rod
+attunement: true
+attunement_by: друидом, жрецом или паладином
+type: Жезл
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: |-
+  У этого жезла есть 5 зарядов. Если вы держите его, вы можете действием наложить им одно из следующих заклинаний: полное исцеление [heal] (тратит 1 заряд) или воскрешение [resurrection] (тратит 5 зарядов).
+
+  Жезл ежедневно восстанавливает 1 заряд на рассвете. Если заряды жезла уменьшаются до 0, бросьте к20. Если выпадет «1», жезл исчезнет во вспышке света.

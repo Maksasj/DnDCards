@@ -1,0 +1,15 @@
+id: potion-of-growth
+name: Зелье увеличения
+name_en: Potion of growth
+source_url: https://dnd.su/items/70-potion-of-growth/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16032-potion-of-growth
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: Когда вы выпиваете это зелье, вы получаете на 1к4 часа эффект «увеличение» заклинания увеличение/ уменьшение [enlarge/reduce] (концентрация не требуется). Маленький красный шарик в этой жидкости непрерывно расширяется, окрашивая прозрачную жидкость вокруг, и тут же сжимается вновь. Тряска пузырька не прерывает этот процесс.

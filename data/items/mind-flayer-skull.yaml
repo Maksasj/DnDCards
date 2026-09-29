@@ -1,0 +1,13 @@
+id: mind-flayer-skull
+name: Череп пожирателя разума
+name_en: Mind Flayer Skull
+source_url: https://dnd.su/items/2474-mind-flayer-skull/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Существо, владеющее черепом, становится невидимым для пожирателей разума [mind flayers], как и всё, что существо носит и несёт.

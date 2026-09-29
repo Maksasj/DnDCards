@@ -1,0 +1,15 @@
+id: potion-of-animal-friendship
+name: Зелье дружбы с животными
+name_en: Potion of animal friendship
+source_url: https://dnd.su/items/58-potion-of-animal-friendship/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16022-potion-of-animal-friendship
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: После того как вы выпили это зелье, вы можете в течение одного часа неограниченно накладывать заклинание дружба с животными [animal friendship] (Сл спасброска 13). При взбалтывании этой мутной жидкости вы видите рыбью чешую, кошачьи когти, беличью шерсть и прочие фрагменты.

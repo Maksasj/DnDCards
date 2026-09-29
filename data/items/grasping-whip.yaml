@@ -1,0 +1,18 @@
+id: grasping-whip
+name: Хватающий кнут
+name_en: Grasping Whip
+source_url: https://dnd.su/items/7156-grasping-whip/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: кнут
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Когда вы попадаете этим кнутом по существу или объекту Большого размера или меньше, вы можете притянуть это существо или объект на 5 футов к себе вместо нанесения урона.

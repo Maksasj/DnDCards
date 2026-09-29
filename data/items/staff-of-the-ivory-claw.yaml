@@ -1,0 +1,15 @@
+id: staff-of-the-ivory-claw
+name: Посох костяного когтя
+name_en: Staff of the Ivory Claw
+source_url: https://dnd.su/items/2294-staff-of-the-ivory-claw/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: staff
+attunement: true
+attunement_by: заклинателем
+type: Посох
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Этот серо-лазурный посох увенчан маленьким драконьим когтем, вырезанным из слоновой кости. Держа этот посох, вы получаете бонус +1 к броскам атаки заклинаниями. Всякий раз, когда вы совершаете критический удар с помощью атаки заклинанием, цель дополнительно получает 3к6 урона излучением.

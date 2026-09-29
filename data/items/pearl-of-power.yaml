@@ -1,0 +1,16 @@
+id: pearl-of-power
+name: Жемчужина силы
+name_en: Pearl of power
+source_url: https://dnd.su/items/50-pearl-of-power/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16008-pearl-of-power
+type_key: magic
+attunement: true
+attunement_by: заклинателем
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Если эта жемчужина находится у вас, вы можете действием произнести командное слово и восстановить одну использованную ячейку заклинания. Если уровень потраченной ячейки 4-го или больше, вы получите ячейку 3-го уровня. Вы не можете повторно использовать жемчужину до следующего рассвета.

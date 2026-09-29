@@ -1,0 +1,15 @@
+id: headband-of-intellect
+name: Повязка интеллекта
+name_en: Headband of intellect
+source_url: https://dnd.su/items/178-headband-of-intellect/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15954-headband-of-intellect
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Значение вашего Интеллекта равно 19, пока вы носите эту повязку. Она не оказывает на вас эффект, если ваш Интеллект без неё и так уже 19 или выше.

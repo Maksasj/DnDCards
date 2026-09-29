@@ -1,0 +1,14 @@
+id: brooch-of-living-essence
+name: Брошь живого существа
+name_en: Brooch of Living Essence
+source_url: https://dnd.su/items/2284-brooch-of-living-essence/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эту невзрачную брошь, заклинания и всё остальное, что может обнаружить или определить ваш вид существа, воспринимают вас как Гуманоида, а те, что определяют ваше мировоззрение, определяют вас как нейтрального.

@@ -1,0 +1,14 @@
+id: cracked-driftglobe
+name: Треснувшая парящая сфера
+name_en: Cracked Driftglobe
+source_url: https://dnd.su/items/2118-cracked-driftglobe/
+sources:
+  - code: CM
+    book: Candlekeep Mysteries
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эта небольшая сфера из толстого стекла весит 1 фунт. Находясь в пределах 60 футов от неё вы можете произнести командное слово и заставить сферу излучать свет, как если бы на неё было наложено заклинание *свет [light]*.

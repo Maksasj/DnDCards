@@ -1,0 +1,14 @@
+id: shield-1-2-3
+name: Щит +1, +2, +3
+name_en: Shield +1, +2 ,+3
+source_url: https://dnd.su/items/254-shield-1-2-3/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: щит
+rarity: редкость варьируется (+1 необычный, +2 редкий, +3 очень редкий)
+rarity_key: varies
+description: Пока вы держите этот щит, вы получаете бонус к КД, зависящий от редкости щита. Этот бонус идёт в дополнение к обычному бонусу щита к КД.

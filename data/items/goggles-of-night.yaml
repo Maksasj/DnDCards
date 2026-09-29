@@ -1,0 +1,15 @@
+id: goggles-of-night
+name: Ночные очки
+name_en: Goggles of night
+source_url: https://dnd.su/items/154-goggles-of-night/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15947-goggles-of-night
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти тёмные очки, вы получаете тёмное зрение в радиусе 60 футов. Если у вас уже было тёмное зрение, очки увеличивают его радиус на 60 футов.

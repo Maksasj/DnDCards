@@ -1,0 +1,18 @@
+id: wand-of-entangle
+name: Волшебная палочка опутывания
+name_en: Wand of Entangle
+source_url: https://dnd.su/items/2418-wand-of-entangle/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: wand
+attunement: true
+attunement_by: заклинателем
+type: Волшебная палочка
+rarity: необычная
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Эта волшебная палочка имеет 7 зарядов. Если вы её держите, вы можете действием потратить 1 заряд и наложить заклинание опутывание [entangle] (Cл спасброска 13).
+
+  Палочка ежедневно восстанавливает 1к6 + 1 заряд на рассвете. Если вы израсходовали последний заряд в палочке, бросьте к20. Если выпадет «1», палочка рассыплется в пыль и уничтожится.

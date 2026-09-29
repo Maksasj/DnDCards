@@ -1,0 +1,15 @@
+id: bloodrage-greataxe
+name: Секира кровавой ярости
+name_en: Bloodrage Greataxe
+source_url: https://dnd.su/items/7146-bloodrage-greataxe/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: секира
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Вы получаете бонус +2 к броскам атаки и урона, совершённым этой магическим секирой, пока у вас половина или меньше ваших хитов.

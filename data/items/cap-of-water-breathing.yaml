@@ -1,0 +1,15 @@
+id: cap-of-water-breathing
+name: Шапка подводного дыхания
+name_en: Cap of water breathing
+source_url: https://dnd.su/items/249-cap-of-water-breathing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15873-cap-of-water-breathing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Если вы находитесь под водой и на вас надета эта шапка, вы можете действием произнести командное слово, после чего вокруг вашей головы возникнет воздушный пузырь. Это позволит вам свободно дышать под водой. Пузырь остаётся до тех пор, пока вы не произнесёте командное слово ещё раз, или не выберетесь из-под воды.

@@ -1,0 +1,15 @@
+id: perfume-of-bewitching
+name: Парфюм очарования
+name_en: Perfume of Bewitching
+source_url: https://dnd.su/items/414-perfume-of-bewitching/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16009-perfume-of-bewitching
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 25-50 зм
+description: Этот крошечный пузырёк содержит магический парфюм в количестве, достаточном для одного использования. Действием вы можете нанести парфюм на себя, и его эффект будет длиться один час. В течение этого времени вы совершаете с преимуществом все проверки Харизмы, направленные на Гуманоидов с показателем опасности 1 или ниже. Те, на кого воздействует эффект парфюма, не понимают, что подверглись воздействию магии.

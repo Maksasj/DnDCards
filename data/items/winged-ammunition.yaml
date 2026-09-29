@@ -1,0 +1,15 @@
+id: winged-ammunition
+name: Крылатые боеприпасы
+name_en: Winged Ammunition
+source_url: https://dnd.su/items/7162-winged-ammunition/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любые боеприпасы
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Ваши дальнобойные атаки оружием, совершённые с использованием этого боеприпаса, игнорируют укрытие на половину и укрытие на три четверти. Кроме того, ваши дальнобойные атаки оружием не получают помеху на броски атаки максимальной дистанции, совершённые с использованием этого боеприпаса.

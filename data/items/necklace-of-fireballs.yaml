@@ -1,0 +1,18 @@
+id: necklace-of-fireballs
+name: Ожерелье огненных шаров
+name_en: Necklace of fireballs
+source_url: https://dnd.su/items/158-necklace-of-fireballs/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15997-necklace-of-fireballs
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 251-2 500 зм
+description: |-
+  На этом ожерелье висят 1к6 + 3 бусины. Вы можете действием оторвать одну бусину и метнуть её на расстояние до 60 футов. Достигнув конечной точки, бусина детонирует как заклинание огненный шар [fireball] 3-го уровня (Сл спасброска 15).
+
+  Вы можете метнуть одним действием сразу несколько бусин или даже всё ожерелье. При этом увеличьте уровень *огненного шара* на 1 за каждую бусину после первой.

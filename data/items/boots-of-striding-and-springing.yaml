@@ -1,0 +1,15 @@
+id: boots-of-striding-and-springing
+name: Сапоги ходьбы и прыжков
+name_en: Boots of striding and springing
+source_url: https://dnd.su/items/206-boots-of-striding-and-springing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15863-boots-of-striding-and-springing
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти сапоги, ваша скорость ходьбы становится равной 30 футов, если она не выше, и ваша скорость не уменьшается, когда вы перегружены или носите тяжёлый доспех. Кроме того, вы можете совершать прыжки в три раза дальше, чем обычно, но вы всё равно не можете прыгнуть дальше, чем осталось у вас перемещения.

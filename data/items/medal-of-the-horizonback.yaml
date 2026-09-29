@@ -1,0 +1,14 @@
+id: medal-of-the-horizonback
+name: Медаль небосклона
+name_en: Medal of the Horizonback
+source_url: https://dnd.su/items/3609-medal-of-the-horizonback/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Когда по вам попадают атакой, вы можете реакцией увеличить свой КД на 5 до начала вашего следующего хода, в том числе и против вызвавшей срабатывание атаки. Вы должны носить медаль и иметь возможность видеть существо, которое совершило атаку, чтобы использовать это свойство. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.

@@ -1,0 +1,18 @@
+id: corpse-slayer
+name: Убийца мертвецов
+name_en: Corpse Slayer
+source_url: https://dnd.su/items/2296-corpse-slayer/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: любое
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Если вы попадаете этим магическим оружием по нежити, то она дополнительно получает 1к8 урона оружия, и совершает с помехой спасброски против эффектов, которые изгоняют нежить до начала вашего следующего хода.

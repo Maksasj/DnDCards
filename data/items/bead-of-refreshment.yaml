@@ -1,0 +1,15 @@
+id: bead-of-refreshment
+name: Освежающая бусина
+name_en: Bead of Refreshment
+source_url: https://dnd.su/items/409-bead-of-refreshment/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15852-bead-of-refreshment
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 25-50 зм
+description: Эта пористая безвкусная студенистая бусина растворяется в жидкости, превращая до пинты жидкости в свежую чистую холодную воду. Бусина не оказывает эффект на магические жидкости или опасные вещества типа яда.

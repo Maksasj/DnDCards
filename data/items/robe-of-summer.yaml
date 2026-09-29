@@ -1,0 +1,14 @@
+id: robe-of-summer
+name: Мантия лета
+name_en: Robe of Summer
+source_url: https://dnd.su/items/2425-robe-of-summer/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Это красивое облачение сшито из прекрасной ткани в красных, оранжевых и золотых оттенках. Пока вы облачены в эту мантию, вы получаете сопротивление урону холодом. Кроме того, вы чувствуете себя так, будто стоит прекрасный летний день, и не получаете негативных эффектов от природных экстремально высоких и низких температур. (Глава 5 «*Руководства мастера*»)

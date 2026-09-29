@@ -1,0 +1,18 @@
+id: armor-of-the-fallen
+name: Доспехи падшего
+name_en: Armor of the Fallen
+source_url: https://dnd.su/items/7141-armor-of-the-fallen/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: средний, тяжёлый
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Пока вы носите эти доспехи, вы можете использовать их для наложения заклинаний разговор с мёртвыми [speak with dead] или восставший труп [animate dead]. Если доспехи использовались для наложения заклинания таким образом, они не смогут использоваться для наложения ни одного из заклинаний до следующего рассвета.
+
+  Ваша душа поддерживает эту броню. Если вы умрете, будучи настроенным на доспехи, доспехи будут разрушены.

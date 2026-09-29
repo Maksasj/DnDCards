@@ -1,0 +1,15 @@
+id: periapt-of-health
+name: Медальон здоровья
+name_en: Periapt of health
+source_url: https://dnd.su/items/139-periapt-of-health/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16010-periapt-of-health
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Вы обладаете иммунитетом ко всем болезням, пока носите этот медальон. Если вы уже болеете, эффект болезни подавляются на время, пока вы носите этот медальон.

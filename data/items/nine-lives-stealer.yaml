@@ -1,0 +1,19 @@
+id: nine-lives-stealer
+name: Вор девяти жизней
+name_en: Nine lives stealer
+source_url: https://dnd.su/items/29-nine-lives-stealer/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15999-nine-lives-stealer
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: любой меч
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Вы получаете бонус +2 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  У меча есть 1к8 + 1 заряд. Если вы совершаете критическое попадание по существу, у которого меньше 100 хитов, оно должно преуспеть в спасброске Телосложения Сл 15, иначе мгновенно умрёт, когда меч вырвет его жизненную силу из тела (конструкты и нежить обладают иммунитетом). Меч теряет 1 заряд, если существо умирает. Когда у меча не останется зарядов, он теряет это свойство.

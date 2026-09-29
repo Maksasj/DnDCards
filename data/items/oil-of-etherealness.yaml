@@ -1,0 +1,15 @@
+id: oil-of-etherealness
+name: Масло эфирности
+name_en: Oil of etherealness
+source_url: https://dnd.su/items/135-oil-of-etherealness/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16002-oil-of-etherealness
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: Крошечные капли этого серого масла очень быстро испаряются. Маслом можно обмазать одно существо Среднего или меньшего размера, вместе с одеждой и переносимым им снаряжением (на каждую категорию размера выше Среднего необходим один дополнительный пузырёк масла). Нанесение масла занимает 10 минут. Обмазанное существо получает на 1 час эффект заклинания эфирность [etherealness].

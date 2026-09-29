@@ -1,0 +1,15 @@
+id: horseshoes-of-speed
+name: Подковы скорости
+name_en: Horseshoes of speed
+source_url: https://dnd.su/items/180-horseshoes-of-speed/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15966-horseshoes-of-speed
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Эти железные подковы изготавливаются комплектом по четыре штуки. Если все четыре прикрепить к копытам лошади или подобного существа, они увеличивают скорость ходьбы этого существа на 30 футов.

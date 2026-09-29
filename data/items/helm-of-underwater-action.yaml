@@ -1,0 +1,14 @@
+id: helm-of-underwater-action
+name: Шлем подводных действий
+name_en: Helm of Underwater Action
+source_url: https://dnd.su/items/2369-helm-of-underwater-action/
+sources:
+  - code: GOS
+    book: Ghosts of Saltmarsh
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Надев этот латунный шлем, вы можете дышать под водой, получаете тёмное зрение с дальностью 60 футов, и получаете скорость плавания 30 футов.

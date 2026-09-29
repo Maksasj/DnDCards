@@ -1,0 +1,15 @@
+id: ring-of-water-walking
+name: Кольцо хождения по воде
+name_en: Ring of water walking
+source_url: https://dnd.su/items/113-ring-of-water-walking/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16069-ring-of-water-walking
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Нося это кольцо, вы можете стоять на жидких поверхностях и ходить по ним, как если бы они были твёрдыми.

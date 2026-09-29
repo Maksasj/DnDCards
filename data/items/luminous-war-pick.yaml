@@ -1,0 +1,18 @@
+id: luminous-war-pick
+name: Сияющий клевец
+name_en: Luminous War Pick
+source_url: https://dnd.su/items/6696-luminous-war-pick/
+sources:
+  - code: PBSO
+    book: "Phandelver and Below: The Shattered Obelisk"
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: боевая кирка
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Рукоять этого клевца инкрустирована измельченными перламутровыми камнями, которые придают оружию слабое свечение. Вы получаете бонус +1 к броскам атаки и урона, совершённых с помощью этого клевца.
+
+  Удерживая клевец, вы можете бонусным действием наложить заклинание дневной свет [daylight], выбрав точкой на клевце. Использовав это бонусное действие, его нельзя будет использовать снова до следующего рассвета.

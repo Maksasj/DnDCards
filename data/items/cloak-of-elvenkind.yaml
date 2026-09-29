@@ -1,0 +1,15 @@
+id: cloak-of-elvenkind
+name: Эльфийский плащ
+name_en: Cloak of Elvenkind
+source_url: https://dnd.su/items/261-cloak-of-elvenkind/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15885-cloak-of-elvenkind
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот плащ с накинутым капюшоном, проверки Мудрости (Восприятие), совершённые чтобы увидеть вас, совершаются с помехой, а вы совершаете с преимуществом проверки Ловкости (Скрытность), когда прячетесь — плащ способен изменять свой цвет, обеспечивая вам камуфляж. Накидывание и снятие капюшона совершается действием.

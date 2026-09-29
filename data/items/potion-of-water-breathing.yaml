@@ -1,0 +1,15 @@
+id: potion-of-water-breathing
+name: Зелье подводного дыхания
+name_en: Potion of water breathing
+source_url: https://dnd.su/items/65-potion-of-water-breathing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16043-potion-of-water-breathing
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: Вы можете дышать под водой в течение 1 часа после того, как выпьете это зелье. В мутно-зелёной жидкости, пахнущей морем, плавают небольшие пузырьки, похожие на медуз.

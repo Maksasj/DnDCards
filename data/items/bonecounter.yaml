@@ -1,0 +1,15 @@
+id: bonecounter
+name: Счётчик костей
+name_en: Bonecounter
+source_url: https://dnd.su/items/2396-bonecounter/
+sources:
+  - code: EKSDW
+    book: "Essentials Kit: Sleeping Dragon's Wake"
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: булава
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Это оружие-магическая булава +2, именуемая «Счётчик костей». Всякий раз, когда этим оружием уничтожается нежить, в кармане владельца появляется одна серебряная монета.

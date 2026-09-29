@@ -1,0 +1,17 @@
+id: pole-of-collapsing
+name: Складной шест
+name_en: Pole of Collapsing
+source_url: https://dnd.su/items/427-pole-of-collapsing/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+url_2024: https://next.dnd.su/items/16019-pole-of-collapsing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Держа этот 10-футовый шест, вы можете действием произнести командное слово и сложить шест в 1-футовый жезл для удобства хранения. Вес шеста не меняется. Вы можете действием произнести другое командное слово и заставить жезл снова превратиться в шест, однако шест удлинится только настолько, насколько позволяет окружающее пространство.

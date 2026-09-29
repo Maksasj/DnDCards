@@ -1,0 +1,15 @@
+id: potion-of-comprehension
+name: Зелье понимания
+name_en: Potion of Comprehension
+source_url: https://dnd.su/items/2449-potion-of-comprehension/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+url_2024: https://next.dnd.su/items/16025-potion-of-comprehension
+type_key: potion
+attunement: false
+type: Зелье
+rarity: обычное
+rarity_key: common
+price: 25-50 зм
+description: Когда вы выпиваете это зелье, вы на 1 час получаете эффект заклинания понимание языков [comprehend languages]. Данная жидкость представляет собой прозрачную смесь с вращающимися в ней частичками соли и сажи.

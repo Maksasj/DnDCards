@@ -1,0 +1,18 @@
+id: illusionists-bracers
+name: Наручи иллюзиониста
+name_en: Illusionist’s Bracers
+source_url: https://dnd.su/items/2195-illusionists-bracers/
+sources:
+  - code: GGR
+    book: Guildmasters' guide to Ravnica
+type_key: magic
+attunement: true
+attunement_by: заклинателем
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Могущественная иллюзионистка дома Димиров изначально разработала эти наручи, чтобы создавать сразу несколько малых иллюзий [minor illusion]. Однако сила наручей простирается далеко за пределы иллюзий.
+
+  Пока вы в этих наручах, каждый раз, когда вы накладываете заговор, в тот же ход вы можете бонусным действием наложить этот же заговор ещё раз.

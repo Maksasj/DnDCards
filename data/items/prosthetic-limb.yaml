@@ -1,0 +1,15 @@
+id: prosthetic-limb
+name: Протез
+name_en: Prosthetic limb
+source_url: https://dnd.su/items/2219-prosthetic-limb/
+sources:
+  - code: TCE
+    book: Tasha's Cauldron of Everything
+url_2024: https://next.dnd.su/items/16045-prosthetic-limb
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот предмет заменяет потерянную конечность — ладонь, руку, ступню, ногу или аналогичную часть тела. Установленный протез полноценно выполняет функции той части, которую он заменяет. Вы можете отсоединить или снова присоединить его действием, и он не может быть удалён против вашей воли. Он отсоединяется, если вы умираете.

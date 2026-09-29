@@ -1,0 +1,16 @@
+id: flame-tongue
+name: Язык пламени
+name_en: Flame tongue
+source_url: https://dnd.su/items/262-flame-tongue/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15936-flame-tongue
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: любой меч
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы можете бонусным действием произнести командное слово этого магического меча, отчего из него вырвутся языки пламени. Это пламя испускает яркий свет в радиусе 40 футов и тусклый свет в радиусе ещё 40 футов. Пока меч пылает, он причиняет дополнительно 2к6 урона огнём целям, по которым попадает. Пламя остаётся, пока вы не произнесёте ещё раз командное слово бонусным действием, или пока не уберёте меч в ножны.

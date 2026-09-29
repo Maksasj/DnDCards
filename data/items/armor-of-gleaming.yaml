@@ -1,0 +1,16 @@
+id: armor-of-gleaming
+name: Сверкающий доспех
+name_en: Armor of Gleaming
+source_url: https://dnd.su/items/425-armor-of-gleaming/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15840-armor-of-gleaming
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: средний, тяжёлый
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот доспех никогда не покрывается грязью.

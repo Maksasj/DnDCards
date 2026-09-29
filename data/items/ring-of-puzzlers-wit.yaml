@@ -1,0 +1,17 @@
+id: ring-of-puzzlers-wit
+name: Кольцо остроумия Головоломщика
+name_en: Ring of Puzzler’s Wit
+source_url: https://dnd.su/items/7191-ring-of-puzzlers-wit/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Это золотое кольцо украшено флюоритовым камнем и околдовано для улучшения ума носителя.
+
+  У кольца 3 заряда и оно восстанавливает ежедневно на рассвете 1к4 – 1 зарядов. Когда вы совершаете проверку Интеллекта, вы можете потратить 1 заряд, чтобы совершить эту проверку с преимуществом.

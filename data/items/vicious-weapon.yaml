@@ -1,0 +1,16 @@
+id: vicious-weapon
+name: Жестокое оружие
+name_en: Vicious weapon
+source_url: https://dnd.su/items/51-vicious-weapon/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16147-vicious-weapon
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любое
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Если у вас при броске атаки этим магическим оружием выпадает «20», цель получает дополнительные 7 урона того вида, который наносит это оружие.

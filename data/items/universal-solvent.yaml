@@ -1,0 +1,15 @@
+id: universal-solvent
+name: Универсальный растворитель
+name_en: Universal solvent
+source_url: https://dnd.su/items/243-universal-solvent/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16145-universal-solvent
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: легендарный
+rarity_key: legendary
+price: от 25 001 зм
+description: В этом тюбике находится молочно-белая жидкость с сильным запахом спирта. Вы можете действием вылить содержимое тюбика на поверхность в пределах досягаемости. Она мгновенно растворяет до 1 квадратного фута клейкой субстанции, которой касается, включая превосходный клей [sovereign glue].

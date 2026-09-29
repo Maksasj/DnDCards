@@ -1,0 +1,15 @@
+id: oil-of-sharpness
+name: Масло остроты
+name_en: Oil of sharpness
+source_url: https://dnd.su/items/133-oil-of-sharpness/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16003-oil-of-sharpness
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: Это прозрачное и густое масло сверкает от крошечных серебристых включений. Масло может покрыть одно рубящее или колющее оружие или до 5 рубящих или колющих боеприпасов. Нанесение масла занимает 1 минуту. В течение часа покрытые предметы считаются магическими и предоставляют бонус +3 к броскам атаки и урона.

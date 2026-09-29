@@ -1,0 +1,15 @@
+id: elixir-of-health
+name: Эликсир здоровья
+name_en: Elixir of health
+source_url: https://dnd.su/items/258-elixir-of-health/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15921-elixir-of-health
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: Если вы выпьете это зелье, оно вылечит вас от всех болезней, а также устраняет состояния «оглохший», «ослеплён», «отравлен» и «парализован». Это прозрачная красная жидкость с пузырьками света в ней.

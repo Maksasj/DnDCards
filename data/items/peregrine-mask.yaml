@@ -1,0 +1,14 @@
+id: peregrine-mask
+name: Маска сокола
+name_en: Peregrine Mask
+source_url: https://dnd.su/items/2193-peregrine-mask/
+sources:
+  - code: GGR
+    book: Guildmasters' guide to Ravnica
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Пока вы носите этот крылатый шлем, вы получаете скорость полёта 60 футов. Кроме того, вы получаете преимущество на броски инициативы.

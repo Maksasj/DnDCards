@@ -1,0 +1,16 @@
+id: trident-of-fish-command
+name: Трезубец командования рыбами
+name_en: Trident of fish command
+source_url: https://dnd.su/items/238-trident-of-fish-command/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16144-trident-of-fish-command
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: трезубец
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Этот трезубец — магическое оружие. У него есть 3 заряда. Если вы его держите, вы можете действием потратить 1 заряд, чтобы наложить им заклинание подчинение зверя [dominate beast] (Сл спасброска 15) на зверя, у которого есть врождённая скорость плавания. Трезубец ежедневно восстанавливает 1к3 заряда на рассвете.

@@ -1,0 +1,15 @@
+id: horn-of-silent-alarm
+name: Рог беззвучного сигнала
+name_en: Horn of Silent Alarm
+source_url: https://dnd.su/items/421-horn-of-silent-alarm/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15963-horn-of-silent-alarm
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: У этого рога 4 заряда. Когда вы используете действие, чтобы подуть в него, одно существо по вашему выбору может слышать трубный звук рога, при условии, что оно находится не более, чем в 600 футах от рога, и не оглохшее. Никакие другие существа не слышат звук рога. Рог восстанавливает 1к4 потраченных зарядов ежедневно на рассвете.

@@ -1,0 +1,15 @@
+id: wings-of-flying
+name: Крылья полёта
+name_en: Wings of flying
+source_url: https://dnd.su/items/118-wings-of-flying/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16173-wings-of-flying
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Пока вы носите этот плащ, вы можете действием произнести командное слово. Это превратит плащ в пару крыльев летучей мыши, или птицы на вашей спине на 1 час или пока вы не повторите командное слово действием. Крылья дают вам скорость полёта 60 футов. Если они исчезают, вы не можете повторно вызвать их 1к12 часов.

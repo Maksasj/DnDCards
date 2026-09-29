@@ -1,0 +1,17 @@
+id: potion-of-hill-giant-strength
+name: Зелье силы холмового великана
+name_en: Potion of hill giant strength
+source_url: https://dnd.su/items/7133-potion-of-hill-giant-strength/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: |-
+  Когда вы выпиваете это зелье, значение вашей Силы изменяется на один час. Это новое значение равно 21. Зелье не оказывает на вас никакого эффекта в том случае, если значение вашей Силы уже равно этому значению или превосходит его.
+
+  В прозрачной жидкости этого зелья плавают обрезки ногтей холмового великана.

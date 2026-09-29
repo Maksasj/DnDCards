@@ -1,0 +1,15 @@
+id: maddgoths-helm
+name: Шлем Мэдгота
+name_en: Maddgoth’s Helm
+source_url: https://dnd.su/items/2467-maddgoths-helm/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: true
+attunement_by: Гуманоидом
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Существо настроенное на шлем и носящее его, обладает иммунитетом к любому урону, пока находится внутри замка Мэдгота, на его крыше или во дворе. Если шлем вынести из замка, он разрушается, превращаясь в пыль.

@@ -1,0 +1,14 @@
+id: sekolahian-worshiping-statuette
+name: Статуэтка для поклонения Секолаху
+name_en: Sekolahian Worshiping Statuette
+source_url: https://dnd.su/items/2366-sekolahian-worshiping-statuette/
+sources:
+  - code: GOS
+    book: Ghosts of Saltmarsh
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Искусно вырезанная из песчаника, эта статуэтка высотой в 1 фут изображает акулу, извивающуюся в воде с открытым ртом. Если какое-либо Крошечное морское животное находится в пределах 1 дюйма от рта статуэтки, акула оживает и наносит ей 1 колющий урон. Акула может наносить урон подобным образом не чаще одного раза в час.

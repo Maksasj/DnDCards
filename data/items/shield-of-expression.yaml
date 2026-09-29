@@ -1,0 +1,16 @@
+id: shield-of-expression
+name: Щит экспрессии
+name_en: Shield of Expression
+source_url: https://dnd.su/items/440-shield-of-expression/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16096-shield-of-expression
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: щит
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Передняя сторона щита имеет форму лица. Когда вы носите щит, вы можете бонусным действием поменять выражение лица на нём.

@@ -1,0 +1,14 @@
+id: shield-of-the-silver-dragon
+name: Щит ордена Серебряного дракона
+name_en: Shield of the Silver Dragon
+source_url: https://dnd.su/items/2240-shield-of-the-silver-dragon/
+sources:
+  - code: COS
+    book: Curse of Strahd
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: щит
+rarity: ""
+rarity_key: none
+description: Этот щит +2 украшенный гербом с серебряным драконом - символом Ордена Серебряного Дракона. Этот бонус является дополнением к обычному бонусу щита к КД. Щит шепчет предостережения своему владельцу, предоставляя бонус +2 к инициативе, если владелец дееспособен.

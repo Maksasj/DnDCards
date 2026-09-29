@@ -1,0 +1,13 @@
+id: sleep-grenade
+name: Усыпляющая граната
+name_en: Sleep Grenade
+source_url: https://dnd.su/items/10780-sleep-grenade/
+sources:
+  - code: QIS
+    book: Quest from the Infinite Staircase
+type_key: weapon
+attunement: false
+type: Оружие
+rarity: ""
+rarity_key: none
+description: Эта граната выпускает облако усыпляющего тумана, которое заполняет сферу радиусом 20 футов, а затем рассеивается. Каждое существо в этой области должно преуспеть в спасброске Телосложения Сл 15 или будет находится без сознания в течение 1 часа. Состояние заканчивается для существа раньше, если оно получает урон или если другое существо действием приведёт его в сознание.

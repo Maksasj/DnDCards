@@ -1,0 +1,14 @@
+id: medal-of-the-maze
+name: Медаль лабиринта
+name_en: Medal of the Maze
+source_url: https://dnd.su/items/3610-medal-of-the-maze/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Действием вы можете пройти лабиринт, изображённый на медали. На 1 час вы получаете преимущество на проверки Мудрости и узнаёте самый быстрый маршрут до конца любого немагического пути или лабиринта. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.

@@ -1,0 +1,14 @@
+id: piwafwi-of-fire-resistance
+name: Пивафви сопротивления огню
+name_en: Piwafwi of Fire Resistance
+source_url: https://dnd.su/items/2376-piwafwi-of-fire-resistance/
+sources:
+  - code: OTA
+    book: Out of the Abyss
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Это эльфийский плащ [cloak of elvenkind]. Он также даёт сопротивление урону огнём, пока вы его носите. Он теряет свои магические свойства если в течение 1 часа непрерывно находится на солнечном свете.

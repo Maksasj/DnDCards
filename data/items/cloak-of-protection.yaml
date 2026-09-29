@@ -1,0 +1,15 @@
+id: cloak-of-protection
+name: Плащ защиты
+name_en: Cloak of protection
+source_url: https://dnd.su/items/171-cloak-of-protection/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15888-cloak-of-protection
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Вы получаете бонус +1 к КД и к спасброскам, пока носите этот плащ.

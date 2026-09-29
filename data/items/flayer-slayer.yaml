@@ -1,0 +1,18 @@
+id: flayer-slayer
+name: Гроза свежевателей
+name_en: Flayer Slayer
+source_url: https://dnd.su/items/6695-flayer-slayer/
+sources:
+  - code: PBSO
+    book: "Phandelver and Below: The Shattered Obelisk"
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: секира
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Металлическое лезвие этой секиры украшено резными изображениями обезглавленных свежевателей разума. Вы получаете бонус +1 к броскам атаки и урона, совершённых этой секирой.
+
+  Аберрация, по которой попали этой секирой получает дополнительный 1к12 рубящего урона. Если Аберрация в данный момент схватила существо, она должна преуспеть в спасброске Силы Сл 15 или отпустит каждое существо, которое она схватила.

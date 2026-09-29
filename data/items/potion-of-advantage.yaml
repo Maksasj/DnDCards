@@ -1,0 +1,17 @@
+id: potion-of-advantage
+name: Зелье преимущества
+name_en: Potion of Advantage
+source_url: https://dnd.su/items/2840-potion-of-advantage/
+sources:
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Когда вы выпиваете это зелье, вы получаете преимущество на одну проверку характеристики, бросок атаки или спасбросок по вашему выбору, которые вы совершаете в течение следующего часа.
+
+  Это зелье имеет вид мерцающего золотистого тумана, который движется и струится, как вода.

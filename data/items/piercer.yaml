@@ -1,0 +1,18 @@
+id: piercer
+name: Пронзатель
+name_en: Piercer
+source_url: https://dnd.su/items/2148-piercer/
+sources:
+  - code: AI
+    book: Acquisition Incorporated
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: короткий меч
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, сделанным с помощью этого магического оружия.
+
+  Персонаж, настроенный на меч, восстанавливает максимально возможное количество хитов когда расходует Кости Хитов. Однако настроенный персонаж должен употреблять в два раза больше пищи каждый день (минимум 2 фунта), чтобы избежать истощения.

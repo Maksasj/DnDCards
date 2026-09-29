@@ -1,0 +1,19 @@
+id: chitinous-armor
+name: Хитиновый доспех
+name_en: Chitinous armor
+source_url: https://dnd.su/items/4644-chitinous-armor/
+sources:
+  - code: DDHC-SE
+    book: Saltmarsh Encounters
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Доспех состоит из плаща и леггинсов, выполненных из рыбьей кожи, покрытой перекрывающимися кусками хитина гигантских крабов. Вы можете дышать под водой, пока носите этот доспех. Во всех остальных аспектах он идентичен
+
+  чешуйчатому доспеху
+
+  .

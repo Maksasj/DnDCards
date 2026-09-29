@@ -1,0 +1,19 @@
+id: mace-of-disruption
+name: Булава распада
+name_en: Mace of disruption
+source_url: https://dnd.su/items/8-mace-of-disruption/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15980-mace-of-disruption
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: булава
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Если вы попадаете этим магическим оружием по Исчадию или Нежити, это существо получает дополнительные 2к6 урона излучением. Если у цели после получения этого урона 25 или меньше хитов, она должна преуспеть в спасброске Мудрости Сл 15, иначе будет уничтожена. При успешном спасброске существо становится испуганным вами до конца вашего следующего хода.
+
+  Пока вы держите это оружие, оно излучает яркий свет в радиусе 20 футов и тусклый свет в радиусе ещё 20 футов.

@@ -1,0 +1,14 @@
+id: coin-of-delving
+name: Монета спуска
+name_en: Coin of Delving
+source_url: https://dnd.su/items/2282-coin-of-delving/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Эта сверкающая медная монета излучает тусклый свет в радиусе 5 футов. При падении с высоты более 5 футов монета издает мелодичный громкий звук при ударе о поверхность. Любое существо, которое слышит этот звук, может определить расстояние, которое пролетела монета, основываясь на этом звуке.

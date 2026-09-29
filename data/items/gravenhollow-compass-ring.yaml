@@ -1,0 +1,13 @@
+id: gravenhollow-compass-ring
+name: Кольцо-компас Грейвенхоллоу
+name_en: Gravenhollow Compass Ring
+source_url: https://dnd.su/items/2374-gravenhollow-compass-ring/
+sources:
+  - code: OTA
+    book: Out of the Abyss
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: ""
+rarity_key: none
+description: Это золотое кольцо украшено звездным рубином (стоимостью 1000 золотых монет). Заклинание обнаружение магии [detect magic] позволит определить, что драгоценный камень излучает слабую ауру магия школы Прорицания. Центр драгоценного камня в форме звезды – это магический компас, направляющий своего носителя по наиболее безопасному и наиболее короткому пути к Грейвенхоллоу.

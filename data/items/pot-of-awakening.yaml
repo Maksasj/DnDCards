@@ -1,0 +1,15 @@
+id: pot-of-awakening
+name: Горшок пробуждения
+name_en: Pot of Awakening
+source_url: https://dnd.su/items/395-pot-of-awakening/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16021-pot-of-awakening
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Если вы посадите обычный куст в этот 10-фунтовый глиняный горшок и будете выращивать его в течение 30 дней, к концу этого времени куст магическим образом превратится в пробуждённый куст [awakened shrub]. При пробуждении куст ломает корнями горшок, уничтожая его. Пробуждённый куст дружественен к вам. Куст ничего не делает в отсутствие команд от вас.

@@ -1,0 +1,14 @@
+id: ring-of-truth-telling
+name: Кольцо правды
+name_en: Ring of Truth Telling
+source_url: https://dnd.su/items/2437-ring-of-truth-telling/
+sources:
+  - code: WDH
+    book: "Waterdeep: Dragon Heist"
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Надев это кольцо, вы получаете преимущество на проверки Мудрости (Проницательность) для определения, говорит ли кто-то правду или нет.

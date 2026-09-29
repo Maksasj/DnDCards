@@ -1,0 +1,14 @@
+id: piwafwi-cloak-of-elvenkind
+name: Пивафви (Эльфийский плащ)
+name_en: Piwafwi (Cloak of Elvenkind)
+source_url: https://dnd.su/items/2377-piwafwi-cloak-of-elvenkind/
+sources:
+  - code: OTA
+    book: Out of the Abyss
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Это темный плащ из паучьего шелка изготовленный дроу. Это эльфийский плащ [cloak of elvenkind]. Он теряет свои магические свойства, если в течение 1 часа непрерывно находится на солнечном свете.

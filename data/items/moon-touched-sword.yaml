@@ -1,0 +1,16 @@
+id: moon-touched-sword
+name: Осенённый луной меч
+name_en: Moon-Touched Sword
+source_url: https://dnd.su/items/410-moon-touched-sword/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15992-moon-touched-sword
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любой меч
+rarity: обычное
+rarity_key: common
+price: 50-100 зм
+description: В темноте обнажённое лезвие этого меча излучает лунный свет, создавая яркий свет в радиусе 15 футов и тусклый свет в радиусе ещё 15 футов.

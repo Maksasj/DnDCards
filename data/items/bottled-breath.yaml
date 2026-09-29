@@ -1,0 +1,14 @@
+id: bottled-breath
+name: Бутилированное дыхание
+name_en: Bottled Breath
+source_url: https://dnd.su/items/2378-bottled-breath/
+sources:
+  - code: POA
+    book: Princes of the Apocalypse
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: В этой бутылке содержится дыхание воздушного элементаля. Проглотив его, вы можете либо выдох­нуть его, либо удержать в себе. В первом случае вы создаёте эффект, подобный заклинанию порыв ветра [gust of wind]. Во втором случае вы можете в течение 1 часа обходиться без дыхания. При желании вы можете окончить этот эффект преждевременно (например, если захотите что-нибудь сказать), но эффект выдоха уже не сработает.

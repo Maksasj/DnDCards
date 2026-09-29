@@ -1,0 +1,19 @@
+id: wand-of-polymorph
+name: Волшебная палочка превращения
+name_en: Wand of polymorph
+source_url: https://dnd.su/items/23-wand-of-polymorph/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16160-wand-of-polymorph
+type_key: wand
+attunement: true
+attunement_by: заклинателем
+type: Волшебная палочка
+rarity: очень редкая
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  У этой волшебной палочки 7 зарядов. Если вы её держите, вы можете действием потратить 1 заряд, чтобы наложить ей заклинание превращение [polymorph] (Сл спасброска 15).
+
+  Палочка ежедневно восстанавливает 1к6 + 1 заряд на рассвете. Если вы истратили последний заряд в палочке, бросьте к20. Если выпадет «1», палочка рассыплется в пыль и уничтожится.

@@ -1,0 +1,18 @@
+id: gem-of-seeing
+name: Камень зрения
+name_en: Gem of seeing
+source_url: https://dnd.su/items/78-gem-of-seeing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15941-gem-of-seeing
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  У этого драгоценного камня есть 3 заряда. Вы можете действием произнести командное слово и потратить 1 заряд. В течение следующих 10 минут вы обладаете истинным зрением в пределах 120 футов, если смотрите через этот драгоценный камень.
+
+  Камень ежедневно восстанавливает 1к3 заряда на рассвете.

@@ -1,0 +1,17 @@
+id: orb-of-direction
+name: Сфера направления
+name_en: Orb of Direction
+source_url: https://dnd.su/items/431-orb-of-direction/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+url_2024: https://next.dnd.su/items/16005-orb-of-direction
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Держа эту сферу, вы можете действием определить направление на север. Это свойство работает только на Материальном плане.

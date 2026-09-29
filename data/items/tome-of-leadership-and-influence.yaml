@@ -1,0 +1,18 @@
+id: tome-of-leadership-and-influence
+name: Фолиант лидерства и влияния
+name_en: Tome of leadership and influence
+source_url: https://dnd.su/items/233-tome-of-leadership-and-influence/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16141-tome-of-leadership-and-influence
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Эта книга содержит руководства по оказанию влияния на других, и её слова наполнены магией. Если вы потратите 48 часов за период не более 6 дней на изучение содержимого книги и применение его на практике, ваша Харизма, а также её максимум увеличатся на 2. После этого руководство теряет магию, но восстанавливает её через 100 лет.
+
+  Книги, увеличивающие характеристики: справочник быстроты действий (Ловкость), справочник полезных упражнений (Сила), справочник телесного здоровья (Телосложение), фолиант понимания (Мудрость), фолиант чистых мыслей (Интеллект).

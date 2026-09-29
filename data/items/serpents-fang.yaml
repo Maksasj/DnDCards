@@ -1,0 +1,15 @@
+id: serpents-fang
+name: Змеиный клык
+name_en: Serpent’s Fang
+source_url: https://dnd.su/items/2117-serpents-fang/
+sources:
+  - code: CM
+    book: Candlekeep Mysteries
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: длинный меч
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Этот магический меч с одной режущей кромкой сделан из заточенного клыка гигантской змеи. Его рукоять меняет форму, чтобы приспособиться к хвату любого существа, которое использует его. Оружие наносит дополнительно 1к10 урона ядом любой цели, по которой попадёт.

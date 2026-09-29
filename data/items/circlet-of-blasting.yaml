@@ -1,0 +1,15 @@
+id: circlet-of-blasting
+name: Обруч сжигания
+name_en: Circlet of blasting
+source_url: https://dnd.su/items/155-circlet-of-blasting/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15881-circlet-of-blasting
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот обруч, вы можете действием наложить им заклинание палящий луч [scorching ray]. Вы совершаете бросок атаки этого заклинания с бонусом +5. Обруч не может использоваться повторно до следующего рассвета.

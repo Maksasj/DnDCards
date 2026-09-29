@@ -1,0 +1,17 @@
+id: pipe-of-smoke-monsters
+name: Трубка дымных чудовищ
+name_en: Pipe of Smoke Monsters
+source_url: https://dnd.su/items/434-pipe-of-smoke-monsters/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+url_2024: https://next.dnd.su/items/16014-pipe-of-smoke-monsters
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Куря эту трубку, вы можете действием выдохнуть облако дыма, которое принимает форму одного существа, например, дракона, фламфа или лягемота. Эта форма должна быть достаточно маленькой, чтобы уместиться в 1-футовый куб, и теряет очертания спустя несколько секунд, превращаясь в обычное облако дыма.

@@ -1,0 +1,17 @@
+id: bracers-of-celerity
+name: Наручи стремительности
+name_en: Bracers of Celerity
+source_url: https://dnd.su/items/6693-bracers-of-celerity/
+sources:
+  - code: PBSO
+    book: "Phandelver and Below: The Shattered Obelisk"
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Эта пара лёгких бронзовых наручей отделана мягким пурпурным бархатом и украшена выгравированными закрученными узорами.
+
+  Пока вы носите эти наручи, все ваши скорости увеличиваются на 10 футов, и вы совершаете с преимуществом спасброски, совершаемые для того чтобы избежать или прекратить состояние паралича или состояние опутанности на себе.

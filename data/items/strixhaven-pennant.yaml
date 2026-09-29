@@ -1,0 +1,14 @@
+id: strixhaven-pennant
+name: Вымпел Стриксхейвена
+name_en: Strixhaven Pennant
+source_url: https://dnd.su/items/3163-strixhaven-pennant/
+sources:
+  - code: SCC
+    book: "Strixhaven: A Curriculum of Chaos"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: "На этом магическом вымпеле изображен символ Стриксхейвена или одного из его факультетов: Лорхолда, Призмари, Квандрикса, Сильверквила или Визерблума. Пока вы размахиваете вымпелом, символ на нем блестит, а сам вымпел излучает яркий свет в радиусе 10 футов и тусклый свет еще на 10 футов."

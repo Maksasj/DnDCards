@@ -1,0 +1,15 @@
+id: obsidian-flint-dragon-plate
+name: Обсидианово-кремневые латы дракона
+name_en: Obsidian Flint Dragon Plate
+source_url: https://dnd.su/items/2250-obsidian-flint-dragon-plate/
+sources:
+  - code: BGDA
+    book: "Baldur's Gate: Descent Into Avernus"
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: латы
+rarity: легендарный
+rarity_key: legendary
+price: от 50 001 зм
+description: Вы получаете бонус +2 к КД и сопротивление урону ядом, пока носите эти латы. Кроме того, вы получаете преимущество для проверок характеристик и спасбросков, совершаемых для того, чтобы избежать или вырваться из захвата.

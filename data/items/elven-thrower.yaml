@@ -1,0 +1,16 @@
+id: elven-thrower
+name: Эльфийский метатель
+name_en: Elven thrower
+source_url: https://dnd.su/items/8368-elven-thrower/
+sources:
+  - code: BPGG
+    book: "Bigby Presents: Glory of the Giants"
+type_key: weapon
+attunement: true
+attunement_by: эльфом
+type: Оружие
+type_detail: копьё
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Вы получаете бонус +3 к броскам атаки и урона, совершённым этим магическим оружием. Оно обладает свойством «метательное» с нормальной дистанцией 20 футов и максимальной дистанцией 60 футов. Если вы попадёте дальнобойной атакой этим оружием, оно причиняет дополнительный урон 1к8 или, если цель — Великан, то 2к8. Сразу же после атаки оружие возвращается в вашу руку.

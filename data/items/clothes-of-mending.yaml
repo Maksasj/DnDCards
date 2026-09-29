@@ -1,0 +1,15 @@
+id: clothes-of-mending
+name: Самочинящаяся одежда
+name_en: Clothes of Mending
+source_url: https://dnd.su/items/423-clothes-of-mending/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15892-clothes-of-mending
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Эта элегантная одежда путешественника волшебным образом восстанавливает износ и разрывы. Куски ткани, которые были уничтожены, не могут самостоятельно восстановиться.

@@ -1,0 +1,19 @@
+id: dagger-of-venom
+name: Кинжал яда
+name_en: Dagger of venom
+source_url: https://dnd.su/items/85-dagger-of-venom/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15898-dagger-of-venom
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: кинжал
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Вы можете действием заставить этот клинок покрыться густым чёрным ядом. Яд остаётся 1 минуту, или пока атака этим оружием не попадёт по существу. Цель должна преуспеть в спасброске Телосложения Сл 15, иначе она получит урон ядом 2к10 и станет отравленной на 1 минуту. Вы не можете использовать повторно это свойство до следующего рассвета.

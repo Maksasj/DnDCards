@@ -1,0 +1,15 @@
+id: gloves-of-missile-snaring
+name: Перчатки ловли снарядов
+name_en: Gloves of missile snaring
+source_url: https://dnd.su/items/169-gloves-of-missile-snaring/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15944-gloves-of-missile-snaring
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эти перчатки практически сливаются с вашими руками, когда вы их надеваете. Если по вам попадает дальнобойная атака оружием, когда вы их носите, вы можете реакцией уменьшить урон на 1к10 + ваш модификатор Ловкости, при условии, что у вас есть одна свободная рука. Если вы уменьшили урон до 0, вы можете поймать снаряд, если он достаточно маленький, чтобы его можно было держать одной рукой.

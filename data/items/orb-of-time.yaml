@@ -1,0 +1,15 @@
+id: orb-of-time
+name: Сфера времени
+name_en: Orb of Time
+source_url: https://dnd.su/items/430-orb-of-time/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16007-orb-of-time
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Держа эту сферу, вы можете действием определить время суток на улице (утро, день, вечер или ночь). Это свойство работает только на Материальном плане.

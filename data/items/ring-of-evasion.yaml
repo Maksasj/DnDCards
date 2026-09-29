@@ -1,0 +1,15 @@
+id: ring-of-evasion
+name: Кольцо уклонения
+name_en: Ring of evasion
+source_url: https://dnd.su/items/112-ring-of-evasion/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16052-ring-of-evasion
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: У этого кольца 3 заряда, и оно ежедневно восстанавливает 1к3 заряда на рассвете. Если вы проваливаете спасбросок Ловкости, когда носите его, вы можете реакцией потратить 1 заряд, чтобы спасбросок стал успешным.

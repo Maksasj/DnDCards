@@ -1,0 +1,15 @@
+id: ring-of-three-wishes
+name: Кольцо трёх желаний
+name_en: Ring of three wishes
+source_url: https://dnd.su/items/111-ring-of-three-wishes/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16067-ring-of-three-wishes
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: легендарное
+rarity_key: legendary
+price: от 50 001 зм
+description: Нося это кольцо, вы можете действием использовать 1 из 3 его зарядов, чтобы наложить им заклинание исполнение желаний [wish]. Кольцо перестаёт быть магическим, когда тратится последний заряд.

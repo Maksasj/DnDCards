@@ -1,0 +1,15 @@
+id: periapt-of-proof-against-poison
+name: Медальон защиты от яда
+name_en: Periapt of proof against poison
+source_url: https://dnd.su/items/138-periapt-of-proof-against-poison/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16011-periapt-of-proof-against-poison
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: На этой изысканной серебряной цепочке висит подвеска из чёрного драгоценного камня бриллиантовой огранки. Пока вы её носите, яды не оказывают на вас эффекта. Вы обладаете иммунитетом к состоянию отравленный и к урону ядом.

@@ -1,0 +1,15 @@
+id: instrument-of-illusions
+name: Инструмент иллюзий
+name_en: Instrument of Illusions
+source_url: https://dnd.su/items/401-instrument-of-illusions/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15968-instrument-of-illusions
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: "Когда вы играете на этом музыкальном инструменте, вы можете создавать безвредные иллюзорные визуальные эффекты в пределах сферы радиусом 5 футов с центром на инструменте. Если вы бард, радиус возрастает до 15 футов. Примеры визуальных эффектов: светящиеся ноты в воздухе, призрачная танцовщица, бабочки или медленно падающие хлопья снега. Магические эффекты неосязаемы и не издают звуков, кроме того, их иллюзорность очевидна. Эффекты заканчиваются, когда вы перестаёте играть."

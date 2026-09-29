@@ -1,0 +1,16 @@
+id: scimitar-of-speed
+name: Скимитар скорости
+name_en: Scimitar of speed
+source_url: https://dnd.su/items/215-scimitar-of-speed/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16090-scimitar-of-speed
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: скимитар
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Вы получаете бонус +2 к броскам атаки и урона, совершённым этим магическим оружием. Кроме того, в каждом своём ходу вы можете совершить бонусным действием одну атаку им.

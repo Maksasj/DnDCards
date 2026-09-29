@@ -1,0 +1,18 @@
+id: tidecaller-trident
+name: Трезубец зова приливов
+name_en: Tidecaller Trident
+source_url: https://dnd.su/items/7163-tidecaller-trident/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: трезубец
+rarity: очень редкое
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Вы получаете бонус +2 к броскам атаки и урона, совершённым этим магическим оружием. Вы также совершаете с преимуществом броски атаки этим оружием, находясь под водой.
+
+  Этот магический трезубец имеет 3 заряда. Вы можете потратить 1 заряд чтобы наложить власть над водами [control water] (Сл 15) из этого трезубца, или 3 заряда, чтобы наложить заклинание цунами [tsunami] (Сл 15) из этого трезубца. Трезубец восстанавливает 1к3 израсходованных зарядов ежедневно на рассвете.

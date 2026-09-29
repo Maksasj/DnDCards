@@ -1,0 +1,18 @@
+id: hunters-coat
+name: Охотничье пальто
+name_en: Hunter’s Coat
+source_url: https://dnd.su/items/2303-hunters-coat/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: кожаный
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Вы получаете бонус +1 к КД, пока вы носите этот доспех.
+
+  Пальто имеет 3 заряда. Когда вы попадаете атакой по раненому существу, вы можете потратить 1 заряд, чтобы дополнительно нанести 1к10 урона некротической энергией по цели. Пальто восстанавливает 1к3 израсходованных заряда ежедневно на рассвете.

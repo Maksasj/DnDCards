@@ -1,0 +1,19 @@
+id: giant-slayer
+name: Убийца великанов
+name_en: Giant slayer
+source_url: https://dnd.su/items/240-giant-slayer/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15942-giant-slayer
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любой меч, любой топор
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием.
+
+  Если вы попадаете им по великану, великан получает дополнительный урон 2к6, соответствующий виду оружия, и должен преуспеть в спасброске Силы Сл 15, иначе он будет сбит с ног. Для этого оружия «великан» означает любое существо с видом «великан», включая эттинов и троллей.

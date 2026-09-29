@@ -1,0 +1,19 @@
+id: wand-of-web
+name: Волшебная палочка паутины
+name_en: Wand of web
+source_url: https://dnd.su/items/22-wand-of-web/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16164-wand-of-web
+type_key: wand
+attunement: true
+attunement_by: заклинателем
+type: Волшебная палочка
+rarity: необычная
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  У этой волшебной палочки 7 зарядов. Если вы её держите, вы можете действием потратить 1 заряд, чтобы наложить ей заклинание паутина [web] (Сл спасброска 15).
+
+  Палочка ежедневно восстанавливает 1к6 + 1 заряд на рассвете. Если вы истратили последний заряд в палочке, бросьте к20. Если выпадет «1», палочка рассыплется в пыль и уничтожится.

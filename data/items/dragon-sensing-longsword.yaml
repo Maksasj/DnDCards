@@ -1,0 +1,14 @@
+id: dragon-sensing-longsword
+name: Ощущающий драконов длинный меч
+name_en: Dragon Sensing Longsword
+source_url: https://dnd.su/items/2392-dragon-sensing-longsword/
+sources:
+  - code: POA
+    book: Princes of the Apocalypse
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: длинный меч
+rarity: ""
+rarity_key: none
+description: Этот длинный меч +1, с клинком из драконьей кости и рукоятью, обтянутый кожей дракона. Навершие и рукоять инкрустированы рубинами. Меч излучает тепло, а рубины светятся, если меч находится на расстоянии 120 футов или меньше от дракона.

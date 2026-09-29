@@ -1,0 +1,19 @@
+id: mace-of-smiting
+name: Булава кары
+name_en: Mace of smiting
+source_url: https://dnd.su/items/7-mace-of-smiting/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15981-mace-of-smiting
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: булава
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к броскам атаки и урона, совершённым этим магическим оружием. Бонус увеличивается до +3, если атакуется Конструкт.
+
+  Если у вас выпадает «20» при броске атаки этим оружием, цель получает дополнительный дробящий урон 7 или дополнительный дробящий урон 14, если это был конструкт. Если у конструкта осталось 25 или меньше хитов после получения этого урона, он уничтожается.

@@ -1,0 +1,14 @@
+id: medal-of-muscle
+name: Медаль мышц
+name_en: Medal of Muscle
+source_url: https://dnd.su/items/3607-medal-of-muscle/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Действием вы можете крепко сжать эту медаль в ладони. Это даёт вам преимущество на проверки и спасброски Силы в течение 1 часа. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.

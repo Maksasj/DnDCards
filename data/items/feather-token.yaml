@@ -1,0 +1,14 @@
+id: feather-token
+name: Жетон с перышком
+name_en: Feather Token
+source_url: https://dnd.su/items/2256-feather-token/
+sources:
+  - code: RLW
+    book: "Eberron: Rising from the Last War"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: На этом маленьком металлическом диске выгравировано изображение пера. Когда вы падаете по крайней мере на 20 футов, а жетон находится при вас, то скорость падения уменьшается на 60 футов в раунд и вы не получаете никакого урона от падения. Магия жетона исчезает сразу после того, как вы приземляетесь, после чего диск становится немагическим.

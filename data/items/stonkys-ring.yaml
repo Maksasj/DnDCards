@@ -1,0 +1,16 @@
+id: stonkys-ring
+name: Кольцо Стонки
+name_en: Stonky's ring
+source_url: https://dnd.su/items/2121-stonkys-ring/
+sources:
+  - code: CM
+    book: Candlekeep Mysteries
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: ""
+rarity_key: none
+description: |-
+  Пока вы носите это кольцо, вы можете по своему желанию накладывать заклинание *телекинез [telekinesis]*, но целью могут быть только предметы, которые не несут и не носят.
+
+  Любой персонаж, настроенный на кольцо, получает контроль над творением Стонки, хотя шустроштуки [skitterwidgets] игнорируют команды, произносимые более чем в 30 футах от них.

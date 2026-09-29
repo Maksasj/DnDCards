@@ -1,0 +1,14 @@
+id: petrified-grung-egg
+name: Окаменевшее яйцо грунга
+name_en: Petrified Grung Egg
+source_url: https://dnd.su/items/2349-petrified-grung-egg/
+sources:
+  - code: TOA
+    book: Tomb of Annihilation
+type_key: magic
+attunement: true
+attunement_by: заклинателем
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Данный предмет, функционирует как жемчужина силы [pearl of power]. Заклинатель, который настраивается на яйцо, также получает сопротивление урону ядом. Яйцо превращается в пыль и разрушается, если оно покидает Гробницу девяти богов.

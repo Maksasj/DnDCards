@@ -1,0 +1,22 @@
+id: elemental-gem
+name: Камень элементаля
+name_en: Elemental gem
+source_url: https://dnd.su/items/83-elemental-gem/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15920-elemental-gem
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 51-250 зм
+description: |-
+  Этот камень содержит частичку стихийной энергии. Если вы действием разбиваете камень, призывается элементаль, как если бы вы наложили заклинание призыв элементаля [conjure elemental], и магия, заключённая в камне, исчезает. Вид камня определяет вид призываемого элементаля.
+
+  | **Камень** | **Призываемый элементаль** |
+  | Изумруд | водяной элементаль [water elemental] |
+  | Синий сапфир | воздушный элементаль [air elemental] |
+  | Жёлтый бриллиант | земляной элементаль [earth elemental] |
+  | Красный корунд | огненный элементаль [fire elemental] |

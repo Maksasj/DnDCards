@@ -1,0 +1,17 @@
+id: goggles-of-object-reading
+name: Очки распознавания объектов
+name_en: Goggles of Object Reading
+source_url: https://dnd.su/items/2287-goggles-of-object-reading/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Очки в кожаной оправе с фиолетовыми хрустальными линзами. Пока вы носите эти очки, вы получаете преимущество на проверки Интеллекта (Магия), чтобы считать информацию о существе или объекте, который вы можете видеть.
+
+  Кроме того, вы можете наложить заклинание опознание [Identify] с помощью этих очков. Это свойство не может быть использовано снова до следующего рассвета.

@@ -1,0 +1,15 @@
+id: potion-of-mind-reading
+name: Зелье чтения мыслей
+name_en: Potion of mind reading
+source_url: https://dnd.su/items/72-potion-of-mind-reading/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16037-potion-of-mind-reading
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: Когда вы выпиваете это зелье, вы получаете эффект заклинания обнаружение мыслей [detect thoughts] (Сл спасброска 13). На вид это густое, фиолетовое зелье, с плавающим в нём небольшим овальным облачком.

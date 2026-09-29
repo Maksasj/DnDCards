@@ -1,0 +1,15 @@
+id: brooch-of-shielding
+name: Брошь защиты
+name_en: Brooch of shielding
+source_url: https://dnd.su/items/277-brooch-of-shielding/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15869-brooch-of-shielding
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эту брошь, вы обладаете сопротивлением урону силовым полем и иммунитетом к урону от заклинания волшебная стрела [magic missile].

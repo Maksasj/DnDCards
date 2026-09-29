@@ -1,0 +1,14 @@
+id: dust-of-deliciousness
+name: Порошок наслаждения
+name_en: Dust of Deliciousness
+source_url: https://dnd.su/items/2288-dust-of-deliciousness/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: "Этим красновато-коричневым порошком можно посыпать любое съедобное вещество, чтобы значительно улучшить его вкус. Порошок также притупляет чувства едока: любой, кто съест пищу, обработанную этим порошком, получает помеху на проверки Мудрости и спасброски Мудрости совершаемых в течение 1 часа. Порошка хватает на шесть порций."

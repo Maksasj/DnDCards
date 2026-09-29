@@ -1,0 +1,15 @@
+id: potion-of-invisibility
+name: Зелье невидимости
+name_en: Potion of invisibility
+source_url: https://dnd.su/items/62-potion-of-invisibility/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16034-potion-of-invisibility
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: Контейнер с этим зельем выглядит пустым, но на вес чувствуется, что он всё же содержит жидкость. Выпив её, вы становитесь невидимым на 1 час. Всё, что вы несёте и носите, становится невидимым вместе с вами. Эффект оканчивается преждевременно, если вы атакуете или наложите заклинание.

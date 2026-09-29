@@ -1,0 +1,15 @@
+id: sovereign-glue
+name: Превосходный клей
+name_en: Sovereign glue
+source_url: https://dnd.su/items/200-sovereign-glue/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16102-sovereign-glue
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: легендарный
+rarity_key: legendary
+price: от 25 001 зм
+description: Эта тягучая, молочно-белая субстанция может склеить два любых предмета. Она должна храниться в сосуде или фляге, покрытой изнутри маслом скольжения. В найденном контейнере находится 1к6 + 1 унция клея. Одна унция клея может покрыть 1 квадратный фут поверхности. Клей затвердевает через 1 минуту. После этого связь двух предметов можно разорвать только нанесёнием универсального растворителя [universal solvent] или масла эфирности [oil of etherealness], либо же заклинанием исполнение желаний [wish].

@@ -1,0 +1,19 @@
+id: shield-of-missile-attraction
+name: Щит притягивания снарядов
+name_en: Shield of missile attraction
+source_url: https://dnd.su/items/256-shield-of-missile-attraction/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16097-shield-of-missile-attraction
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: щит
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете сопротивление урону от дальнобойных атак оружием, пока держите этот щит.
+
+  **Проклятье.**Этот щит проклят. Если вы настраиваетесь на него, вы становитесь проклятым, пока не станете целью заклинания снятие проклятья [remove curse] или другой подобной магии. Простое снятие щита не оканчивает проклятье на вас. Каждый раз, когда по цели, находящейся в пределах 10 футов от вас, совершается дальнобойная атака оружием, проклятье заставляет стать целью вас.

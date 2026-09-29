@@ -1,0 +1,15 @@
+id: periapt-of-wound-closure
+name: Медальон затягивающихся ран
+name_en: Periapt of wound closure
+source_url: https://dnd.su/items/137-periapt-of-wound-closure/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16012-periapt-of-wound-closure
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите этот медальон, ваше состояние стабилизируется каждый раз, когда вы находитесь в умирающем состоянии в начале своего хода. Кроме того, каждый раз, когда вы бросаете Кость хитов для восстановления своих хитов, вы удваиваете число хитов, восстанавливаемых этой Костью.

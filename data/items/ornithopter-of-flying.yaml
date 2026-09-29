@@ -1,0 +1,17 @@
+id: ornithopter-of-flying
+name: Махолёт полёта
+name_en: Ornithopter of Flying
+source_url: https://dnd.su/items/2838-ornithopter-of-flying/
+sources:
+  - code: WBW
+    book: "The Wild Beyond The Witchlight: A Feywild Adventure"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Вы можете использовать это устройство для полётов при условии, что ваш вес (включая то, что вы носите или нёсете) не превышает 300 фунтов. Махолёт имеет скорость полёта 30 футов, и он перемещается в соответствии с вашими устными указаниями, пока вы едете на нём. Он не может парить. Если махолёт теряет своего пилота во время полёта, он падает и на 1к6 + 4 дней теряет возможность летать.
+
+  Махолёт имеет длину 8 футов, размах крыльев 14 футов и весит 25 фунтов.

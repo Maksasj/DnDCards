@@ -1,0 +1,15 @@
+id: candle-of-the-deep
+name: Свеча глубин
+name_en: Candle of The Deep
+source_url: https://dnd.su/items/426-candle-of-the-deep/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15872-candle-of-the-deep
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Пламя этой свечи не гаснет при погружении в воду. Она излучает свет и тепло как обычная свеча.

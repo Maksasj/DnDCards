@@ -1,0 +1,15 @@
+id: cloak-of-displacement
+name: Плащ ускользания
+name_en: Cloak of displacement
+source_url: https://dnd.su/items/176-cloak-of-displacement/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15884-cloak-of-displacement
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Пока вы носите этот плащ, он создаёт иллюзию, что вы находитесь немного в стороне от настоящего местонахождения, отчего существа совершают броски атаки по вам с помехой. Если вы получаете урон, это свойство перестаёт действовать до начала вашего следующего хода. Это свойство подавляется, пока вы недееспособны, опутаны или не можете перемещаться по другой причине.

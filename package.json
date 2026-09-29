@@ -4,13 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "import": "node scripts/import-dndsu.js",
     "dev": "vite",
     "pdf": "node scripts/render.js pdf",
     "png": "node scripts/render.js png",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "node scripts/check-data.js"
+    "check": "node scripts/check-data.js",
+    "import:spells": "node scripts/import-spells.js",
+    "import:items": "node scripts/import-items.js"
   },
   "keywords": [],
   "author": "",

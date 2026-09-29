@@ -1,0 +1,20 @@
+id: ring-of-animal-influence
+name: Кольцо влияния на животных
+name_en: Ring of animal influence
+source_url: https://dnd.su/items/93-ring-of-animal-influence/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16049-ring-of-animal-influence
+type_key: ring
+attunement: false
+type: Кольцо
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  У этого кольца есть 3 заряда, и оно ежедневно восстанавливает 1к3 заряда на рассвете. Нося это кольцо, вы можете действием потратить 1 заряд, чтобы наложить одно из следующих заклинаний:
+
+  - Дружба с животными [animal friendship] (Сл спасброска 13).
+  - *Ужас [fear] (*Сл спасброска 13), нацеливается только на зверей с Интеллектом 3 или ниже.
+  - *Разговор с животными [speak with animals].*

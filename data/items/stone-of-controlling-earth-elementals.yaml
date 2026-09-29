@@ -1,0 +1,15 @@
+id: stone-of-controlling-earth-elementals
+name: Камень контролирования земляных элементалей
+name_en: Stone of controlling earth elementals
+source_url: https://dnd.su/items/80-stone-of-controlling-earth-elementals/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16123-stone-of-controlling-earth-elementals
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: Если этот камень касается пола, вы можете действием произнести командное слово и призвать земляного элементаля [earth elemental], как если бы вы наложили заклинание **призыв элементаля [conjure elemental]**. После этого камень нельзя повторно использовать до следующего рассвета. Весит камень 5 фунтов.

@@ -1,0 +1,17 @@
+id: potion-of-maximum-power
+name: Зелье максимальной мощи
+name_en: Potion of Maximum Power
+source_url: https://dnd.su/items/2289-potion-of-maximum-power/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  В течение 1 минуты после того как вы выпили это зелье, впервые, когда вы используете заклинание 4-го уровня или ниже, наносящее урон, вместо того чтобы бросать кости для определения нанесённого урона, вы можете использовать максимально возможный результат для каждой кости.
+
+  Эта светящаяся фиолетовая жидкость пахнет сахаром и сливой, но имеет илистый привкус.

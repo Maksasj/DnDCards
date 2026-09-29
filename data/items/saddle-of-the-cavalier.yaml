@@ -1,0 +1,15 @@
+id: saddle-of-the-cavalier
+name: Седло кавалериста
+name_en: Saddle of the Cavalier
+source_url: https://dnd.su/items/213-saddle-of-the-cavalier/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16088-saddle-of-the-cavalier
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Если вы находитесь в этом седле на ездовом животном, и вы в сознании, вы не можете быть спешены против вашей воли, и броски атаки по вашему ездовому животному совершаются с помехой.

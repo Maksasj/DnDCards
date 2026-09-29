@@ -1,0 +1,14 @@
+id: everbright-lantern
+name: Вечно горящий фонарь
+name_en: Everbright Lantern
+source_url: https://dnd.su/items/2255-everbright-lantern/
+sources:
+  - code: RLW
+    book: "Eberron: Rising from the Last War"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот фонарь типа «бычий глаз» содержит драконий осколок Эберрона, который испускает свет, сравнимый с тем, который создает заклинание вечный огонь [continual flame]. Вечно горящий фонарь испускает свет в 120-футовом конусе; ближайшие 60 футов — это яркий свет, а дальние 60 футов — тусклый свет.

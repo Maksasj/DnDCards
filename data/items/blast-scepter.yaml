@@ -1,0 +1,17 @@
+id: blast-scepter
+name: Скипетр взрыва
+name_en: Blast Scepter
+source_url: https://dnd.su/items/2465-blast-scepter/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: rod
+attunement: true
+type: Жезл
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Скипетр взрыва можно использовать в качестве заклинательной фокусировки.
+
+  Существо настроенное на скипетр взрыва получает сопротивление урону огнём и электричеством и действием может наложить с его помощью заклинание волна грома [thunderwave] как заклинание 4-го уровня (Сл спасброска 16) без использования ячейки заклинания.

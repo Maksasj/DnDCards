@@ -1,0 +1,15 @@
+id: potion-of-vitality
+name: Зелье живучести
+name_en: Potion of vitality
+source_url: https://dnd.su/items/59-potion-of-vitality/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16042-potion-of-vitality
+type_key: potion
+attunement: false
+type: Зелье
+rarity: очень редкое
+rarity_key: very_rare
+price: 2 501-25 000 зм
+description: Если вы выпьете это зелье, оно устранит всё имеющееся у вас истощение, а также все болезни и яды, действующие на вас. В течение следующих 24 часов вы восстанавливаете максимум хитов за каждую использованную Кость Хитов. Алая жидкость этого зелья периодически пульсирует, напоминая биение сердца.

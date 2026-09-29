@@ -1,0 +1,15 @@
+id: eyes-of-minute-seeing
+name: Очки детального зрения
+name_en: Eyes of minute seeing
+source_url: https://dnd.su/items/162-eyes-of-minute-seeing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15933-eyes-of-minute-seeing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Эти кристаллические линзы размещаются напротив глаз. Пока вы их носите, вы видите лучше, чем обычно, в пределах 1 фута. Вы совершаете с преимуществом проверки Интеллекта (Расследование), полагающиеся на исследование местности или предмета в пределах 1 фута.

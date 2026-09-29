@@ -1,0 +1,19 @@
+id: wand-of-lightning-bolts
+name: Волшебная палочка молний
+name_en: Wand of lightning bolts
+source_url: https://dnd.su/items/17-wand-of-lightning-bolts/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16155-wand-of-lightning-bolts
+type_key: wand
+attunement: true
+attunement_by: заклинателем
+type: Волшебная палочка
+rarity: редкая
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  У этой волшебной палочки 7 зарядов. Если вы её держите, вы можете действием потратить 1 или несколько зарядов, чтобы наложить ей заклинание молния [lightning bolt] (Сл спасброска 15). За 1 заряд вы накладываете это заклинание 3-го уровня. Вы можете увеличить уровень заклинания на 1 за каждый дополнительный используемый заряд.
+
+  Палочка ежедневно восстанавливает 1к6 + 1 заряд на рассвете. Если вы истратили последний заряд в палочке, бросьте к20. Если выпадет «1», палочка рассыплется в пыль и уничтожится.

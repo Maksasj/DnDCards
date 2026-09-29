@@ -1,0 +1,14 @@
+id: reincarnation-dust
+name: Порошок реинкарнации
+name_en: Reincarnation Dust
+source_url: https://dnd.su/items/2305-reincarnation-dust/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: Когда этот маленький мешочек пурпурного порошка высыпают на мёртвого гуманоида или часть мёртвого гуманоида, прах поглощается останками. При желании мертвое существо возвращается к жизни в новом теле, будто на останки было наложено заклинание реинкарнация [reincarnate].

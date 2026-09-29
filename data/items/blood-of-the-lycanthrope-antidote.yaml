@@ -1,0 +1,14 @@
+id: blood-of-the-lycanthrope-antidote
+name: Противоядие крови ликантропа
+name_en: Blood of the Lycanthrope Antidote
+source_url: https://dnd.su/items/3788-blood-of-the-lycanthrope-antidote/
+sources:
+  - code: IMR
+    book: Infernal Machine Rebuild
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Это прозрачное зелье имеет внутри тёмно-красные пятна, напоминающие запекшуюся кровь. Когда вы выпиваете это зелье, оно снимает с вас проклятие ликантропии, если это проклятие было наложено укусом ликантропа или подобным эффектом.

@@ -1,0 +1,14 @@
+id: armor-1-2-3
+name: Доспех +1, +2, +3
+name_en: Armor +1, +2, +3
+source_url: https://dnd.su/items/33-armor-1-2-3/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: лёгкий, средний, тяжёлый
+rarity: редкость варьируется (+1 редкий, +2 очень редкий, +3 легендарный)
+rarity_key: varies
+description: Вы получаете бонус к КД, пока носите этот доспех. Бонус определяется редкостью доспеха.

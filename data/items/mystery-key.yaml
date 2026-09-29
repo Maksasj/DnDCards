@@ -1,0 +1,15 @@
+id: mystery-key
+name: Таинственный ключ
+name_en: Mystery Key
+source_url: https://dnd.su/items/432-mystery-key/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15994-mystery-key
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Головка этого ключа выполнена в виде вопросительного знака. Существует шанс 5%, что ключ откроет любой замок, в который был вставлен. Однажды открыв что либо, ключ пропадает.

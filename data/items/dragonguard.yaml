@@ -1,0 +1,15 @@
+id: dragonguard
+name: Драконий страж
+name_en: Dragonguard
+source_url: https://dnd.su/items/274-dragonguard/
+sources:
+  - code: LMOP
+    book: Lost Mine of Phandelver
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: кираса
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: На этой кирасе +1 изображен золотой дракон. Созданная для героя Невервинтера, человека по имени Тергон, она позволяет владельцу совершать с преимуществом спасброски против дыхания существ, имеющих тип «дракон».

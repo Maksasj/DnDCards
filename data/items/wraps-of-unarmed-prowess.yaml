@@ -1,0 +1,13 @@
+id: wraps-of-unarmed-prowess
+name: Обмотки безоружного мастерства
+name_en: Wraps of Unarmed Prowess
+source_url: https://dnd.su/items/7161-wraps-of-unarmed-prowess/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкость варьируется (+1 необычный, +2 редкий, +3 очень редкий)
+rarity_key: varies
+description: Пока вы носите эти тканевые обмотки, ваши безоружные удары считаются магическими при определении преодоления сопротивления и иммунитета к немагическим атакам и урону, и вы получаете бонус к броскам атаки и урона ваших безоружных ударов. Размер бонуса определяется редкостью обмоток.

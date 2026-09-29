@@ -1,0 +1,17 @@
+id: potion-of-psionic-fortitude
+name: Зелье псионической стойкости
+name_en: Potion of Psionic Fortitude
+source_url: https://dnd.su/items/6733-potion-of-psionic-fortitude/
+sources:
+  - code: PBSO
+    book: "Phandelver and Below: The Shattered Obelisk"
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 51-250 зм
+description: |-
+  Когда вы выпиваете это зелье, в течение 1 часа вы совершаете с преимуществом спасброски, совершаемые для избегания или снятия с себя эффекта очарования или ошеломления.
+
+  Это чёрное зелье переливается мерцающими розовыми и фиолетовыми пятнами.

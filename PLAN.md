@@ -7,16 +7,16 @@ See README.md. There are no decks stored in the repo: a set of spells is a share
 
 ## Status (2026-09-29)
 
-- Done: all 524 spells from dnd.su imported (`npm run import -- --all`); spell card template (black-and-white
-  spine with level box / school symbol from dnd.su; "концентрация" / "ритуал" written out in the stats grid;
-  source books bottom right); text fitting (shrink font to 6.4pt, then grow the card taller, 88 mm minimum,
-  page height maximum, then last-resort shrink to 5pt); A4 sheets with 3 columns and crop marks.
-- Website: all spells on one page grouped by level in columns (like dnd.su), filters (search / level / class /
-  school / source), selection stored in the URL hash for sharing + localStorage, print tab, browser print → PDF.
+- Done: all 524 spells and 934 magic items from dnd.su (`npm run import:spells|import:items -- --all`).
+- Cards: black-and-white spine (spells: level box + school symbol; items: type icon + "тип · редкость"),
+  stats grid, sources bottom right. Text fitting: shrink font to 6.4pt, grow the card (88 mm min, page height
+  max), shrink to 5.8pt, then continue on "(продолжение)" cards.
+- Website: tabs "Заклинания" / "Магические предметы" (all entries on one page, grouped in columns like dnd.su,
+  with filters) and "Листы для печати"; one shared selection in the URL hash (#s=…&i=…) + localStorage.
   GitHub Pages deploy via Actions on push to master.
-- Decided: grayscale printer (no meaning carried by color), A4, 63 mm card width, Russian text from dnd.su,
-  fonts Cormorant Garamond / PT Serif / PT Sans Narrow. The PH24 (2024 edition) link is stored as url_2024, not printed.
-- Open: card backs, ability and item card types, test print to check size and readability.
+- Decided: grayscale printer, A4, 63 mm card width, Russian text from dnd.su, fonts Cormorant Garamond /
+  PT Serif / PT Sans Narrow. 2024-edition links stored as url_2024, not printed. No decks in the repo.
+- Open: card backs, class abilities, test print to check size and readability.
 
 Goal: turn spells, abilities and items from our wiki into printable cards (PDF) that we can cut out and use at the table.
 

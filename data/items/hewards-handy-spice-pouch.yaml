@@ -1,0 +1,15 @@
+id: hewards-handy-spice-pouch
+name: Удобный мешочек специй Хеварда
+name_en: Heward’s Handy Spice Pouch
+source_url: https://dnd.su/items/435-hewards-handy-spice-pouch/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15960-hewards-handy-spice-pouch
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот мешочек пуст, и у него 10 зарядов. Держа его в руке, вы можете действием потратить один заряд, назвать любую немагическую пищевую приправу (например, соль, перец, шафран или кинза), и вытащить щепотку приправы из мешочка. Щепотки достаточно, чтобы приправить одну порцию еды. Мешок ежедневно восстанавливает 1к6+4 потраченных зарядов на рассвете.

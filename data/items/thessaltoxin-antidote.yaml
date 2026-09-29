@@ -1,0 +1,14 @@
+id: thessaltoxin-antidote
+name: Противоядие фессалтоксин
+name_en: Thessaltoxin Antidote
+source_url: https://dnd.su/items/3795-thessaltoxin-antidote/
+sources:
+  - code: IMR
+    book: Infernal Machine Rebuild
+type_key: potion
+attunement: false
+type: Зелье
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: Кажется, что это зелье меняет цвет и текстуру каждый раз, когда вы смотрите на него. Когда вы выпиваете зелье, оно прекратит эффект превращения [polymorph], наложенный фессалтоксином.

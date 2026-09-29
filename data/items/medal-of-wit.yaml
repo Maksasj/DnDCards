@@ -1,0 +1,14 @@
+id: medal-of-wit
+name: Медаль остроумия
+name_en: Medal of Wit
+source_url: https://dnd.su/items/3613-medal-of-wit/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Действием вы можете прижать эту медаль к своему виску. На 1 час вы получаете преимущество на проверки и спасброски Интеллекта. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.

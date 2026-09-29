@@ -1,0 +1,15 @@
+id: ear-horn-of-hearing
+name: Слуховой рог
+name_en: Ear Horn of Hearing
+source_url: https://dnd.su/items/428-ear-horn-of-hearing/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15917-ear-horn-of-hearing
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Будучи поднесённым к уху, этот рог подавляет на вас эффекты состояния «оглохший» и позволяет слышать нормально.

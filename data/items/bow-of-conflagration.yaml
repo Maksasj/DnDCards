@@ -1,0 +1,15 @@
+id: bow-of-conflagration
+name: Лук Воспламенения
+name_en: Bow of Conflagration
+source_url: https://dnd.su/items/7150-bow-of-conflagration/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: любой лук
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Боеприпасы, выпущенные из этого лука, ярко сверкают. Когда вы совершаете бросок атаки из этого лука, цель получает дополнительно 1к6 урона огнём . Если целью является легковоспламеняющийся немагический объект, он загорается, получая 1к6 урона огнём в начале каждого вашего хода, пока существо не использует действие для тушения пламени.

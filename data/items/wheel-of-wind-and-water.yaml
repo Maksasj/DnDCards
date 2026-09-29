@@ -1,0 +1,17 @@
+id: wheel-of-wind-and-water
+name: Штурвал ветра и воды
+name_en: Wheel of Wind and Water
+source_url: https://dnd.su/items/2269-wheel-of-wind-and-water/
+sources:
+  - code: RLW
+    book: "Eberron: Rising from the Last War"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Являясь штурвалом элементального галеона или воздушного корабля этот предмет позволяет существу, обладающему Меткой Бури, телепатически управлять элементалем, запечатанным внутри судна.
+
+  Если штурвал ветра и воды устанавливается на обычном парусном судне, то существо с Меткой Бури, использующее этот штурвал, может создать вокруг судна зону с идеальными условиями, увеличивая скорость судна на 5 миль в час.

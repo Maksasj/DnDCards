@@ -1,0 +1,15 @@
+id: staff-of-adornment
+name: Посох украшения
+name_en: Staff of Adornment
+source_url: https://dnd.su/items/418-staff-of-adornment/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16107-staff-of-adornment
+type_key: staff
+attunement: false
+type: Посох
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Если вы размещаете объект, весящий не более 1 фунта (такой как осколок кристалла, яйцо или камень) выше навершия посоха, пока держите его, объект поднимается на дюйм от навершия посоха и остаётся там до тех пор, пока не будет перемещён или пока посох находится у вас. Посох может одновременно удерживать до трёх таких объектов плавающими над его навершием. Пока вы держите посох, вы можете заставить один или несколько объектов медленно вращаться вокруг своей оси или вокруг друг друга.

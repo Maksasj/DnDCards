@@ -1,0 +1,18 @@
+id: 1-mithral-half-plate
+name: Мифрильные полулаты +1
+name_en: +1 Mithral Half Plate
+source_url: https://dnd.su/items/2165-1-mithral-half-plate/
+sources:
+  - code: AI
+    book: Acquisition Incorporated
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: полулаты
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Вы получаете бонус +1 к КД, когда вы носите эти полулаты, носящие знак Железных Работ Даргуна.
+
+  Мифрил - это лёгкий и гибкий металл. Сделанная из мифрила кольчужная рубаха или кираса может носиться под обычной одеждой. Если в обычном исполнении доспех накладывает помеху на проверки Ловкости (Скрытность) или имеет требования к Силе, то в версии из мифрила он не обладает этими недостатками.

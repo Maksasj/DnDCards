@@ -1,0 +1,15 @@
+id: ring-of-free-action
+name: Кольцо свободных действий
+name_en: Ring of free action
+source_url: https://dnd.su/items/106-ring-of-free-action/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16054-ring-of-free-action
+type_key: ring
+attunement: true
+type: Кольцо
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Если вы носите это кольцо, труднопроходимая местность не заставляет вас тратить дополнительное перемещение. Кроме того, магия не может ни уменьшить вашу скорость, ни сделать вас парализованным или опутанным.

@@ -1,0 +1,15 @@
+id: two-birds-sling
+name: Праща двух зайцев
+name_en: Two-Birds Sling
+source_url: https://dnd.su/items/2101-two-birds-sling/
+sources:
+  - code: MOT
+    book: Mythic Odysseys of Theros
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: праща
+rarity: редкое
+rarity_key: rare
+price: 501-5 000 зм
+description: Вы получаете бонус +1 к броскам атаки и урона этим оружием. Если совершённая дальнобойная атака этим оружием попадает, вы можете заставить снаряд отскочить в сторону второй цели, находящейся в пределах 10 футов от первоначальной, позволяя вам совершить дальнобойную атаку по второй цели.

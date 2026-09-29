@@ -1,0 +1,15 @@
+id: shatterspike
+name: Разрушающее остриё
+name_en: Shatterspike
+source_url: https://dnd.su/items/2421-shatterspike/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: weapon
+attunement: true
+type: Оружие
+type_detail: длинный меч
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: "Вы получаете бонус +1 к броскам атаки и урона этим магическим оружием. Если вы попадаете этим оружием по предмету, то попадание автоматически становится критическим, а вы можете выбрать тип урона, который нанесёт оружие: дробящий или рубящий. Кроме того, это оружие не может повредить урон от немагических источников."

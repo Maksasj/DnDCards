@@ -1,0 +1,13 @@
+id: white-dragon-cape
+name: Накидка белого дракона
+name_en: White Dragon Cape
+source_url: https://dnd.su/items/2433-white-dragon-cape/
+sources:
+  - code: TYP
+    book: Tales from the Yawning Portal
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: ""
+rarity_key: none
+description: Пока вы облачены в этот плащ, вы получаете сопротивление урону холодом.

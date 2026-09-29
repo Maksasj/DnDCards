@@ -1,0 +1,18 @@
+id: cape-of-the-mountebank
+name: Плащ шарлатана
+name_en: Cape of the Mountebank
+source_url: https://dnd.su/items/177-cape-of-the-mountebank/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15874-cape-of-the-mountebank
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: редкий
+rarity_key: rare
+price: 501-5 000 зм
+description: |-
+  Этот плащ слабо пахнет серой. Пока вы его носите, вы можете действием наложить заклинание переносящая дверь [dimension door]. Это свойство плаща нельзя использовать повторно до следующего рассвета.
+
+  Когда вы исчезаете, вы оставляете после себя облачко дыма, и в пункте назначения появляетесь тоже в клубах дыма. Дым слабо заслоняет покинутое и новое пространство и исчезает в конце вашего следующего хода. Лёгкий или более сильный ветер рассеивает этот дым.

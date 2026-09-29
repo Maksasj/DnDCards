@@ -1,0 +1,17 @@
+id: skull-helm
+name: Шлем-череп
+name_en: Skull Helm
+source_url: https://dnd.su/items/7257-skull-helm/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: очень редкий
+rarity_key: very_rare
+price: 5 001-50 000 зм
+description: |-
+  Надевая этот шлем в форме черепа, вы получаете сопротивление урону холодом, ядом и некротической энергией.
+
+  Кроме того, нося этот шлем, вы можете наложить с его помощью дух смерти [spirit of Death], без материальных компонентов. Как только вы наложите заклинание с помощью шлема, вы не можете наложить это заклинание подобным образом снова до следующего рассвета.

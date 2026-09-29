@@ -1,0 +1,15 @@
+id: gloves-of-swimming-and-climbing
+name: Перчатки плавания и лазания
+name_en: Gloves of swimming and climbing
+source_url: https://dnd.su/items/170-gloves-of-swimming-and-climbing/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15945-gloves-of-swimming-and-climbing
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти перчатки, лазание и плавание не требует от вас траты дополнительного перемещения, и вы получаете бонус +5 к проверкам Силы (Атлетика), совершённым, чтобы лазать или плавать.

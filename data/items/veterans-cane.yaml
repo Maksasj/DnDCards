@@ -1,0 +1,15 @@
+id: veterans-cane
+name: Трость ветерана
+name_en: Veteran’s Cane
+source_url: https://dnd.su/items/433-veterans-cane/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/16146-veterans-cane
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Когда вы сжимаете эту трость и бонусным действием произносите командное слово, трость превращается в обычный длинный меч и перестаёт быть магической.

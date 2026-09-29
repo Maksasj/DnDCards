@@ -1,0 +1,17 @@
+id: medal-of-the-meat-pie
+name: Медаль мясного пирога
+name_en: Medal of the Meat Pie
+source_url: https://dnd.su/items/3611-medal-of-the-meat-pie/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: |-
+  Действием вы можете прижать эту медаль ко рту. Вы получаете 2к4 + 2 временных хита. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.
+
+  Несмотря на магию, эта медаль слегка теплая на ощупь (как будто она только что из духовки) и слегка пахнет запеченной корочкой пирога.

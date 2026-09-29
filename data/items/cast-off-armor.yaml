@@ -1,0 +1,16 @@
+id: cast-off-armor
+name: Доспех быстрого снятия
+name_en: Cast-Off Armor
+source_url: https://dnd.su/items/397-cast-off-armor/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+url_2024: https://next.dnd.su/items/15876-cast-off-armor
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: лёгкий, средний, тяжёлый
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Вы можете снять этот доспех действием.

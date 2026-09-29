@@ -1,0 +1,15 @@
+id: circlet-of-human-perfection
+name: Венец совершенного человека
+name_en: Circlet of human perfection
+source_url: https://dnd.su/items/2453-circlet-of-human-perfection/
+sources:
+  - code: WDMM
+    book: "Waterdeep: Dungeon of the Mad Mage"
+type_key: magic
+attunement: true
+attunement_by: Гуманоидом
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: "Венец превращает настроившего на него владельца в привлекательного человека среднего роста и веса, изменяя его физические характеристики внешнего вида: возраст, пол, цвет кожи, цвет волос и голос. За исключением размера, у владельца не изменяются игровые характеристики и расовые особенности, а также предметы, которые он носит или несёт с собой. Снятие обруча оканчивает действие эффекта."

@@ -1,0 +1,15 @@
+id: potion-of-heroism
+name: Зелье героизма
+name_en: Potion of heroism
+source_url: https://dnd.su/items/56-potion-of-heroism/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16033-potion-of-heroism
+type_key: potion
+attunement: false
+type: Зелье
+rarity: редкое
+rarity_key: rare
+price: 251-2 500 зм
+description: После того, как вы выпили это зелье, вы на 1 час получаете 10 временных хитов. Кроме того, в течение этого часа вы находитесь под эффектом заклинания благословение [bless] (концентрация не требуется). Это синее зелье пузырится и парит, словно оно находится в состоянии закипания.

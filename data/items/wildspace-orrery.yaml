@@ -1,0 +1,14 @@
+id: wildspace-orrery
+name: Теллурий Дикого космоса
+name_en: Wildspace orrery
+source_url: https://dnd.su/items/4389-wildspace-orrery/
+sources:
+  - code: SAS
+    book: "Spelljammer: Adventures in Space"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Находясь в системе Дикого космоса, это переносное магическое устройство автоматически отслеживает положение и движение всех солнц, планет, лун и комет в пределах этой системы и проецирует образы этих тел в их текущих позициях. Среди этих изображений мерцает маленький белый шарик света, указывающий текущее местоположение модели.

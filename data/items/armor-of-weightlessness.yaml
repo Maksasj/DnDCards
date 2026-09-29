@@ -1,0 +1,18 @@
+id: armor-of-weightlessness
+name: Доспехи невесомости
+name_en: Armor of Weightlessness
+source_url: https://dnd.su/items/7143-armor-of-weightlessness/
+sources:
+  - code: BMT
+    book: The Book of Many Things
+type_key: armor
+attunement: true
+type: Доспех
+type_detail: лёгкий, средний, тяжёлый
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Доспехи имеют 5 зарядов. Пока вы носите эти доспехи, вы можете бонусным действием потратить 1 или несколько зарядов, чтобы наложить из доспехов одно из следующих заклинаний, нацеленных на себя: прыжок [jump] (1 заряд) или левитация [levitate] (2 заряда).
+
+  Доспехи восстанавливают 1к4+1 израсходованных зарядов ежедневно на рассвете.

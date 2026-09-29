@@ -1,0 +1,18 @@
+id: hellfire-weapon
+name: Адское оружие
+name_en: Hellfire Weapon
+source_url: https://dnd.su/items/2242-hellfire-weapon/
+sources:
+  - code: BGDA
+    book: "Baldur's Gate: Descent Into Avernus"
+type_key: weapon
+attunement: false
+type: Оружие
+type_detail: любое
+rarity: необычное
+rarity_key: uncommon
+price: 101-500 зм
+description: |-
+  Это оружие выковано из адского железа и пронизано прожилками адского огня, которые испускают тусклый свет в радиусе 5 футов.
+
+  При убийстве любого Гуманоида, совершенного этим оружием, душа убитого, отправляется в реку Стикс, где она мгновенно перерождается в лемура [lemure].

@@ -1,0 +1,15 @@
+id: bracers-of-archery
+name: Наручи стрельбы из лука
+name_en: Bracers of archery
+source_url: https://dnd.su/items/152-bracers-of-archery/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/15866-bracers-of-archery
+type_key: magic
+attunement: true
+type: Чудесный предмет
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы носите эти наручи, вы получаете владение длинным луком и коротким луком, а также бонус +2 к броскам урона дальнобойными атаками этим оружием.

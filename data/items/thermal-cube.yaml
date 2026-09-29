@@ -1,0 +1,14 @@
+id: thermal-cube
+name: Тепловой куб
+name_en: Thermal Cube
+source_url: https://dnd.su/items/2329-thermal-cube/
+sources:
+  - code: IDRF
+    book: "Icewind Dale: Rime of the Frostmaiden"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: Этот 3-дюймовый куб из твердой серы генерирует достаточно сухого тепла, чтобы поддерживать в пределах 15 футов от него температуру на уровне 95 градусов по Фаренгейту (35 градусов по Цельсию).

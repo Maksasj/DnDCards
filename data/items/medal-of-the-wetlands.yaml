@@ -1,0 +1,19 @@
+id: medal-of-the-wetlands
+name: Медаль болот
+name_en: Medal of the Wetlands
+source_url: https://dnd.su/items/3612-medal-of-the-wetlands/
+sources:
+  - code: CRCN
+    book: "Critical Role: Call of the Netherdeep"
+type_key: magic
+attunement: false
+type: Чудесный предмет
+rarity: обычный
+rarity_key: common
+price: 50-100 зм
+description: |-
+  Действием вы можете изучить края медали. На 1 час
+
+  труднопроходимая местность
+
+  не будет стоить вам дополнительного передвижения. Как только это свойство было использовано, его нельзя использовать снова, и медаль становится немагической.

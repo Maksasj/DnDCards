@@ -1,0 +1,16 @@
+id: sentinel-shield
+name: Щит часового
+name_en: Sentinel shield
+source_url: https://dnd.su/items/257-sentinel-shield/
+sources:
+  - code: DMG14
+    book: Dungeon Master's Guide
+url_2024: https://next.dnd.su/items/16094-sentinel-shield
+type_key: armor
+attunement: false
+type: Доспех
+type_detail: щит
+rarity: необычный
+rarity_key: uncommon
+price: 101-500 зм
+description: Пока вы держите этот щит, вы совершаете с преимуществом проверки инициативы и проверки Мудрости (Восприятие). Сам щит украшен символом глаза.
