@@ -1,0 +1,22 @@
+id: locate-animals-or-plants
+name: Поиск животных или растений
+name_en: Locate animals or plants
+source_url: https://dnd.su/spells/242-locate-animals-or-plants/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10291-locate-animals-or-plants
+level: 2
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: кусочек меха ищейки
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - друид
+  - следопыт
+description: Назовите определённый вид Зверя или растения. Сконцентрировавшись на голосе природы в окружении, вы узнаёте направление и расстояние до ближайшего существа или растения этого вида в пределах 5 миль, если они вообще есть.

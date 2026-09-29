@@ -1,0 +1,23 @@
+id: primordial-ward
+name: Первородный страж
+name_en: Primordial ward
+source_url: https://dnd.su/spells/398-primordial-ward/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 6
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - друид
+description: |-
+  Вы получаете сопротивление урону звуком, кислотой, огнём, холодом и электричеством на время действия заклинания.
+
+  Когда вы получаете урон одного из этих видов, вы можете реакцией получить иммунитет к этому виду урона, включая тот урон, который спровоцировал эту реакцию. В этом случае вы теряете сопротивление к остальным видам урона, а иммунитет пропадает в конце вашего следующего хода, после чего заклинание заканчивается.

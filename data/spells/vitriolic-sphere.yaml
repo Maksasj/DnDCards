@@ -1,0 +1,24 @@
+id: vitriolic-sphere
+name: Едкий шар
+name_en: Vitriolic sphere
+source_url: https://dnd.su/spells/380-vitriolic-sphere/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+url_2024: https://next.dnd.su/spells/10693-vitriolic-sphere
+level: 4
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 150 футов
+components: В, С, М
+material: капля желчи гигантского слизня
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 5-го уровня или выше, то первичный урон увеличивается на 2к4 за каждый уровень ячейки выше 4-го.
+description: В указанной вами точке в пределах дистанции появляется сияющий шар изумрудно-зелёной кислоты диаметром 1 фут, взрывающийся сферой с радиусом 20 футов. Все существа в этой области должны совершить спасбросок Ловкости. При провале существо получает 10к4 урона кислотой и ещё 5к4 урона кислотой в конце своего следующего хода. В случае успешного спасброска существо получает половину первичного урона и не получает урона в конце своего следующего хода.

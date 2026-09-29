@@ -11,10 +11,12 @@ const PAGE_MIN_MARGIN = 10; // printers can't print to the edge; also room for c
 const COLUMN_MAX_H = PAGE_H - 2 * PAGE_MIN_MARGIN;
 const FONT_MAX = 7.4; // pt
 const FONT_MIN = 6.4; // below this the text gets hard to read; grow the card instead
+const FONT_LAST_RESORT = 5; // only for cards already as tall as the page
 
 const overflows = (body) => body.scrollHeight > body.clientHeight + 0.5;
 
-// Fits the text of each card: first shrink the font a little, then make the card taller.
+// Fits the text of each card: first shrink the font a little, then make the card taller,
+// and only if the card has reached the page height, shrink the font further.
 // Returns each card's height in mm.
 function autofit(cards) {
   return cards.map((card) => {
@@ -29,6 +31,11 @@ function autofit(cards) {
     while (overflows(body) && height < COLUMN_MAX_H) {
       height += 1;
       card.style.height = `${height}mm`;
+    }
+    // A card can't be taller than the page: the very longest spells get smaller text instead.
+    while (overflows(body) && size > FONT_LAST_RESORT) {
+      size = Math.round((size - 0.2) * 10) / 10;
+      body.style.fontSize = `${size}pt`;
     }
     card.classList.toggle('tall', height > CARD_MIN_H);
     card.classList.toggle('overflow', overflows(body));

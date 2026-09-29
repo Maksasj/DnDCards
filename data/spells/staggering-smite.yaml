@@ -1,0 +1,19 @@
+id: staggering-smite
+name: Оглушающая кара
+name_en: Staggering smite
+source_url: https://dnd.su/spells/200-staggering-smite/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10653-staggering-smite
+level: 4
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - паладин
+description: В следующий раз, когда вы попадёте по существу рукопашной атакой оружием, пока активно это заклинание, ваша атака пронзает не только его тело, но и сознание, и атака дополнительно наносит цели 4к6 урона психической энергией. Цель должна совершить спасбросок Мудрости. При провале она до конца своего следующего хода совершает с помехой броски атаки и проверки характеристик, а также не может совершать реакции.

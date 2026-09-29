@@ -1,0 +1,19 @@
+id: destructive-wave
+name: Разрушительная волна
+name_en: Destructive wave
+source_url: https://dnd.su/spells/296-destructive-wave/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10477-destructive-wave
+level: 5
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: На себя (30-футовый радиус)
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - паладин
+description: Вы топаете по полу, создавая волну божественной энергии, исходящей от вас. Все существа, выбранные вами в пределах 30 футов, должны преуспеть в спасброске Телосложения, иначе они получат 5к6 урона звуком, а также 5к6 урона излучением или некротической энергией (по вашему выбору), и будут сбиты с ног. Существо, преуспевшее в спасброске, получает половину урона и не сбивается с ног.

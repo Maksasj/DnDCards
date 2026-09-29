@@ -1,0 +1,22 @@
+id: power-word-kill
+name: "Слово силы: смерть"
+name_en: Power word kill
+source_url: https://dnd.su/spells/322-power-word-kill/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10607-power-word-kill
+level: 9
+school: очарование
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - колдун
+  - чародей
+description: Вы произносите слово силы, заставляющее существо, которое вы видите в пределах дистанции, мгновенно умереть. Если у выбранного вами существа 100 хитов или меньше, оно умирает. В противном случае это заклинание не оказывает никакого эффекта.

@@ -7,7 +7,10 @@
     "import": "node scripts/import-dndsu.js",
     "dev": "vite",
     "pdf": "node scripts/render.js pdf",
-    "png": "node scripts/render.js png"
+    "png": "node scripts/render.js png",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-data.js"
   },
   "keywords": [],
   "author": "",

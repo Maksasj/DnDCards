@@ -15,6 +15,8 @@ export default defineConfig({
   // Relative asset paths: the site works under any GitHub Pages path (user.github.io/<repo>/).
   base: './',
   plugins: [yaml],
+  // All spell data is bundled into one script on purpose (~250 KB gzipped): the picker needs it all up front.
+  build: { chunkSizeWarningLimit: 2000 },
   server: {
     port: 5173,
     // The project lives on the Windows drive (/mnt/c) under WSL, where file change

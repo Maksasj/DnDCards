@@ -1,0 +1,20 @@
+id: creating-spelljamming-helm
+name: Сотворение магического руля
+name_en: Creating spelljamming helm
+source_url: https://dnd.su/spells/4761-creating-spelljamming-helm/
+sources:
+  - code: SAS
+    book: "Spelljammer: Adventures in Space"
+level: 5
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: кристаллический жезл стоимостью как минимум 5000 зм, расходуемый заклинанием
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+description: Удерживая жезл, используемый для накладывания заклинания, вы касаетесь незанятого сиденья не более Большого размера. Жезл исчезает, а сиденье превращается в*магический руль [spelljamming helm]*.

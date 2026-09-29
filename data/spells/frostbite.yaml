@@ -1,0 +1,27 @@
+id: frostbite
+name: Обморожение
+name_en: Frostbite
+source_url: https://dnd.su/spells/396-frostbite/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - друид
+  - изобретатель
+  - колдун
+  - чародей
+description: |-
+  Сильный холод окружает одно существо, которое вы можете видеть в пределах дистанции. Цель должна совершить спасбросок Телосложения. При провале цель получает 1к6 урона холодом и совершает с помехой следующий бросок атаки оружием до конца своего следующего хода.
+
+  Урон этого заклинания увеличивается на 1к6, когда вы достигаете 5-го уровня (2к6), 11-го уровня (3к6) и 17-го уровня (4к6).

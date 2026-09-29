@@ -1,0 +1,25 @@
+id: abi-dalzims-horrid-wilting
+name: Ужасное увядание Аби-Далзима
+name_en: Abi-Dalzim's horrid wilting
+source_url: https://dnd.su/spells/412-abi-dalzims-horrid-wilting/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 8
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: 150 футов
+components: В, С, М
+material: кусочек губки
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+description: |-
+  Вы вытягиваете влагу из всех существ в кубе с длиной ребра 30 футов с центром на указанной вами точке в пределах дистанции. Каждое существо в этой области должно совершить спасбросок Телосложения. Это заклинание не действует на Конструктов и Нежить, а Растения и водяные элементали [water elemental] совершают спасбросок с помехой. Существо получает 12к8 урона некротической энергией при провале или половину этого урона при успехе.
+
+  Немагические растения в области действия заклинания, не являющиеся существами, такие как деревья и кусты, мгновенно увядают и умирают.

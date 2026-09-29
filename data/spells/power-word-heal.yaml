@@ -1,0 +1,20 @@
+id: power-word-heal
+name: "Слово силы: исцеление"
+name_en: Power word heal
+source_url: https://dnd.su/spells/320-power-word-heal/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10606-power-word-heal
+level: 9
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - жрец
+description: Волна целительной энергии окутывает существо, которого вы касаетесь. Цель восстанавливает все свои хиты. Если существо испугано, очаровано, ошеломлено или парализовано, это состояние оканчивается. Если существо лежит ничком, оно может реакцией встать. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов.

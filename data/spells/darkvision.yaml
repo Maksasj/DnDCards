@@ -1,0 +1,24 @@
+id: darkvision
+name: Тёмное зрение
+name_en: Darkvision
+source_url: https://dnd.su/spells/368-darkvision/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10271-darkvision
+level: 2
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: щепотка сушеной морковки или агат
+duration: 8 часов
+concentration: false
+classes:
+  - волшебник
+  - друид
+  - изобретатель
+  - следопыт
+  - чародей
+description: Вы касаетесь согласного существа и даруете ему возможность видеть в темноте. Пока заклинание активно, это существо обладает тёмным зрением в пределах 60 футов.

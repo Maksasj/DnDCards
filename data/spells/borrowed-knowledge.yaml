@@ -1,0 +1,22 @@
+id: borrowed-knowledge
+name: Заимствованные знания
+name_en: Borrowed Knowledge
+source_url: https://dnd.su/spells/3938-borrowed-knowledge/
+sources:
+  - code: SCC
+    book: "Strixhaven: A Curriculum of Chaos"
+level: 2
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: книга стоимостью не менее 25 зм
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - жрец
+  - колдун
+description: Вы черпаете знания у духов прошлого. Выберите один навык, которым вы не владеете. На время действия заклинания вы получаете владение выбранным навыком. Заклинание оканчивается раньше, если вы накладываете его снова.

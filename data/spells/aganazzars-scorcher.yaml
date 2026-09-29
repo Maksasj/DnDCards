@@ -1,0 +1,23 @@
+id: aganazzars-scorcher
+name: Пекло Аганаззара
+name_en: Aganazzar's scorcher
+source_url: https://dnd.su/spells/397-aganazzars-scorcher/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 2
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: В, С, М
+material: чешуйка красного дракона
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, то урон увеличивается на 1к8 за каждый уровень ячейки выше 2.
+description: Вы выпускаете из себя линию ревущего пламени длиной 30 футов и шириной 5 футов в выбранном направлении. Все существа в области действия должны совершить спасбросок Ловкости, получая 3к8 урона огнём при провале или половину этого урона при успехе.

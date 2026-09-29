@@ -1,0 +1,24 @@
+id: feather-fall
+name: Падение пёрышком
+name_en: Feather fall
+source_url: https://dnd.su/spells/223-feather-fall/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10506-feather-fall
+level: 1
+school: преобразование
+ritual: false
+casting_time: 1 реакция
+reaction_trigger: когда вы или существо в пределах 60 футов от вас падаете
+range: 60 футов
+components: В, М
+material: небольшое перо или кусочек пуха
+duration: 1 минута
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - изобретатель
+  - чародей
+description: Выберите до пяти падающих существ в пределах дистанции. До окончания действия заклинания их скорость падения уменьшается до 60 футов в раунд. Если такое существо приземлится до окончания заклинания, оно не получает урон от падения и может приземлиться на ноги, и тогда заклинание оканчивает действие на него.

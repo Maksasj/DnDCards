@@ -1,0 +1,24 @@
+id: jump
+name: Прыжок
+name_en: Jump
+source_url: https://dnd.su/spells/286-jump/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10288-jump
+level: 1
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: задняя лапка кузнечика
+duration: 1 минута
+concentration: false
+classes:
+  - волшебник
+  - друид
+  - изобретатель
+  - следопыт
+  - чародей
+description: Вы касаетесь существа. Пока заклинание активно, расстояние прыжка этого существа увеличивается в три раза.

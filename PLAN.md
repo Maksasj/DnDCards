@@ -13,11 +13,16 @@ Data files in `data/spells/` can be edited by hand; the importer never overwrite
 
 ## Status (2026-09-29)
 
-- Done: dnd.su importer, 35 spells of the party deck, spell card template (black-and-white spine with
-  level box / school symbol (dnd.su icons); "концентрация" / "ритуал" written out in the stats grid), A4 sheet with 3 columns and crop marks, text fitting (shrink font to 6.4pt, then grow card taller; 88 mm is the minimum height, no maximum), PDF/PNG export, source books in the card footer (PH14, XGE, …; the PH24 link is stored as url_2024 but not printed).
-- Decided: grayscale printer (no meaning carried by color; schools shown by symbol + name), A4, poker size 63×88 mm, Russian text from dnd.su, fonts Cormorant Garamond / PT Serif / PT Sans Narrow.
-- Open: GitHub Pages site with all spells + filters (class / level / search), card backs, ability and item card types, test print to check size and readability.
-
+- Done: all 524 spells from dnd.su imported (`npm run import -- --all`); spell card template (black-and-white
+  spine with level box / school symbol from dnd.su; "концентрация" / "ритуал" written out in the stats grid;
+  source books bottom right); text fitting (shrink font to 6.4pt, then grow the card taller, 88 mm minimum,
+  page height maximum, then last-resort shrink to 5pt); A4 sheets with 3 columns and crop marks.
+- Website: all spells on one page grouped by level in columns (like dnd.su), filters (search / level / class /
+  school / source), selection stored in the URL hash for sharing + localStorage, print tab, browser print → PDF.
+  GitHub Pages deploy via Actions on push to master.
+- Decided: grayscale printer (no meaning carried by color), A4, 63 mm card width, Russian text from dnd.su,
+  fonts Cormorant Garamond / PT Serif / PT Sans Narrow. The PH24 (2024 edition) link is stored as url_2024, not printed.
+- Open: card backs, ability and item card types, test print to check size and readability.
 
 Goal: turn spells, abilities and items from our wiki into printable cards (PDF) that we can cut out and use at the table.
 

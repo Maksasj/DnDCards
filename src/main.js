@@ -10,6 +10,7 @@ import './styles/card.css';
 import './styles/sheet.css';
 import './styles/app.css';
 import { renderCards, sortSpells } from './sheets.js';
+import { SCHOOL_ICONS } from './cards/school-icons.js';
 
 // YAML files arrive as parsed objects (see the yaml plugin in vite.config.js).
 const spells = Object.values(import.meta.glob('/data/spells/*.yaml', { import: 'default', eager: true }))
@@ -71,13 +72,16 @@ function saveSelection() {
 
 // ---- Filters ----
 
+// Class list plus the parent classes of subclass-only spells ("магия хронургии (волшебник)").
+const classesOf = (s) => [...(s.classes ?? []), ...(s.subclasses ?? []).map((x) => x.match(/\(([^)]+)\)$/)?.[1]).filter(Boolean)];
+
 const filters = { q: '', levels: new Set(), cls: '', school: '', source: '', onlySelected: false };
 const normRu = (s) => s.toLowerCase().replace(/ё/g, 'е');
 
 function matches(s) {
   if (filters.onlySelected && !selected.has(s.id)) return false;
   if (filters.levels.size && !filters.levels.has(s.level)) return false;
-  if (filters.cls && !(s.classes ?? []).includes(filters.cls)) return false;
+  if (filters.cls && !classesOf(s).includes(filters.cls)) return false;
   if (filters.school && s.school !== filters.school) return false;
   if (filters.source && !(s.sources ?? []).some((x) => x.code === filters.source)) return false;
   if (filters.q) {
@@ -108,6 +112,7 @@ function setupFilters() {
     const b = document.createElement('button');
     b.type = 'button';
     b.textContent = level === 0 ? 'Заговоры' : level;
+    b.title = levelTitle(level);
     b.setAttribute('aria-pressed', 'false');
     b.onclick = () => {
       filters.levels.has(level) ? filters.levels.delete(level) : filters.levels.add(level);
@@ -129,24 +134,34 @@ function setupFilters() {
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 let visible = [];
 
+const levelTitle = (level) => (level === 0 ? 'Заговоры' : `${level} уровень`);
+
+// All matching spells on one page, grouped by level, each group flowing into columns.
 function renderList() {
   visible = spells.filter(matches);
   $('found').textContent = `Найдено: ${visible.length}`;
-  $('list').innerHTML = visible.length
-    ? visible.map((s) => `
-      <li>
-        <label>
+  if (!visible.length) {
+    $('spells').innerHTML = `<p class="empty">Ничего не найдено. Измените поиск или фильтры.</p>`;
+    return;
+  }
+  const groups = Map.groupBy(visible, (s) => s.level);
+  $('spells').innerHTML = [...groups].map(([level, list]) => `
+    <section class="level-group">
+      <h2>${levelTitle(level)} <span>${list.length}</span></h2>
+      <ul>${list.map((s) => `
+        <li><label title="${s.school}">
           <input type="checkbox" value="${s.id}" ${selected.has(s.id) ? 'checked' : ''} />
-          <span class="lvl">${s.level === 0 ? 'з' : s.level}</span>
-          <span class="names"><span class="ru">${escapeHtml(s.name)}</span> <span class="en">${escapeHtml(s.name_en)}</span></span>
-          <span class="meta">${s.school} · ${(s.sources ?? []).map((x) => x.code).join(' ')}</span>
-        </label>
-      </li>`).join('')
-    : `<li class="empty">Ничего не найдено. Измените поиск или фильтры.</li>`;
+          <span class="icon">${SCHOOL_ICONS[s.school] ?? ''}</span>
+          <span class="ru">${escapeHtml(s.name)}</span>
+          <span class="en">${escapeHtml(s.name_en)}</span>
+          <span class="src">${(s.sources ?? []).map((x) => x.code).join(' ')}</span>
+        </label></li>`).join('')}
+      </ul>
+    </section>`).join('');
 }
 
 function setupList() {
-  $('list').onchange = (e) => {
+  $('spells').onchange = (e) => {
     if (e.target.type !== 'checkbox') return;
     e.target.checked ? selected.add(e.target.value) : selected.delete(e.target.value);
     selectionChanged();
@@ -187,8 +202,9 @@ function selectionChanged() {
 
 function updateCount() {
   const n = selected.size;
-  $('selected-count').textContent = n ? `Выбрано: ${n}` : 'Ничего не выбрано';
+  $('selected-count').textContent = n ? `(${n})` : '';
   $('print').disabled = n === 0;
+  $('share').disabled = n === 0;
 }
 
 async function renderPreview() {
@@ -221,6 +237,37 @@ const plural = (n, one, few, many) => {
   return many;
 };
 
+// The selection lives in the URL hash, so the page address is a shareable link to this deck.
+function setupSharing() {
+  $('share').onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(location.href);
+      $('share').textContent = 'Ссылка скопирована';
+    } catch {
+      prompt('Скопируйте ссылку:', location.href);
+    }
+    setTimeout(() => ($('share').textContent = 'Скопировать ссылку'), 2000);
+  };
+  // A different link pasted into an open tab only changes the hash; load that selection.
+  window.addEventListener('hashchange', () => {
+    const ids = new URLSearchParams(location.hash.slice(1)).get('s')?.split(',') ?? [];
+    selected.clear();
+    for (const id of ids) if (byId.has(id)) selected.add(id);
+    selectionChanged();
+    renderList();
+  });
+}
+
+function setupTabs() {
+  for (const tab of document.querySelectorAll('.tabs [role=tab]')) {
+    tab.onclick = () => {
+      document.body.dataset.tab = tab.dataset.tab;
+      for (const t of document.querySelectorAll('.tabs [role=tab]')) t.setAttribute('aria-selected', String(t === tab));
+      window.scrollTo(0, 0);
+    };
+  }
+}
+
 function setupPreview() {
   $('view').value = view;
   $('view').onchange = (e) => {
@@ -239,6 +286,8 @@ function setupPreview() {
 setupFilters();
 setupList();
 setupPreview();
+setupTabs();
+setupSharing();
 renderList();
 updateCount();
 renderPreview();

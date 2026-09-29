@@ -1,0 +1,25 @@
+id: aid
+name: Подмога
+name_en: Aid
+source_url: https://dnd.su/spells/236-aid/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10242-aid
+level: 2
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: В, С, М
+material: полоска белой ткани
+duration: 8 часов
+concentration: false
+classes:
+  - бард
+  - жрец
+  - изобретатель
+  - паладин
+  - следопыт
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, хиты целей увеличиваются ещё на 5 за каждый уровень ячейки выше второго.
+description: Ваше заклинание наделяет союзников стойкостью и решимостью. Выберите до трёх существ в пределах дистанции. На время длительности максимум хитов и текущие хиты всех целей увеличиваются на 5.

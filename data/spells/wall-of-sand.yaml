@@ -1,0 +1,21 @@
+id: wall-of-sand
+name: Песчаная стена
+name_en: Wall of sand
+source_url: https://dnd.su/spells/399-wall-of-sand/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 3
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 90 футов
+components: В, С, М
+material: горсть песка
+duration: Концентрация, вплоть до 10 минут
+concentration: true
+classes:
+  - волшебник
+description: Вы создаёте стену из кружащегося песка в видимой точке на земле в пределах дистанции. Точка должна располагаться на поверхности. Стена может быть длиной до 30 футов, высотой до 10 футов и толщиной до 10 футов. Она существует до тех пор, пока действует заклинание. Стена блокирует линию обзора, но не блокирует движение. Находясь внутри стены, существо считается ослеплённым, и тратит 3 фута перемещения за каждый пройденный фут.

@@ -35,7 +35,7 @@ export function spellCard(s) {
         ${s.higher_levels ? `<p class="higher"><b><i>На больших уровнях.</i></b> ${inline(s.higher_levels)}</p>` : ''}
       </div>
       <footer>
-        <span class="classes">${(s.classes ?? []).join(', ')}</span>
+        <span class="classes">${(s.classes?.length ? s.classes : s.subclasses ?? []).join(', ')}</span>
         <span class="sources">${(s.sources ?? []).map((x) => x.code).join(' ')}</span>
       </footer>
     </div>

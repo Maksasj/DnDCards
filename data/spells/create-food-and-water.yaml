@@ -1,0 +1,21 @@
+id: create-food-and-water
+name: Сотворение пищи и воды
+name_en: Create food and water
+source_url: https://dnd.su/spells/335-create-food-and-water/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10220-create-food-and-water
+level: 3
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - жрец
+  - изобретатель
+  - паладин
+description: Вы создаёте 45 фунтов еды и 30 галлонов (100 литров) воды на земле или в контейнере в пределах дистанции, которых достаточно для питания пятнадцати Гуманоидов или пятерых скакунов на 24 часа. Еда безвкусная, но сытная, и портится, если её не съесть за 24 часа. Вода чистая, и она не портится.

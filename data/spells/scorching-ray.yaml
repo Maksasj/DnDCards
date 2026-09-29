@@ -1,0 +1,24 @@
+id: scorching-ray
+name: Палящий луч
+name_en: Scorching ray
+source_url: https://dnd.su/spells/225-scorching-ray/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10630-scorching-ray
+level: 2
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 120 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, вы создаете один дополнительный луч за каждый уровень ячейки выше второго.
+description: |-
+  Вы создаете три огненных луча и направляете их на цели, находящиеся в пределах дистанции. Это может быть одна цель или несколько.
+
+  Для каждого луча совершите дальнобойную атаку заклинанием. При попадании цель получает 2к6 урона огнём.

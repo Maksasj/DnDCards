@@ -1,5 +1,5 @@
 /* A4 sheet: 3 columns of cards, 63 mm wide. Cards are butted together so the column
-   cuts go straight across the page; long cards are taller (see autofit in main.js). */
+   cuts go straight across the page; long cards are taller (see autofit in sheets.js). */
 @page { size: A4; margin: 0; }
 
 :root {
@@ -7,32 +7,11 @@
   --page-h: 297mm;
 }
 
-html, body { margin: 0; }
-body {
-  background: #d8d8d8;
-  font-family: var(--font-data);
-}
-
-.toolbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  padding: 8px 16px;
-  background: #fff;
-  border-bottom: 1px solid #bbb;
-  font-size: 15px;
-}
-.toolbar select { font: inherit; margin-left: 4px; }
-#status { color: #444; }
-
 .page {
   position: relative;
   width: var(--page-w);
   height: var(--page-h);
-  margin: 24px auto;
+  margin: 0 auto 24px;
   background: #fff;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
   overflow: hidden;
@@ -66,10 +45,7 @@ body {
 .card.overflow { outline: 0.8mm solid #e00 !important; }
 
 @media print {
-  .toolbar { display: none; }
-  body { background: none; }
   .page { margin: 0; box-shadow: none; break-after: page; }
   .card.overflow { outline: 0.15mm solid #999 !important; }
 }
-body.print .toolbar { display: none; }
 body.print .page { margin: 0; box-shadow: none; }

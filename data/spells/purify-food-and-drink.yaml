@@ -1,0 +1,22 @@
+id: purify-food-and-drink
+name: Очищение пищи и питья
+name_en: Purify food and drink
+source_url: https://dnd.su/spells/222-purify-food-and-drink/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10616-purify-food-and-drink
+level: 1
+school: преобразование
+ritual: true
+casting_time: 1 действие
+range: 10 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - друид
+  - жрец
+  - изобретатель
+  - паладин
+description: Вся немагическая еда и питьё в пределах сферы с радиусом 5 футов с центром на точке, выбранной вами в пределах дистанции, очищается и избавляется от ядов и болезней.

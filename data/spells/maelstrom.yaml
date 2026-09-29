@@ -1,0 +1,21 @@
+id: maelstrom
+name: Водоворот
+name_en: Maelstrom
+source_url: https://dnd.su/spells/375-maelstrom/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 5
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 120 футов
+components: В, С, М
+material: лист дерева или бумаги, свёрнутый в трубочку
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - друид
+description: В точке, которую вы можете видеть в пределах дистанции, возникает воронка воды радиусом 30 футов и глубиной 5 футов. Точка должна находиться на поверхности земли или в толще воды. Пока действует заклинание, эта область считается труднопроходимой местностью, и все существа, начинающие в ней ход, должны преуспеть в спасброске Силы, иначе получат 6к6 дробящего урона и будут подтянуты на 10 футов в направлении центра.

@@ -1,0 +1,21 @@
+id: finger-of-death
+name: Перст смерти
+name_en: Finger of death
+source_url: https://dnd.su/spells/229-finger-of-death/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10510-finger-of-death
+level: 7
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - колдун
+  - чародей
+description: Вы посылаете негативную энергию в видимое вами существо в пределах дистанции, вызывая у него сильную боль. Цель должна совершить спасбросок Телосложения. При провале она получает 7к8 + 30 урона некротической энергией или половину этого урона при успехе. Гуманоид, убитый этим заклинанием, воскресает в начале вашего следующего хода как зомби [zombie], постоянно находящийся под вашим командованием и выполняющий ваши устные команды.

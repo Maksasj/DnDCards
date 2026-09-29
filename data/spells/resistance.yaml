@@ -1,0 +1,22 @@
+id: resistance
+name: Сопротивление
+name_en: Resistance
+source_url: https://dnd.su/spells/332-resistance/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10625-resistance
+level: 0
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: крошечный плащ
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - друид
+  - жрец
+  - изобретатель
+description: Вы касаетесь одного согласного существа. Пока заклинание активно, цель может один раз бросить к4 и добавить выпавшее число к одному спасброску на свой выбор. Кость можно кидать до или после спасброска. После этого заклинание оканчивается.

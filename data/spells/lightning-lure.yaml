@@ -1,0 +1,26 @@
+id: lightning-lure
+name: Лассо молнии
+name_en: Lightning lure
+source_url: https://dnd.su/spells/460-lightning-lure/
+sources:
+  - code: SCAG
+    book: Sword Coast Adventurer's Guide
+  - code: TCE
+    book: Tasha's Cauldron of Everything
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: На себя (15-футовый радиус)
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+  - колдун
+  - чародей
+description: |-
+  Вы создаёте хлыст из молний, поражающий одно существо по вашему выбору, которое вы можете видеть в пределах 15 футов от вас. Цель должна преуспеть в спасброске Силы, иначе будет притянута на 10 футов по прямой к вам, после чего получит 1к8 урона электричеством, если окажется в пределах 5 футов от вас.
+
+  Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).

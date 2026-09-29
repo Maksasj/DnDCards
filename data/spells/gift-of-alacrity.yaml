@@ -1,0 +1,19 @@
+id: gift-of-alacrity
+name: Дар готовности
+name_en: Gift of alacrity
+source_url: https://dnd.su/spells/2442-gift-of-alacrity/
+sources:
+  - code: EGW
+    book: Explorer's Guide to Wildemount
+level: 1
+school: прорицание
+ritual: false
+casting_time: 1 минута
+range: Касание
+components: В, С
+duration: 8 часов
+concentration: false
+subclasses:
+  - магия хронургии (волшебник)
+  - магия гравитургии (волшебник)
+description: Вы касаетесь согласного существа. На время действия заклинания цель может прибавлять 1к8 к своим броскам инициативы.

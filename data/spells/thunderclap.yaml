@@ -1,0 +1,29 @@
+id: thunderclap
+name: Раскат грома
+name_en: Thunderclap
+source_url: https://dnd.su/spells/407-thunderclap/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+url_2024: https://next.dnd.su/spells/10678-thunderclap
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 5 футов
+components: С
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - друид
+  - изобретатель
+  - колдун
+  - чародей
+description: |-
+  Вы вызываете оглушительный раскат грома, который слышен на расстоянии до 100 футов. Все существа кроме вас в пределах дистанции должны совершить спасбросок Телосложения. При провале существо получает 1к6 урона звуком.
+
+  Урон заклинания увеличивается на 1к6, когда вы достигаете 5-го уровня (2к6), 11-го уровня (3к6) и 17-го уровня (4к6).

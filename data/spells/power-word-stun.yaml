@@ -1,0 +1,25 @@
+id: power-word-stun
+name: "Слово силы: ошеломление"
+name_en: Power word stun
+source_url: https://dnd.su/spells/321-power-word-stun/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10608-power-word-stun
+level: 8
+school: очарование
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - колдун
+  - чародей
+description: |-
+  Вы произносите слово силы, способное захлестнуть сознание одного существа, которое вы можете видеть в пределах дистанции, делая его ошарашенным. Если у существа не больше 150 хитов, оно становится ошеломлённым. В противном случае это заклинание не оказывает никакого эффекта.
+
+  Ошеломлённая цель должна в конце каждого своего хода совершать спасбросок Телосложения. При успехе ошеломление проходит.

@@ -1,0 +1,21 @@
+id: speak-with-animals
+name: Разговор с животными
+name_en: Speak with animals
+source_url: https://dnd.su/spells/292-speak-with-animals/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10246-speak-with-animals
+level: 1
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: На себя
+components: В, С
+duration: 10 минут
+concentration: false
+classes:
+  - бард
+  - друид
+  - следопыт
+description: Пока заклинание активно, вы получаете возможность понимать Зверей и общаться с ними устно. Знание и сознание многих Зверей ограничено их интеллектом, но они как минимум могут дать информацию о ближайших местах и чудовищах, включая тех, кого они видели за последний день. На усмотрение Мастера, вы можете попытаться убедить Зверя оказать вам небольшую помощь.

@@ -1,0 +1,19 @@
+id: transport-via-plants
+name: Путешествие через растения
+name_en: Transport via plants
+source_url: https://dnd.su/spells/288-transport-via-plants/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10684-transport-via-plants
+level: 6
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: 10 футов
+components: В, С
+duration: 1 раунд
+concentration: false
+classes:
+  - друид
+description: Это заклинание создаёт магическую связь между неоживлённым растением с размером не меньше Большого, находящимся в пределах дистанции, и другим растением, находящимся на любом расстоянии на том же плане существования. Вы должны до этого хотя бы раз видеть или касаться растения, служащего местом назначения. Пока заклинание активно, все существа могут входить в целевое растение и выходить из растения, служащего местом назначения, использовав всего 5 футов перемещения.

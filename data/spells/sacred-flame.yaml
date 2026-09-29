@@ -1,0 +1,22 @@
+id: sacred-flame
+name: Священное пламя
+name_en: Sacred flame
+source_url: https://dnd.su/spells/311-sacred-flame/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10248-sacred-flame
+level: 0
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 60 футов
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - жрец
+description: |-
+  На существо, которое вы видите в пределах дистанции, нисходит сияние, похожее на огонь. Цель должна преуспеть в спасброске Ловкости, иначе получит 1к8 урона излучением. Для этого спасброска цель не получает преимуществ от укрытия.
+
+  Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).

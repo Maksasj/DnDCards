@@ -1,0 +1,23 @@
+id: spider-climb
+name: Паук
+name_en: Spider climb
+source_url: https://dnd.su/spells/226-spider-climb/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10650-spider-climb
+level: 2
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: капля битума и паук
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - волшебник
+  - изобретатель
+  - колдун
+  - чародей
+description: Пока заклинание активно, одно согласное существо, которого вы касаетесь, получает возможность перемещаться вверх, вниз и вдоль вертикальных поверхностей, а также по потолкам, оставляя руки свободными. Цель также получает скорость лазания, равную своей скорости ходьбы.

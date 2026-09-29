@@ -6,56 +6,57 @@
     <title>Карточки заклинаний D&amp;D</title>
     <meta name="description" content="Выберите заклинания D&amp;D 5e и распечатайте их карточками на A4." />
   </head>
-  <body>
-    <div class="app">
-      <aside class="picker">
-        <header class="picker-head">
-          <h1>Карточки заклинаний</h1>
-          <p>Отметьте нужные заклинания — справа появятся листы A4 для печати.</p>
-        </header>
+  <body data-tab="spells">
+    <header class="topbar">
+      <div class="topbar-row">
+        <h1>Карточки заклинаний</h1>
+        <nav class="tabs" role="tablist">
+          <button type="button" role="tab" data-tab="spells" aria-selected="true">Заклинания</button>
+          <button type="button" role="tab" data-tab="sheets" aria-selected="false">Листы для печати <span id="selected-count"></span></button>
+        </nav>
+        <button type="button" id="share" title="Ссылка открывает этот же набор заклинаний">Скопировать ссылку</button>
+        <button type="button" id="print" class="primary">Печать / PDF</button>
+      </div>
 
-        <div class="filters">
-          <input type="search" id="q" placeholder="Поиск по названию (рус. или англ.)" autocomplete="off" />
-          <div class="levels" id="levels" role="group" aria-label="Уровень"></div>
-          <div class="selects">
-            <select id="class" aria-label="Класс"></select>
-            <select id="school" aria-label="Школа"></select>
-            <select id="source" aria-label="Источник"></select>
-          </div>
-          <label class="check"><input type="checkbox" id="only-selected" /> Только выбранные</label>
-        </div>
+      <div class="topbar-row filters" data-for="spells">
+        <input type="search" id="q" placeholder="Поиск по названию (рус. или англ.)" autocomplete="off" />
+        <div class="levels" id="levels" role="group" aria-label="Уровень"></div>
+        <select id="class" aria-label="Класс"></select>
+        <select id="school" aria-label="Школа"></select>
+        <select id="source" aria-label="Источник"></select>
+      </div>
 
-        <div class="list-actions">
-          <span id="found"></span>
-          <button type="button" id="add-found">Выбрать найденные</button>
-          <button type="button" id="clear">Очистить выбор</button>
-          <select id="deck" aria-label="Добавить готовую колоду"></select>
-        </div>
+      <div class="topbar-row actions" data-for="spells">
+        <span id="found"></span>
+        <label class="check"><input type="checkbox" id="only-selected" /> только выбранные</label>
+        <button type="button" id="add-found">Выбрать найденные</button>
+        <button type="button" id="clear">Очистить выбор</button>
+        <select id="deck" aria-label="Добавить готовую колоду"></select>
+      </div>
 
-        <ul class="list" id="list"></ul>
+      <div class="topbar-row actions" data-for="sheets">
+        <span id="status"></span>
+        <select id="view" aria-label="Вид">
+          <option value="sheet">Листы A4</option>
+          <option value="cards">Крупно</option>
+        </select>
+      </div>
+    </header>
 
-        <footer class="credits">
-          Тексты заклинаний и значки школ — <a href="https://dnd.su/spells/" target="_blank" rel="noopener">dnd.su</a>.
-        </footer>
-      </aside>
+    <main class="spells" id="spells" data-for="spells"></main>
 
-      <section class="preview">
-        <div class="preview-bar">
-          <strong id="selected-count"></strong>
-          <span id="status"></span>
-          <select id="view" aria-label="Вид">
-            <option value="sheet">Листы A4</option>
-            <option value="cards">Крупно</option>
-          </select>
-          <button type="button" id="print" class="primary">Печать / PDF</button>
-        </div>
-        <p class="print-hint">
-          В окне печати выберите масштаб <b>100%</b> («Фактический размер»), иначе карты получатся не того размера.
-          Для PDF — принтер «Сохранить как PDF».
-        </p>
-        <main id="sheets"></main>
-      </section>
-    </div>
+    <section class="sheets-tab" data-for="sheets">
+      <p class="print-hint">
+        В окне печати выберите масштаб <b>100%</b> («Фактический размер»), иначе карты получатся не того размера.
+        Для PDF — принтер «Сохранить как PDF».
+      </p>
+      <div id="sheets"></div>
+    </section>
+
+    <footer class="credits" data-for="spells">
+      Тексты заклинаний и значки школ — <a href="https://dnd.su/spells/" target="_blank" rel="noopener">dnd.su</a>.
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

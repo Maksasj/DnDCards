@@ -1,0 +1,20 @@
+id: conjure-barrage
+name: Призыв заграждения
+name_en: Conjure barrage
+source_url: https://dnd.su/spells/268-conjure-barrage/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10205-conjure-barrage
+level: 3
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: На себя (60-футовый конус)
+components: В, С, М
+material: метательное оружие или один боеприпас
+duration: Мгновенная
+concentration: false
+classes:
+  - следопыт
+description: Вы метаете немагическое оружие или выстреливаете немагический боеприпас в воздух, создавая конус одинакового летящего вперёд оружия, которое потом исчезает. Все существа в 60-футовом конусе должны совершить спасбросок Ловкости. Существо получает 3к8 урона при провале или половину этого урона при успехе. У урона такой же вид, как у оружия или боеприпаса, использованного в качестве компонента.

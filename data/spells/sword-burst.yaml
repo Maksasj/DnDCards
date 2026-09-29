@@ -1,0 +1,26 @@
+id: sword-burst
+name: Вспышка мечей
+name_en: Sword burst
+source_url: https://dnd.su/spells/461-sword-burst/
+sources:
+  - code: SCAG
+    book: Sword Coast Adventurer's Guide
+  - code: TCE
+    book: Tasha's Cauldron of Everything
+level: 0
+school: вызов
+ritual: false
+casting_time: 1 действие
+range: На себя (5-футовый радиус)
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - изобретатель
+  - колдун
+  - чародей
+description: |-
+  Вы на мгновение создаёте круг из вращающихся вокруг вас призрачных лезвий. Все остальные существа в пределах 5 футов от вас должны преуспеть в спасброске Ловкости, иначе получат 1к6 урона силовым полем.
+
+  Урон этого заклинания увеличивается на 1к6, когда вы достигаете 5-го уровня (2к6), 11-го уровня (3к6) и 17-го уровня (4к6).

@@ -1,0 +1,23 @@
+id: skywrite
+name: Небесные письмена
+name_en: Skywrite
+source_url: https://dnd.su/spells/391-skywrite/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 2
+school: преобразование
+ritual: true
+casting_time: 1 действие
+range: В пределах видимости
+components: В, С
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - бард
+  - волшебник
+  - друид
+  - изобретатель
+description: В указанной вами части неба, которую вы можете видеть, возникает до десяти слов. Слова выглядят так, словно состоят из облаков, и остаются на одном месте, пока действует заклинание, после чего рассеиваются. Сильный ветер может рассеять их и досрочно закончить заклинание.

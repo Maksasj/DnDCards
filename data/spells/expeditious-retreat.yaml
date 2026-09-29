@@ -1,0 +1,22 @@
+id: expeditious-retreat
+name: Поспешное отступление
+name_en: Expeditious retreat
+source_url: https://dnd.su/spells/257-expeditious-retreat/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10500-expeditious-retreat
+level: 1
+school: преобразование
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В, С
+duration: Концентрация, вплоть до 10 минут
+concentration: true
+classes:
+  - волшебник
+  - изобретатель
+  - колдун
+  - чародей
+description: Это заклинание позволяет перемещаться с невероятной скоростью. Когда вы накладываете это заклинание, а также бонусным действием в последующие ходы, пока активно заклинание, вы можете совершать действие Рывок.

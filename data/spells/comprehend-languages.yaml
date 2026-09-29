@@ -1,0 +1,26 @@
+id: comprehend-languages
+name: Понимание языков
+name_en: Comprehend languages
+source_url: https://dnd.su/spells/252-comprehend-languages/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10200-comprehend-languages
+level: 1
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: щепотка сажи и соли
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - колдун
+  - чародей
+description: |-
+  Пока заклинание активно, вы понимаете буквальный смысл всех услышанных речей на любых языках. Вы также понимаете письмена на любых языках, но вы должны касаться поверхности, на которой записаны слова. Требуется примерно 1 минута для чтения одной страницы текста.
+
+  Это заклинание не расшифровывает тайные послания в текстах и символы, такие как магические знаки, не являющиеся частью текста.

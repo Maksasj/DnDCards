@@ -1,0 +1,21 @@
+id: misty-step
+name: Туманный шаг
+name_en: Misty step
+source_url: https://dnd.su/spells/352-misty-step/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10251-misty-step
+level: 2
+school: вызов
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - колдун
+  - чародей
+description: Окутавшись серебристым туманом, вы телепортируетесь на расстояние до 30 футов в свободное пространство, видимое вами.

@@ -1,0 +1,23 @@
+id: snillocs-snowball-swarm
+name: Снежный шквал Сниллока
+name_en: Snilloc's snowball swarm
+source_url: https://dnd.su/spells/409-snillocs-snowball-swarm/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 2
+school: воплощение
+ritual: false
+casting_time: 1 действие
+range: 90 футов
+components: В, С, М
+material: кусочек льда или маленький осколок белого камня
+duration: Мгновенная
+concentration: false
+classes:
+  - волшебник
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, то урон увеличивается на 1к6 за каждый уровень ячейки выше второго.
+description: На выбранную вами точку в пределах дистанции обрушивается снежный шквал. Все существа в сфере с радиусом 5 футов и центром в выбранной точке должны совершить спасбросок Ловкости. При провале существо получает 3к6 урона холодом, а при успехе — половину этого урона.

@@ -1,0 +1,21 @@
+id: blur
+name: Размытый образ
+name_en: Blur
+source_url: https://dnd.su/spells/295-blur/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10450-blur
+level: 2
+school: иллюзия
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - волшебник
+  - изобретатель
+  - чародей
+description: Ваше тело становится размытым и колышущимся для всех, кто видит вас. Пока заклинание активно, все существа совершают по вам броски атаки с помехой. Атакующий получает иммунитет к этому эффекту, если полагается не на зрение, а, например, на слепое зрение, или может видеть сквозь иллюзии, например, с помощью истинного зрения.

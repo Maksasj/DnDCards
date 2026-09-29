@@ -148,6 +148,9 @@ async function importSpell(entry) {
     } else if (label === 'Длительность') {
       spell.duration = value;
       spell.concentration = /концентрац/i.test(value);
+    } else if (label === 'Подклассы') {
+      // "магия хронургии (волшебник), домен света (жрец)"
+      spell.subclasses = value.split(/,\s*(?![^()]*\))/).map((x) => x.trim());
     } else if (label === 'Классы') spell.classes = value.split(',').map((s) => s.trim().replace(/[A-Z]+$/, '')); // drop source tags like "бардTCE"
   }
 

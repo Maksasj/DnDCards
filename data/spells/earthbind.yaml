@@ -1,0 +1,23 @@
+id: earthbind
+name: Узы земли
+name_en: Earthbind
+source_url: https://dnd.su/spells/413-earthbind/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+  - code: POA
+    book: Princes of the Apocalypse
+level: 2
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: 300 футов
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - волшебник
+  - друид
+  - колдун
+  - чародей
+description: Выберите одно существо, видимое в пределах дистанции. Жёлтые полосы магической энергии обвиваются вокруг этого существа. Цель должна преуспеть в спасброске Силы, иначе её скорость полёта (если есть) будет снижена до 0 на время действия заклинания. Существо, которое находится в воздухе, снижается со скоростью 60 футов за раунд, пока не окажется на земле или не закончится заклинание.

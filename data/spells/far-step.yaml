@@ -1,0 +1,20 @@
+id: far-step
+name: Далёкий шаг
+name_en: Far step
+source_url: https://dnd.su/spells/484-far-step/
+sources:
+  - code: XGE
+    book: Xanathar's Guide to Everything
+level: 5
+school: вызов
+ritual: false
+casting_time: 1 бонусное действие
+range: На себя
+components: В
+duration: Концентрация, вплоть до 1 минуты
+concentration: true
+classes:
+  - волшебник
+  - колдун
+  - чародей
+description: Вы телепортируетесь до 60 футов в свободное пространство, видимое вами. Вы можете каждый ваш ход до окончания действия заклинания бонусным действием телепортироваться таким образом снова.
