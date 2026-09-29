@@ -2,14 +2,8 @@
 
 ## Usage
 
-```
-npm run import -- party     # fetch missing spells of decks/party.yaml from dnd.su → data/spells/*.yaml
-npm run dev                 # live preview at http://localhost:5173 (deck + view switch in the toolbar)
-npm run pdf -- party        # → out/party.pdf, A4, 9 cards per page, crop marks
-npm run png -- party        # → out/png/party/*.png, one image per card + per sheet (for design review)
-```
-
-Data files in `data/spells/` can be edited by hand; the importer never overwrites them without `--force`.
+See README.md. There are no decks stored in the repo: a set of spells is a share link from the site
+(`…#s=fireball,shield`), which `npm run pdf -- "<link>"` also accepts.
 
 ## Status (2026-09-29)
 
@@ -82,7 +76,6 @@ Items and abilities get their own fields (rarity, attunement, uses/recharge, and
 ## Project layout
 
 ```
-decks/           which cards go into a print run (party.yaml)
 data/spells/     one YAML file per spell (imported, hand-editable)
 src/cards/       card templates per type (spell.js)
 src/styles/      card.css (card design), sheet.css (A4 layout, crop marks, preview)

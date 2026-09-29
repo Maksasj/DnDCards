@@ -1,9 +1,8 @@
 // Imports spells from dnd.su into data/spells/*.yaml.
 //
-//   npm run import -- party            import spells of decks/party.yaml that are missing
-//   npm run import -- party --force    re-import all of them (overwrites manual edits!)
-//   npm run import -- "Fireball"       import a single spell by English name
-//   npm run import -- --all            import every spell listed on dnd.su/spells/
+//   npm run import -- --all            import every spell listed on dnd.su/spells/ that is missing
+//   npm run import -- --all --force    re-import all of them (overwrites manual edits!)
+//   npm run import -- "Fireball" "Hex" import single spells by English name
 //
 // Existing YAML files are never overwritten without --force, so hand edits are safe.
 
@@ -21,7 +20,7 @@ const force = args.includes('--force');
 const all = args.includes('--all');
 const targets = args.filter((a) => !a.startsWith('--'));
 if (!targets.length && !all) {
-  console.error('Usage: npm run import -- <deck name | "Spell name" | --all> [--force]');
+  console.error('Usage: npm run import -- <"Spell name"… | --all> [--force]');
   process.exit(1);
 }
 
@@ -55,16 +54,6 @@ async function loadIndex() {
     c.id = unique ? slug : c.link.match(/\/spells\/(\d+-[^/]+)\//)[1];
   }
   return { cards, byName };
-}
-
-async function resolveNames(target) {
-  const deckFile = path.resolve('decks', `${target}.yaml`);
-  try {
-    const deck = YAML.parse(await fs.readFile(deckFile, 'utf8'));
-    return deck.spells ?? [];
-  } catch {
-    return [target];
-  }
 }
 
 // Converts description HTML to the small markdown dialect the cards understand:
@@ -171,9 +160,7 @@ let failed = 0;
 
 const entries = [];
 if (all) entries.push(...index.cards.map((c) => [c.title_en, c]));
-for (const target of targets) {
-  for (const name of await resolveNames(target)) entries.push([name, index.byName.get(norm(name))]);
-}
+for (const name of targets) entries.push([name, index.byName.get(norm(name))]);
 
 for (const [i, [name, entry]] of entries.entries()) {
   const progress = `[${i + 1}/${entries.length}]`;

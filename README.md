@@ -13,10 +13,10 @@ Pick spells on the site, press **Печать / PDF**, print at 100% scale on A4
 npm install
 npm run dev                  # live preview at http://localhost:5173
 npm run import -- --all      # (re)import spells from dnd.su into data/spells/*.yaml (skips existing files)
-npm run import -- party      # import the spells listed in decks/party.yaml
+npm run import -- "Fireball" # import single spells by English name
 npm run check                # sanity-check imported data
-npm run pdf -- party         # out/party.pdf via headless Chromium (npx playwright install chromium first)
-npm run png -- party         # out/png/party/*.png, one image per card, for design review
+npm run pdf -- "<share link>" [name]  # out/<name>.pdf via headless Chromium (npx playwright install chromium first)
+npm run png -- "<share link>" [name]  # out/png/<name>/*.png, one image per card, for design review
 npm run build                # static site in dist/
 ```
 

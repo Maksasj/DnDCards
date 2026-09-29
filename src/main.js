@@ -15,23 +15,7 @@ import { SCHOOL_ICONS } from './cards/school-icons.js';
 // YAML files arrive as parsed objects (see the yaml plugin in vite.config.js).
 const spells = Object.values(import.meta.glob('/data/spells/*.yaml', { import: 'default', eager: true }))
   .sort(sortSpells);
-const decks = Object.fromEntries(
-  Object.entries(import.meta.glob('/decks/*.yaml', { import: 'default', eager: true }))
-    .map(([file, deck]) => [file.match(/([^/]+)\.yaml$/)[1], deck]),
-);
 const byId = new Map(spells.map((s) => [s.id, s]));
-
-const normEn = (s) => s.toLowerCase().replace(/[^a-z]/g, '');
-const byEnName = new Map(spells.map((s) => [normEn(s.name_en), s]));
-
-// Decks list spells by English name. Returns the matching spells and names with no data.
-function deckSpells(deckId) {
-  const missing = [];
-  const found = (decks[deckId]?.spells ?? [])
-    .map((n) => byEnName.get(normEn(n)) ?? (missing.push(n), null))
-    .filter(Boolean);
-  return { found, missing };
-}
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -41,14 +25,8 @@ document.body.classList.toggle('print', printMode);
 // ---- Selection: shared via the URL hash (#s=id,id,…) and remembered in localStorage ----
 
 const STORAGE_KEY = 'dnd-cards.selected';
-let missing = [];
 
 function initialSelection() {
-  if (params.has('deck')) {
-    const { found, missing: m } = deckSpells(params.get('deck'));
-    missing = m;
-    return found.map((s) => s.id);
-  }
   const hash = new URLSearchParams(location.hash.slice(1)).get('s');
   if (hash !== null) return hash.split(',');
   try {
@@ -176,15 +154,6 @@ function setupList() {
     selectionChanged();
     renderList();
   };
-  $('deck').append(option('', 'Добавить колоду…'),
-    ...Object.entries(decks).map(([id, d]) => option(id, `${d.name ?? id} (${d.spells?.length ?? 0})`)));
-  $('deck').onchange = (e) => {
-    const { found } = deckSpells(e.target.value);
-    for (const s of found) selected.add(s.id);
-    e.target.value = '';
-    selectionChanged();
-    renderList();
-  };
 }
 
 // ---- Preview ----
@@ -214,7 +183,7 @@ async function renderPreview() {
   if (!chosen.length) {
     sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания в списке — здесь появятся листы для печати.</p>`;
     $('status').textContent = '';
-    window.__cards = { ready: true, count: 0, missing, overflow: [], tall: [] };
+    window.__cards = { ready: true, count: 0, overflow: [], tall: [] };
     return;
   }
   const result = await renderCards(sheets, chosen, view);
@@ -223,10 +192,9 @@ async function renderPreview() {
   const pages = sheets.querySelectorAll('.page').length;
   const status = [];
   if (view === 'sheet') status.push(`${pages} ${plural(pages, 'лист', 'листа', 'листов')} A4`);
-  if (missing.length) status.push(`нет данных: ${missing.join(', ')}`);
   if (result.overflow.length) status.push(`не влезает текст: ${result.overflow.join(', ')}`);
   $('status').textContent = status.join(' · ');
-  window.__cards = { ready: true, count: chosen.length, missing, ...result };
+  window.__cards = { ready: true, count: chosen.length, ...result };
 }
 
 const plural = (n, one, few, many) => {
@@ -237,7 +205,7 @@ const plural = (n, one, few, many) => {
   return many;
 };
 
-// The selection lives in the URL hash, so the page address is a shareable link to this deck.
+// The selection lives in the URL hash, so the page address is a shareable link to this selection.
 function setupSharing() {
   $('share').onclick = async () => {
     try {
