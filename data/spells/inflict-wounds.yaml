@@ -1,0 +1,20 @@
+id: inflict-wounds
+name: Нанесение ран
+name_en: Inflict wounds
+source_url: https://dnd.su/spells/177-inflict-wounds/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10553-inflict-wounds
+level: 1
+school: некромантия
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С
+duration: Мгновенная
+concentration: false
+classes:
+  - жрец
+higher_levels: Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше первого.
+description: Совершите рукопашную атаку заклинанием по существу в пределах досягаемости. При попадании цель получает 3к10 урона некротической энергией.

@@ -1,0 +1,21 @@
+id: rarys-telepathic-bond
+name: Ментальная связь Рэри
+name_en: Rary's telepathic bond
+source_url: https://dnd.su/spells/160-rarys-telepathic-bond/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10618-rarys-telepathic-bond
+level: 5
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: 30 футов
+components: В, С, М
+material: кусочки яичной скорлупы двух разных видов существ
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - волшебник
+description: Вы создаёте телепатическую связь между восемью согласными существами на ваш выбор в пределах дистанции. Существа с Интеллектом 2 и ниже не попадают под действие этого заклинания. Пока заклинание активно, цели могут телепатически общаться посредством этой связи, даже если у них нет общего языка. Общение возможно на любом расстоянии, но оно не может простираться на другие планы существования.

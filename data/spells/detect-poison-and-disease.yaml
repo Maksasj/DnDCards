@@ -1,0 +1,26 @@
+id: detect-poison-and-disease
+name: Обнаружение болезней и яда
+name_en: Detect poison and disease
+source_url: https://dnd.su/spells/193-detect-poison-and-disease/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10275-detect-poison-and-disease
+level: 1
+school: прорицание
+ritual: true
+casting_time: 1 действие
+range: На себя
+components: В, С, М
+material: лист тиса
+duration: Концентрация, вплоть до 10 минут
+concentration: true
+classes:
+  - друид
+  - жрец
+  - паладин
+  - следопыт
+description: |-
+  Пока заклинание активно, вы можете ощущать присутствие и местонахождение ядов, ядовитых существ и болезней в пределах 30 футов от себя. Вы также распознаёте вид яда, ядовитого существа или болезни.
+
+  Заклинание проницает большую часть барьеров, но блокируется 1 футом камня, 1 дюймом обычного металла, тонким листом свинца или 3 футами дерева или земли.

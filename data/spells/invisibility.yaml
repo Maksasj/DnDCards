@@ -1,0 +1,25 @@
+id: invisibility
+name: Невидимость
+name_en: Invisibility
+source_url: https://dnd.su/spells/183-invisibility/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10555-invisibility
+level: 2
+school: иллюзия
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: ресница в смоле
+duration: Концентрация, вплоть до 1 часа
+concentration: true
+classes:
+  - бард
+  - волшебник
+  - изобретатель
+  - колдун
+  - чародей
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше второго.
+description: Существо, которого вы касаетесь, становится невидимым до окончания действия заклинания. Все, что цель несёт или носит невидимо, пока находится у неё. Заклинание оканчивается на цели, если она совершает атаку или накладывает заклинание.

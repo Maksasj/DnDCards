@@ -1,0 +1,22 @@
+id: true-strike
+name: Меткий удар
+name_en: True strike
+source_url: https://dnd.su/spells/165-true-strike/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10688-true-strike
+level: 0
+school: прорицание
+ritual: false
+casting_time: 1 действие
+range: 30 футов
+components: С
+duration: Концентрация, вплоть до 1 раунда
+concentration: true
+classes:
+  - бард
+  - волшебник
+  - колдун
+  - чародей
+description: Вы вытягиваете руку и указываете пальцем на цель, находящуюся в пределах дистанции. Ваша магия даёт краткое понимание защиты цели. В своем следующем ходу вы совершаете с преимуществом первый бросок атаки по цели, при условии, что заклинание к тому моменту не окончится.

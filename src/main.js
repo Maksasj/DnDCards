@@ -1,4 +1,3 @@
-import YAML from 'yaml';
 import '@fontsource/cormorant-garamond/600.css';
 import '@fontsource/cormorant-garamond/700.css';
 import '@fontsource/pt-serif/400.css';
@@ -9,179 +8,237 @@ import '@fontsource/pt-sans-narrow/400.css';
 import '@fontsource/pt-sans-narrow/700.css';
 import './styles/card.css';
 import './styles/sheet.css';
-import { spellCard } from './cards/spell.js';
+import './styles/app.css';
+import { renderCards, sortSpells } from './sheets.js';
 
-const load = (files) =>
-  Object.values(files).map((raw) => YAML.parse(raw));
-
-const spells = load(import.meta.glob('/data/spells/*.yaml', { query: '?raw', import: 'default', eager: true }));
+// YAML files arrive as parsed objects (see the yaml plugin in vite.config.js).
+const spells = Object.values(import.meta.glob('/data/spells/*.yaml', { import: 'default', eager: true }))
+  .sort(sortSpells);
 const decks = Object.fromEntries(
-  Object.entries(import.meta.glob('/decks/*.yaml', { query: '?raw', import: 'default', eager: true }))
-    .map(([file, raw]) => [file.match(/([^/]+)\.yaml$/)[1], YAML.parse(raw)]),
+  Object.entries(import.meta.glob('/decks/*.yaml', { import: 'default', eager: true }))
+    .map(([file, deck]) => [file.match(/([^/]+)\.yaml$/)[1], deck]),
 );
+const byId = new Map(spells.map((s) => [s.id, s]));
 
-const norm = (s) => s.toLowerCase().replace(/[^a-z]/g, '');
-const byEnName = new Map(spells.map((s) => [norm(s.name_en), s]));
+const normEn = (s) => s.toLowerCase().replace(/[^a-z]/g, '');
+const byEnName = new Map(spells.map((s) => [normEn(s.name_en), s]));
 
-function selectCards(deckId) {
-  const deck = decks[deckId];
-  if (!deck) return { cards: [...spells], missing: [] };
+// Decks list spells by English name. Returns the matching spells and names with no data.
+function deckSpells(deckId) {
   const missing = [];
-  const cards = (deck.spells ?? []).map((n) => byEnName.get(norm(n)) ?? (missing.push(n), null)).filter(Boolean);
-  return { cards, missing };
+  const found = (decks[deckId]?.spells ?? [])
+    .map((n) => byEnName.get(normEn(n)) ?? (missing.push(n), null))
+    .filter(Boolean);
+  return { found, missing };
 }
 
-const sortSpells = (a, b) => a.level - b.level || a.name.localeCompare(b.name, 'ru');
+const $ = (id) => document.getElementById(id);
+const params = new URLSearchParams(location.search);
+const printMode = params.has('print'); // used by scripts/render.js: no UI, just sheets
+document.body.classList.toggle('print', printMode);
 
-const PX_PER_MM = 96 / 25.4;
-const PAGE_W = 210;
-const PAGE_H = 297;
-const CARD_W = 63;
-const CARD_MIN_H = 88; // standard card height; long spells grow taller, never shorter
-const PAGE_MIN_MARGIN = 10; // printers can't print to the edge; also room for crop marks
-const COLUMN_MAX_H = PAGE_H - 2 * PAGE_MIN_MARGIN;
-const FONT_MAX = 7.4; // pt
-const FONT_MIN = 6.4; // below this the text gets hard to read; grow the card instead
+// ---- Selection: shared via the URL hash (#s=id,id,…) and remembered in localStorage ----
 
-const overflows = (body) => body.scrollHeight > body.clientHeight + 0.5;
+const STORAGE_KEY = 'dnd-cards.selected';
+let missing = [];
 
-// Fits the text of each card: first shrink the font a little, then make the card taller.
-// Returns each card's height in mm.
-function autofit(cards) {
-  return cards.map((card) => {
-    const body = card.querySelector('.body');
-    let size = FONT_MAX;
-    body.style.fontSize = `${size}pt`;
-    while (overflows(body) && size > FONT_MIN) {
-      size = Math.round((size - 0.2) * 10) / 10;
-      body.style.fontSize = `${size}pt`;
-    }
-    let height = CARD_MIN_H;
-    while (overflows(body) && height < COLUMN_MAX_H) {
-      height += 1;
-      card.style.height = `${height}mm`;
-    }
-    card.classList.toggle('tall', height > CARD_MIN_H);
-    card.classList.toggle('overflow', overflows(body));
-    return height;
-  });
-}
-
-// Packs cards into A4 pages of 3 columns, filling each column top to bottom so the
-// sort order reads down the columns. Returns [{ columns: [[{card, height}]], height }].
-function paginate(cards, heights) {
-  const pages = [];
-  let page = null;
-  let column = null;
-  let columnH = 0;
-  cards.forEach((card, i) => {
-    const h = heights[i];
-    if (!column || columnH + h > COLUMN_MAX_H) {
-      if (!page || page.columns.length === 3) {
-        page = { columns: [] };
-        pages.push(page);
-      }
-      column = [];
-      columnH = 0;
-      page.columns.push(column);
-    }
-    column.push({ card, height: h });
-    columnH += h;
-  });
-  for (const p of pages) {
-    p.height = Math.max(...p.columns.map((c) => c.reduce((sum, x) => sum + x.height, 0)));
+function initialSelection() {
+  if (params.has('deck')) {
+    const { found, missing: m } = deckSpells(params.get('deck'));
+    missing = m;
+    return found.map((s) => s.id);
   }
-  return pages;
+  const hash = new URLSearchParams(location.hash.slice(1)).get('s');
+  if (hash !== null) return hash.split(',');
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
+  } catch {
+    return [];
+  }
 }
 
-// Page with columns centered on the sheet, plus crop marks:
-//  - top/bottom marks for the vertical cuts between columns (cut these first),
-//  - left/right marks for the horizontal cuts in the outer columns.
-// The middle column is cut along the card outlines.
-function buildPage({ columns, height }) {
-  const x0 = (PAGE_W - 3 * CARD_W) / 2;
-  const y0 = (PAGE_H - height) / 2;
-  const section = document.createElement('section');
-  section.className = 'page';
+const selected = new Set(initialSelection().filter((id) => byId.has(id)));
 
-  const marks = [];
-  for (let i = 0; i <= 3; i++) {
-    const x = x0 + i * CARD_W;
-    marks.push(`<i class="crop v" style="left:${x}mm;top:${y0 - 7.5}mm"></i>`,
-      `<i class="crop v" style="left:${x}mm;top:${y0 + height + 1.5}mm"></i>`);
+function saveSelection() {
+  const ids = [...selected];
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
+  } catch {
+    // Storage can be unavailable (private mode); the URL still carries the selection.
   }
-  const edgeMarks = (col, side) => {
-    let y = y0;
-    const ys = [y];
-    for (const { height: h } of col) ys.push((y += h));
-    const x = side === 'left' ? x0 - 7.5 : x0 + 3 * CARD_W + 1.5;
-    return ys.map((yy) => `<i class="crop h" style="left:${x}mm;top:${yy}mm"></i>`);
+  if (!printMode) history.replaceState(null, '', ids.length ? `#s=${ids.join(',')}` : location.pathname + location.search);
+}
+
+// ---- Filters ----
+
+const filters = { q: '', levels: new Set(), cls: '', school: '', source: '', onlySelected: false };
+const normRu = (s) => s.toLowerCase().replace(/ё/g, 'е');
+
+function matches(s) {
+  if (filters.onlySelected && !selected.has(s.id)) return false;
+  if (filters.levels.size && !filters.levels.has(s.level)) return false;
+  if (filters.cls && !(s.classes ?? []).includes(filters.cls)) return false;
+  if (filters.school && s.school !== filters.school) return false;
+  if (filters.source && !(s.sources ?? []).some((x) => x.code === filters.source)) return false;
+  if (filters.q) {
+    const q = normRu(filters.q.trim());
+    if (!normRu(s.name).includes(q) && !s.name_en.toLowerCase().includes(q)) return false;
+  }
+  return true;
+}
+
+const option = (value, label) => {
+  const o = document.createElement('option');
+  o.value = value;
+  o.textContent = label;
+  return o;
+};
+
+function setupFilters() {
+  const uniq = (xs) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, 'ru'));
+
+  $('class').append(option('', 'Все классы'), ...uniq(spells.flatMap((s) => s.classes ?? [])).map((c) => option(c, c)));
+  $('school').append(option('', 'Все школы'), ...uniq(spells.map((s) => s.school)).map((c) => option(c, c)));
+  const books = new Map(spells.flatMap((s) => s.sources ?? []).map((x) => [x.code, x.book]));
+  $('source').append(option('', 'Все источники'),
+    ...[...books].sort(([a], [b]) => a.localeCompare(b)).map(([code, book]) => option(code, `${code} — ${book}`)));
+
+  const levels = [...new Set(spells.map((s) => s.level))].sort((a, b) => a - b);
+  for (const level of levels) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = level === 0 ? 'Заговоры' : level;
+    b.setAttribute('aria-pressed', 'false');
+    b.onclick = () => {
+      filters.levels.has(level) ? filters.levels.delete(level) : filters.levels.add(level);
+      b.setAttribute('aria-pressed', String(filters.levels.has(level)));
+      renderList();
+    };
+    $('levels').append(b);
+  }
+
+  $('q').oninput = (e) => { filters.q = e.target.value; renderList(); };
+  $('class').onchange = (e) => { filters.cls = e.target.value; renderList(); };
+  $('school').onchange = (e) => { filters.school = e.target.value; renderList(); };
+  $('source').onchange = (e) => { filters.source = e.target.value; renderList(); };
+  $('only-selected').onchange = (e) => { filters.onlySelected = e.target.checked; renderList(); };
+}
+
+// ---- Spell list ----
+
+const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+let visible = [];
+
+function renderList() {
+  visible = spells.filter(matches);
+  $('found').textContent = `Найдено: ${visible.length}`;
+  $('list').innerHTML = visible.length
+    ? visible.map((s) => `
+      <li>
+        <label>
+          <input type="checkbox" value="${s.id}" ${selected.has(s.id) ? 'checked' : ''} />
+          <span class="lvl">${s.level === 0 ? 'з' : s.level}</span>
+          <span class="names"><span class="ru">${escapeHtml(s.name)}</span> <span class="en">${escapeHtml(s.name_en)}</span></span>
+          <span class="meta">${s.school} · ${(s.sources ?? []).map((x) => x.code).join(' ')}</span>
+        </label>
+      </li>`).join('')
+    : `<li class="empty">Ничего не найдено. Измените поиск или фильтры.</li>`;
+}
+
+function setupList() {
+  $('list').onchange = (e) => {
+    if (e.target.type !== 'checkbox') return;
+    e.target.checked ? selected.add(e.target.value) : selected.delete(e.target.value);
+    selectionChanged();
   };
-  marks.push(...edgeMarks(columns[0], 'left'));
-  if (columns[2]) marks.push(...edgeMarks(columns[2], 'right'));
-  section.innerHTML = marks.join('');
-
-  columns.forEach((col, i) => {
-    const el = document.createElement('div');
-    el.className = 'column';
-    el.style.left = `${x0 + i * CARD_W}mm`;
-    el.style.top = `${y0}mm`;
-    for (const { card } of col) el.append(card);
-    section.append(el);
-  });
-  return section;
-}
-
-async function render() {
-  const params = new URLSearchParams(location.search);
-  const deckId = params.get('deck') ?? Object.keys(decks)[0] ?? '';
-  const view = params.get('view') ?? 'sheet';
-  document.body.classList.toggle('print', params.has('print'));
-  document.body.dataset.view = view;
-
-  const { cards: data, missing } = selectCards(deckId);
-  const app = document.getElementById('app');
-
-  // Cards are measured at print size (no zoom: zoom changes line wrapping), then moved into place.
-  app.innerHTML = `<div class="measure">${data.sort(sortSpells).map(spellCard).join('')}</div>`;
-  await document.fonts.ready;
-  const cards = [...app.querySelectorAll('.card')];
-  const heights = autofit(cards);
-  const overflow = cards.filter((c) => c.classList.contains('overflow')).map((c) => c.dataset.id);
-  const tall = cards.filter((c) => c.classList.contains('tall')).map((c) => c.dataset.id);
-
-  if (view === 'sheet') {
-    app.replaceChildren(...paginate(cards, heights).map(buildPage));
-  } else {
-    const loose = document.createElement('div');
-    loose.className = 'loose';
-    loose.append(...cards);
-    app.replaceChildren(loose);
-  }
-
-  const status = [`${data.length} карт`];
-  if (tall.length) status.push(`удлинены: ${tall.join(', ')}`);
-  if (missing.length) status.push(`нет данных: ${missing.join(', ')} (npm run import -- ${deckId})`);
-  if (overflow.length) status.push(`не влезает текст: ${overflow.join(', ')}`);
-  document.getElementById('status').textContent = status.join(' — ');
-
-  window.__cards = { ready: true, count: data.length, missing, overflow, tall };
-  return { deckId, view };
-}
-
-function setupToolbar({ deckId, view }) {
-  const deckSel = document.getElementById('deck');
-  deckSel.innerHTML = [...Object.entries(decks).map(([id, d]) => `<option value="${id}">${d.name ?? id}</option>`),
-    `<option value="__all">Все заклинания</option>`].join('');
-  deckSel.value = decks[deckId] ? deckId : '__all';
-  const viewSel = document.getElementById('view');
-  viewSel.value = view;
-  const go = () => {
-    const p = new URLSearchParams({ deck: deckSel.value, view: viewSel.value });
-    location.search = p.toString();
+  $('add-found').onclick = () => {
+    for (const s of visible) selected.add(s.id);
+    selectionChanged();
+    renderList();
   };
-  deckSel.onchange = go;
-  viewSel.onchange = go;
+  $('clear').onclick = () => {
+    selected.clear();
+    selectionChanged();
+    renderList();
+  };
+  $('deck').append(option('', 'Добавить колоду…'),
+    ...Object.entries(decks).map(([id, d]) => option(id, `${d.name ?? id} (${d.spells?.length ?? 0})`)));
+  $('deck').onchange = (e) => {
+    const { found } = deckSpells(e.target.value);
+    for (const s of found) selected.add(s.id);
+    e.target.value = '';
+    selectionChanged();
+    renderList();
+  };
 }
 
-render().then(setupToolbar);
+// ---- Preview ----
+
+let view = params.get('view') ?? 'sheet';
+let renderToken = 0;
+let renderTimer;
+
+function selectionChanged() {
+  saveSelection();
+  updateCount();
+  clearTimeout(renderTimer);
+  renderTimer = setTimeout(renderPreview, 150);
+}
+
+function updateCount() {
+  const n = selected.size;
+  $('selected-count').textContent = n ? `Выбрано: ${n}` : 'Ничего не выбрано';
+  $('print').disabled = n === 0;
+}
+
+async function renderPreview() {
+  const token = ++renderToken;
+  const chosen = [...selected].map((id) => byId.get(id));
+  const sheets = $('sheets');
+  if (!chosen.length) {
+    sheets.innerHTML = `<p class="empty-preview">Отметьте заклинания в списке — здесь появятся листы для печати.</p>`;
+    $('status').textContent = '';
+    window.__cards = { ready: true, count: 0, missing, overflow: [], tall: [] };
+    return;
+  }
+  const result = await renderCards(sheets, chosen, view);
+  if (token !== renderToken) return; // a newer render started meanwhile
+
+  const pages = sheets.querySelectorAll('.page').length;
+  const status = [];
+  if (view === 'sheet') status.push(`${pages} ${plural(pages, 'лист', 'листа', 'листов')} A4`);
+  if (missing.length) status.push(`нет данных: ${missing.join(', ')}`);
+  if (result.overflow.length) status.push(`не влезает текст: ${result.overflow.join(', ')}`);
+  $('status').textContent = status.join(' · ');
+  window.__cards = { ready: true, count: chosen.length, missing, ...result };
+}
+
+const plural = (n, one, few, many) => {
+  const m10 = n % 10;
+  const m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return one;
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
+  return many;
+};
+
+function setupPreview() {
+  $('view').value = view;
+  $('view').onchange = (e) => {
+    view = e.target.value;
+    renderPreview();
+  };
+  $('print').onclick = async () => {
+    if (view !== 'sheet') {
+      view = $('view').value = 'sheet';
+      await renderPreview();
+    }
+    window.print();
+  };
+}
+
+setupFilters();
+setupList();
+setupPreview();
+renderList();
+updateCount();
+renderPreview();

@@ -1,0 +1,22 @@
+id: nondetection
+name: Необнаружимость
+name_en: Nondetection
+source_url: https://dnd.su/spells/185-nondetection/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10296-nondetection
+level: 3
+school: ограждение
+ritual: false
+casting_time: 1 действие
+range: Касание
+components: В, С, М
+material: щепотка алмазной пыли, стоящая 25 зм, которой посыпается цель, расходуемая заклинанием
+duration: 8 часов
+concentration: false
+classes:
+  - бард
+  - волшебник
+  - следопыт
+description: Пока заклинание активно, цель, которой вы коснулись, сокрыта от заклинаний школы Прорицания. Целью может быть согласное существо, место или предмет, не превышающий 10 футов ни по одному из линейных размеров. Цель не может стать целью магии школы Прорицания, и её не воспринимают магические наблюдательные сенсоры.

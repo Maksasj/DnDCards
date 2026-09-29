@@ -1,0 +1,21 @@
+id: prayer-of-healing
+name: Молебен лечения
+name_en: Prayer of healing
+source_url: https://dnd.su/spells/173-prayer-of-healing/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10609-prayer-of-healing
+level: 2
+school: воплощение
+ritual: false
+casting_time: 10 минут
+range: 30 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - жрец
+  - паладин
+higher_levels: Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, лечение увеличивается на 1к8 за каждый уровень ячейки выше второго.
+description: Каждое из шести существ на ваш выбор, видимых в пределах дистанции, восстанавливает количество хитов, равное 2к8 + модификатор вашей базовой характеристики. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов.

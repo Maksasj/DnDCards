@@ -1,0 +1,20 @@
+id: glibness
+name: Находчивость
+name_en: Glibness
+source_url: https://dnd.su/spells/179-glibness/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10529-glibness
+level: 8
+school: преобразование
+ritual: false
+casting_time: 1 действие
+range: На себя
+components: В
+duration: 1 час
+concentration: false
+classes:
+  - бард
+  - колдун
+description: Пока заклинание не окончится, каждый раз, когда вы совершаете проверку Харизмы, вы можете заменить выпавший результат числом «15». Кроме того, что бы вы ни говорили, магия, проверяющая, говорите ли вы правду, показывает, что вы искренни.

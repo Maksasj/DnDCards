@@ -1,0 +1,21 @@
+id: mass-healing-word
+name: Множественное лечащее слово
+name_en: Mass healing word
+source_url: https://dnd.su/spells/170-mass-healing-word/
+sources:
+  - code: PH14
+    book: Player's Handbook
+url_2024: https://next.dnd.su/spells/10572-mass-healing-word
+level: 3
+school: воплощение
+ritual: false
+casting_time: 1 бонусное действие
+range: 60 футов
+components: В
+duration: Мгновенная
+concentration: false
+classes:
+  - бард
+  - жрец
+higher_levels: Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, восстанавливается дополнительно 1к4 хитов за каждый уровень ячейки выше 3-го.
+description: Вы произносите слова восстановления, и до шести существ на ваш выбор, видимых в пределах дистанции, восстанавливают хиты в количестве, равном 1к4 + ваш модификатор базовой характеристики. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов.
